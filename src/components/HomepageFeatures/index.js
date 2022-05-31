@@ -22,7 +22,7 @@ const FeatureList = [
         Content related to Blox CLI
       </>
     ),
-    link:"/docs/blox-cli/blox-login/",
+    link:"/docs/blox-cli/commands/blox-login/",
   },
   {
     title: 'Blox Store',

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "blox-cli/Commands/blox-sync",
+  "id": "blox-cli/Commands/blox-sync",
+  "title": "blox sync",
+  "description": "Blox sync command can be used to convert existing projects that were not built as bloxes, to appblox projects.",
+  "source": "@site/docs/blox-cli/Commands/blox-sync.md",
+  "sourceDirName": "blox-cli/Commands",
+  "slug": "/blox-cli/Commands/blox-sync",
+  "permalink": "/docs/blox-cli/Commands/blox-sync",
+  "editUrl": "https://github.com/Appblox/docs/tree/main/docs/blox-cli/Commands/blox-sync.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "blox ls",
+    "permalink": "/docs/blox-cli/Commands/blox-ls"
+  },
+  "next": {
+    "title": "blox pull",
+    "permalink": "/docs/blox-cli/Commands/blox-pull"
+  }
+}

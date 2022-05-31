@@ -1,0 +1,26 @@
+{
+  "unversionedId": "blox-cli/Commands/blox-push",
+  "id": "blox-cli/Commands/blox-push",
+  "title": "blox push",
+  "description": "To push Blox code to source control.",
+  "source": "@site/docs/blox-cli/Commands/blox-push.md",
+  "sourceDirName": "blox-cli/Commands",
+  "slug": "/blox-cli/Commands/blox-push",
+  "permalink": "/docs/blox-cli/Commands/blox-push",
+  "editUrl": "https://github.com/Appblox/docs/tree/main/docs/blox-cli/Commands/blox-push.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "blox log",
+    "permalink": "/docs/blox-cli/Commands/blox-log"
+  },
+  "next": {
+    "title": "blox push-config",
+    "permalink": "/docs/blox-cli/Commands/blox-push-config"
+  }
+}

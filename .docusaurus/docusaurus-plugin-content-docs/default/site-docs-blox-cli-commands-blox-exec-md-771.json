@@ -1,0 +1,26 @@
+{
+  "unversionedId": "blox-cli/Commands/blox-exec",
+  "id": "blox-cli/Commands/blox-exec",
+  "title": "blox exec",
+  "description": "Blox exec lets you run system commands inside all Blox directories in one go.",
+  "source": "@site/docs/blox-cli/Commands/blox-exec.md",
+  "sourceDirName": "blox-cli/Commands",
+  "slug": "/blox-cli/Commands/blox-exec",
+  "permalink": "/docs/blox-cli/Commands/blox-exec",
+  "editUrl": "https://github.com/Appblox/docs/tree/main/docs/blox-cli/Commands/blox-exec.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "blox push-config",
+    "permalink": "/docs/blox-cli/Commands/blox-push-config"
+  },
+  "next": {
+    "title": "blox ls",
+    "permalink": "/docs/blox-cli/Commands/blox-ls"
+  }
+}

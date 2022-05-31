@@ -1,0 +1,26 @@
+{
+  "unversionedId": "blox-cli/Commands/blox-login",
+  "id": "blox-cli/Commands/blox-login",
+  "title": "blox login",
+  "description": "blox login lets you log into Appblox/ Blox Registry.",
+  "source": "@site/docs/blox-cli/Commands/blox-login.md",
+  "sourceDirName": "blox-cli/Commands",
+  "slug": "/blox-cli/Commands/blox-login",
+  "permalink": "/docs/blox-cli/Commands/blox-login",
+  "editUrl": "https://github.com/Appblox/docs/tree/main/docs/blox-cli/Commands/blox-login.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Types of Blox",
+    "permalink": "/docs/types-of-blox"
+  },
+  "next": {
+    "title": "blox connect",
+    "permalink": "/docs/blox-cli/Commands/blox-connect"
+  }
+}

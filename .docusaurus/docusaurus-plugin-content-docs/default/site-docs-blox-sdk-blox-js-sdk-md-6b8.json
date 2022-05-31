@@ -1,0 +1,26 @@
+{
+  "unversionedId": "blox-sdk/blox-js-sdk",
+  "id": "blox-sdk/blox-js-sdk",
+  "title": "Blox JS SDK",
+  "description": "blox-js-sdk provides the essential packages to facilitate appblox features across appblox applications.",
+  "source": "@site/docs/blox-sdk/blox-js-sdk.md",
+  "sourceDirName": "blox-sdk",
+  "slug": "/blox-sdk/blox-js-sdk",
+  "permalink": "/docs/blox-sdk/blox-js-sdk",
+  "editUrl": "https://github.com/Appblox/docs/tree/main/docs/blox-sdk/blox-js-sdk.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "blox pull",
+    "permalink": "/docs/blox-cli/Commands/blox-pull"
+  },
+  "next": {
+    "title": "Node blox SDK",
+    "permalink": "/docs/blox-sdk/blox-nodejs-sdk"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "blox-cli/Commands/blox-pull",
+  "id": "blox-cli/Commands/blox-pull",
+  "title": "blox pull",
+  "description": "Pull command is used pull new bloxes into an app.",
+  "source": "@site/docs/blox-cli/Commands/blox-pull.md",
+  "sourceDirName": "blox-cli/Commands",
+  "slug": "/blox-cli/Commands/blox-pull",
+  "permalink": "/docs/blox-cli/Commands/blox-pull",
+  "editUrl": "https://github.com/Appblox/docs/tree/main/docs/blox-cli/Commands/blox-pull.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "blox sync",
+    "permalink": "/docs/blox-cli/Commands/blox-sync"
+  },
+  "next": {
+    "title": "Blox JS SDK",
+    "permalink": "/docs/blox-sdk/blox-js-sdk"
+  }
+}

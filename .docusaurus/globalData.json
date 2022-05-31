@@ -1,0 +1,122 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "blox-cli/Commands/blox-connect",
+              "path": "/docs/blox-cli/Commands/blox-connect",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-cli/Commands/blox-create",
+              "path": "/docs/blox-cli/Commands/blox-create",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-cli/Commands/blox-exec",
+              "path": "/docs/blox-cli/Commands/blox-exec",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-cli/Commands/blox-init",
+              "path": "/docs/blox-cli/Commands/blox-init",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-cli/Commands/blox-log",
+              "path": "/docs/blox-cli/Commands/blox-log",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-cli/Commands/blox-login",
+              "path": "/docs/blox-cli/Commands/blox-login",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-cli/Commands/blox-ls",
+              "path": "/docs/blox-cli/Commands/blox-ls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-cli/Commands/blox-pull",
+              "path": "/docs/blox-cli/Commands/blox-pull",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-cli/Commands/blox-push",
+              "path": "/docs/blox-cli/Commands/blox-push",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-cli/Commands/blox-push-config",
+              "path": "/docs/blox-cli/Commands/blox-push-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-cli/Commands/blox-start",
+              "path": "/docs/blox-cli/Commands/blox-start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-cli/Commands/blox-stop",
+              "path": "/docs/blox-cli/Commands/blox-stop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-cli/Commands/blox-sync",
+              "path": "/docs/blox-cli/Commands/blox-sync",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-sdk/blox-js-sdk",
+              "path": "/docs/blox-sdk/blox-js-sdk",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-sdk/blox-nodejs-sdk",
+              "path": "/docs/blox-sdk/blox-nodejs-sdk",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blox-store/walkthrough",
+              "path": "/docs/blox-store/walkthrough",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "composability-vs-dependency",
+              "path": "/docs/composability-vs-dependency",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "types-of-blox",
+              "path": "/docs/types-of-blox",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
