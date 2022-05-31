@@ -27,9 +27,6 @@ jobs:
           # If you are using yarn, change the line below from "npm" to "yarn"
           pkg-manager: npm
       - run:
-          name: Run tests
-          command: npm test 
-      - run:
           name: Run Build
           command: npm build
 
