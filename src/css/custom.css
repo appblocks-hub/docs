@@ -1,0 +1,183 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+@media(min-width: 769px){
+  .banner-bg{
+      background: url(../../static/img/icons/banner-bg-icon.svg) no-repeat right top #29134E;
+      background-size: 30%;
+  }
+}
+.docs-wrapper h1{
+  font-weight: 600 !important;
+  font-size: 32px !important;
+}
+.docs-wrapper h2{
+  font-weight: 600;
+  font-size: 24px;
+}
+.menu__list{
+  font-size: 14px;
+}
+.menu__list li{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.table-of-contents__link--active, .theme-doc-sidebar-menu.menu__list>li>.menu__list-item-collapsible>.menu__link--active, .navbar__item.navbar__link:hover{
+  color: #6F42C1;
+}
+.theme-doc-sidebar-menu.menu__list>li>.menu__link--active{
+  color: #6F42C1;
+  background-color: transparent;
+}
+.theme-doc-sidebar-menu.menu__list .menu__list .menu__link--active{
+  color: #606770;
+  background-color: #F5F0FF;
+}
+.nav-search .DocSearch-Button-Keys{
+  display: none;
+}
+.nav-search .DocSearch-Button-Placeholder{
+  color: gray;
+  font-size: 14px;
+}
+.nav-search .DocSearch-Search-Icon{
+  opacity: 0.5;
+  width: 18px;
+}
+.DocSearch-Input:focus{
+  box-shadow: none;
+  border: none;
+}
+.DocSearch-Form{
+  border: 1px solid #6F42C1;
+  box-shadow: 0px 0px 0px 3px #e6dcfd !important;
+  outline: none;
+}
+.breadcrumb-custom .breadcrumbs__link{
+  border-radius: 6px;
+}
+.breadcrumb-custom .breadcrumbs__link:hover, .breadcrumb-custom .breadcrumbs__item--active .breadcrumbs__link, .DocSearch-Search-Icon{
+  color: #6F42C1;
+}
+@media (max-width: 750px){
+  .DocSearch-Cancel{
+    color: #6F42C1 !important;
+  }
+}
+.DocSearch-Footer{
+  display: none !important;
+}
+.DocSearch-SearchBar .DocSearch-Form{
+  height: 40px;
+  font-size: 14px;
+}
+.DocSearch-Input{
+  font-family: 'Inter', sans-serif !important;
+}
+.DocSearch-Form .DocSearch-MagnifierLabel svg{
+    width: 18px;
+}
+.pagination-nav .pagination-nav__label{
+    color: #6F42C1;
+    font-size: 14px;
+}
+.pagination-nav{
+  justify-content: space-between;
+}
+.pagination-nav .pagination-nav__item{
+    max-width: 250px;
+}
+.pagination-nav__link{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.theme-doc-footer-edit-meta-row a{
+  color: #6F42C1;
+}
+.pagination-nav .pagination-nav__link:hover{
+  background-color: #F5F0FF;
+  border-color: #6F42C1;
+}
+.navbar .navbar__link--active{
+  background: #F5F0FF;
+  box-shadow: 0px 1px 0px rgba(27, 31, 35, 0.04);
+  border-radius: 6px;
+  color: #6F42C1;
+}
+
+@media(max-width: 768px){
+  .banner-bg{
+      background: url(../../static/img/icons/mobile-banner-bg.svg) no-repeat center bottom -40px  #29134E;
+      background-size: 100% 200px;
+  }
+  .col.footer__col{
+    margin-bottom: 15px;
+  }
+  .pagination-nav{
+    flex-direction: column;
+  }
+  .pagination-nav__item{
+    max-width: 100% !important;
+    margin-bottom: 15px;
+    margin-left: 0px !important;
+  }
+  .theme-doc-toc-mobile .table-of-contents{
+    background: #F5F0FF;
+  }
+  .theme-doc-toc-mobile .table-of-contents__link{
+    color: #6A737D;
+  }
+  .theme-doc-toc-mobile .table-of-contents__link:hover{
+    color: #6F42C1;
+  }
+  .theme-doc-toc-mobile button{
+    background: #F5F0FF;
+    border-radius: 6px;
+    color: #6F42C1;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+
+.theme-doc-toc-desktop .table-of-contents__link:hover{
+  color: #6F42C1 !important;
+}
+.theme-doc-markdown a{
+  color: #6F42C1 !important;
+}

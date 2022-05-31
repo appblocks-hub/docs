@@ -1,0 +1,100 @@
+---
+sidebar_position: 3
+---
+
+# Types of Blox
+
+We have predefined types for Blox in the registry. Each type refers to where and how it is utilised. Following is the list of Blox Types available.
+
+## UI Blox
+
+`UI Blox is a frontend Blox` as its name suggests, and is developed for browser runtimes. 
+
+As of now, we only support React-based UI Blox. 
+
+Each Blox can be a part of a business use case. For example, a login page with APIs integrated can be a Blox, which when connected with a matching Fn Blox will be enough to implement login functionality in any application.
+
+`All UI Blox which has at least one Fn Blox integration should adhere to an API schema.`
+
+UI Blox are of two types,
+
+###  UI Element Blox. 
+
+These are independently developed and tested `unit frontend Blox`.
+
+This Blox is not supposed to work alone but be pulled into a UI container Blox/ host Blox and run together. This process of connecting the elements happens at runtime. 
+
+Appblox enforces strict standard regulations as there are increased chances of runtime errors. It ensures that all the elements Blox which are supposed to be connected are composable by design.
+
+### Container blox
+
+These are the `orchestrators in the Frontend`. 
+
+This type of Blox will have the main routing files and placeholders for the remote modules. It will decide when to pull and how to render a remote element Blox.
+
+The Container Blox decides the layout of the entire app and it renders when you visit the app URL. 
+
+It will pull the required bundles from the remote servers, stitch them together at runtime and render the app.
+
+## Fn Blox
+
+`Fn Blox are the backend Blox`. 
+
+We design Fn Blox in a `FaaS Architecture`. 
+
+Each Fn Blox is supposed to be `mutually exclusive`. 
+
+Every Fn Blox will have a specific URL to invoke it and in practical scenarios, all the Fn Blox in an app will be stitched together and run in a single instance on the server.
+
+In case a particular Fn is having more traffic, ie, needs to be scaled that Fn Blox alone will be isolated and run in a separate instance. 
+
+Appblox gateway in the proxy layer will intelligently route the traffic between the stitched app and the isolated Fn Blox instance.
+
+Fn Blox are language agnostic. Despite that, is always better for developers to stick with the same language in app development for maintainability.
+
+All functions which have a database call should adhere to a database schema.
+
+As of now, we only support Nodejs.
+## Shared Blox
+
+In both frontend and backend, there is `some piece of code that is not adhering to Blox Spec`. These are just `reusable pieces of code` such as a function to find the age of a person from dob.
+
+With our efficient searching dashboard, it would be easy for a developer to find shared Blox for any random use case.
+
+In the frontend, it can be either a very common function, for example, a function to find the difference between two dates or a reusable button with a default loader added. 
+
+## App Blox
+
+`UI, Fn and shared Blox have their own repositories`. They are the building blocks of an application. 
+
+Once all the Blox are stitched together, we build a configuration that is a snapshot of how the apps are composed. 
+
+This configuration can be pulled and run on any machine using Blox CLI. We call this hypothetical entity an `App Blox`. 
+
+It's a collection of Blox that will act together as an application.
+
+## Blox.config.json 
+
+This is a `configuration file found in the root folder of all the Blox`. 
+
+It will hold the `meta information of the Blox`, which can be read by the CLI / registry to identify the `Type of Blox, its repository, version etc…`
+
+## Appblox.config.json
+
+This `configuration file is at the root of any App Blox`. 
+
+Appblox.config.json will have `meta-information about all the Blox in that App Blox` and other `necessary metadata about its runtime`. 
+
+This configuration resides in the Blox registry and can be pulled by anyone who has the right access privileges.
+
+Appblox CLI has APIs which can read this config, pull the dependencies and run them on the local machine. 
+
+`We use this configuration file to get the necessary information while deploying.` So without this configuration, app deployment won't work.
+
+
+
+
+
+
+
+
