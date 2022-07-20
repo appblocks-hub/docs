@@ -2,11 +2,11 @@
 sidebar_position: 3
 ---
 
-# Types of Blox
+# Types of Blocks
 
 We have predefined types for Blox in the registry. Each type refers to where and how it is utilised. Following is the list of Blox Types available.
 
-## UI Blox
+## UI Block
 
 `UI Blox is a frontend Blox` as its name suggests, and is developed for browser runtimes. 
 
@@ -18,7 +18,7 @@ Each Blox can be a part of a business use case. For example, a login page with A
 
 UI Blox are of two types,
 
-###  UI Element Blox. 
+###  UI Element Block
 
 These are independently developed and tested `unit frontend Blox`.
 
@@ -26,7 +26,7 @@ This Blox is not supposed to work alone but be pulled into a UI container Blox/ 
 
 Appblox enforces strict standard regulations as there are increased chances of runtime errors. It ensures that all the elements Blox which are supposed to be connected are composable by design.
 
-### Container blox
+### Container Block
 
 These are the `orchestrators in the Frontend`. 
 
@@ -36,7 +36,7 @@ The Container Blox decides the layout of the entire app and it renders when you 
 
 It will pull the required bundles from the remote servers, stitch them together at runtime and render the app.
 
-## Fn Blox
+## Fn Block
 
 `Fn Blox are the backend Blox`. 
 
@@ -55,7 +55,8 @@ Fn Blox are language agnostic. Despite that, is always better for developers to 
 All functions which have a database call should adhere to a database schema.
 
 As of now, we only support Nodejs.
-## Shared Blox
+
+## Shared Block
 
 In both frontend and backend, there is `some piece of code that is not adhering to Blox Spec`. These are just `reusable pieces of code` such as a function to find the age of a person from dob.
 
@@ -63,7 +64,7 @@ With our efficient searching dashboard, it would be easy for a developer to find
 
 In the frontend, it can be either a very common function, for example, a function to find the difference between two dates or a reusable button with a default loader added. 
 
-## App Blox
+## App Block
 
 `UI, Fn and shared Blox have their own repositories`. They are the building blocks of an application. 
 

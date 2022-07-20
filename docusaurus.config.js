@@ -6,14 +6,14 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Appblox',
-  tagline: 'Blox - Built like Lego, but a lot more flexible.',
-  url: 'https://docs.appblox.io',
+  title: 'Yahilo',
+  tagline: 'Build like Lego, but a lot more flexible.',
+  url: 'https://docs.yahilo.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Appblox', // Usually your GitHub org/user name.
+  organizationName: 'Yahilo', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   presets: [
     [
@@ -23,7 +23,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/Appblox/docs/tree/main/",
+          editUrl: "https://github.com/yahilo/docs/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -36,7 +36,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Appblox",
+        title: "yahilo",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/Appblox/docs",
+                href: "https://github.com/yahilo/docs",
               },
             ],
           },
@@ -88,13 +88,13 @@ const config = {
             title: "Contact Us",
             items: [
               {
-                label: "support@appblox.io",
-                href: "mailto:support@appblox.io",
+                label: "support@yahilo.com",
+                href: "mailto:support@yahilo.com",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Appblox.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Yahilo.`,
       },
       prism: {
         theme: lightCodeTheme,
