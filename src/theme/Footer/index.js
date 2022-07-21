@@ -137,18 +137,17 @@ function Footer() {
               <div className="col footer__col">
                     <div className="float-left flex flex-col items-start text-base font-semibold">
                       <div className="w-full text-center mb-2">
-                        <svg width="28" height="33" viewBox="0 0 28 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M27.2935 0.142822H0.676636V32.3027H9.86501V11.6284H27.2933V32.3027H27.2935V0.142822Z" fill="url(#paint0_linear_587_1293)"/>
-                            <rect x="16.7566" y="20.8171" width="10.5369" height="11.4857" fill="white"/>
-                            <defs>
-                            <linearGradient id="paint0_linear_587_1293" x1="-1.21596" y1="-0.940143" x2="32.6234" y2="27.0667" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="white"/>
-                            <stop offset="1" stop-color="white"/>
-                            </linearGradient>
-                            </defs>
-                        </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="33" height="38" viewBox="0 0 512 512" fill="none">
+    <rect x="1" y="1" width="511" height="511" rx="39.9219" fill="black"/>
+    <rect x="268.437" y="267.605" width="9.69486" height="46.5354" fill="white"/>
+    <rect x="268.437" y="337.409" width="11.6338" height="46.5354" fill="#1B1F23"/>
+    <rect x="187" y="128" width="46.5455" height="186.182" fill="white"/>
+    <rect x="233.546" y="267.636" width="34.9091" height="46.5455" fill="white"/>
+    <rect x="233.535" y="337.409" width="44.5964" height="46.5354" fill="white"/>
+    <rect x="280.091" y="128" width="47.2727" height="256" fill="white"/>
+</svg>
                       </div>
-                      <p className="mb-0">Yahilo Developer Docs</p>
+                      <p className="mb-0">Yahilo</p>
                     </div>
                     <p className="text-sm w-full float-left">Build like Lego, but a lot more flexible.</p>
                 </div>

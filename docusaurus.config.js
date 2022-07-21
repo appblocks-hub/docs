@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Yahilo', // Usually your GitHub org/user name.
+  organizationName: 'yahilo', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   presets: [
     [
@@ -36,9 +36,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "yahilo",
+        title: "",
         logo: {
-          alt: "My Site Logo",
+          alt: "Yahilo Logo",
           src: "img/logo.svg",
         },
         items: [

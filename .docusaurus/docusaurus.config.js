@@ -11,7 +11,7 @@ export default {
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "Yahilo",
+  "organizationName": "yahilo",
   "projectName": "docs",
   "presets": [
     [
@@ -29,9 +29,9 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "yahilo",
+      "title": "",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Yahilo Logo",
         "src": "img/logo.svg"
       },
       "items": [
