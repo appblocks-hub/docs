@@ -2,15 +2,15 @@
 sidebar_position: 4
 ---
 
-# blox login
+# yah login
 
-`blox login` lets you log into Appblox/ Blox Registry.
+`yah login` lets you log into Appblock/ block Registry.
 
-Deploying a Blox includes the following steps:
+Deploying a block includes the following steps:
 
 ### Synopsis
 
-    blox login [options]
+    yah login [options]
 
 ### Description
 
