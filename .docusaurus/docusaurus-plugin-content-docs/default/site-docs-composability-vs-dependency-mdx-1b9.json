@@ -7,7 +7,7 @@
   "sourceDirName": ".",
   "slug": "/composability-vs-dependency",
   "permalink": "/docs/composability-vs-dependency",
-  "editUrl": "https://github.com/Appblox/docs/tree/main/docs/composability-vs-dependency.mdx",
+  "editUrl": "https://github.com/yahilo/docs/tree/main/docs/composability-vs-dependency.mdx",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Blox Architecture",
+    "title": "Blocks Architecture",
     "permalink": "/docs/intro"
   },
   "next": {
-    "title": "Types of Blox",
-    "permalink": "/docs/types-of-blox"
+    "title": "Types of Blocks",
+    "permalink": "/docs/types-of-blocks"
   }
 }

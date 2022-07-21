@@ -6,14 +6,14 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Yahilo',
+  title: 'Yahilo Developer Docs',
   tagline: 'Build like Lego, but a lot more flexible.',
   url: 'https://docs.yahilo.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Yahilo', // Usually your GitHub org/user name.
+  organizationName: 'yahilo', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   presets: [
     [
@@ -36,9 +36,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "yahilo",
+        title: "",
         logo: {
-          alt: "My Site Logo",
+          alt: "Yahilo Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -49,7 +49,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/Appblox",
+            href: "https://github.com/yahilo",
             label: "GitHub",
             position: "right",
           },

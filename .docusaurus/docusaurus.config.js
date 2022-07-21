@@ -4,34 +4,34 @@ Your edits in this file will be overwritten in the next build!
 Modify the docusaurus.config.js file at your site's root instead.
 */
 export default {
-  "title": "Appblox",
-  "tagline": "Blox - Built like Lego, but a lot more flexible.",
-  "url": "https://docs.appblox.io",
+  "title": "Yahilo Developer Docs",
+  "tagline": "Build like Lego, but a lot more flexible.",
+  "url": "https://docs.yahilo.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "Appblox",
+  "organizationName": "yahilo",
   "projectName": "docs",
   "presets": [
     [
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/thatcoder/Desktop/appblox/new-docs/doc/docs/sidebars.js",
-          "editUrl": "https://github.com/Appblox/docs/tree/main/"
+          "sidebarPath": "/Users/thatcoder/Desktop/yahilo/docs/sidebars.js",
+          "editUrl": "https://github.com/yahilo/docs/tree/main/"
         },
         "theme": {
-          "customCss": "/Users/thatcoder/Desktop/appblox/new-docs/doc/docs/src/css/custom.css"
+          "customCss": "/Users/thatcoder/Desktop/yahilo/docs/src/css/custom.css"
         }
       }
     ]
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Appblox",
+      "title": "",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Yahilo Logo",
         "src": "img/logo.svg"
       },
       "items": [
@@ -42,7 +42,7 @@ export default {
           "position": "right"
         },
         {
-          "href": "https://github.com/Appblox",
+          "href": "https://github.com/yahilo",
           "label": "GitHub",
           "position": "right"
         }
@@ -74,7 +74,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/Appblox/docs"
+              "href": "https://github.com/yahilo/docs"
             }
           ]
         },
@@ -82,13 +82,13 @@ export default {
           "title": "Contact Us",
           "items": [
             {
-              "label": "support@appblox.io",
-              "href": "mailto:support@appblox.io"
+              "label": "support@yahilo.com",
+              "href": "mailto:support@yahilo.com"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2022 Appblox."
+      "copyright": "Copyright © 2022 Yahilo."
     },
     "prism": {
       "theme": {

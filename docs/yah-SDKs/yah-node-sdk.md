@@ -1,22 +1,22 @@
-# Node blox SDK
+# yah-node-sdk
 
-The Node Blox SDK implements the server-side libraries used by applications using Appblox services.
+This includes the server-side libraries used by applications using Yahilo services.
 
 ## Installation
 
 This SDK is distributed via:
 
-[npm package](https://www.npmjs.com/package/node-blox-sdk)
+[npm package](https://www.npmjs.com/package/yah-node-sdk)
 
 ```
-npm install node-blox-sdk
+npm install yah-node-sdk
 ```
 
-For source code, see the [Node Blox SDK Github repo](https://github.com/AppBlox/node-blox-sdk/tree/main).
+For source code, see the [Yah Node SDK Github repo](https://github.com/yahilo/yah-node-sdk/tree/main).
 
 ## Modules
 
-This Node blox SDK included following modules,
+This yah-node-sdk included following modules,
 
 1. [Functions SDK](#functions-sdk)
 2. [Internals SDK](#internals-sdk)
@@ -25,9 +25,9 @@ This Node blox SDK included following modules,
 
 ### Functions SDK
 
-Functions SDK module is used to run the appblox functions.
+Functions SDK module is used to run the Block functions.
 
-Run Handler / Function using run method by importing functions sdk from node-blox-sdk.
+Run Handler / Function using run method by importing functions sdk from yah-node-sdk.
 
 #### Functions
 
@@ -36,7 +36,7 @@ run () : void
 #### Example
 
 ```
-import { functions } from "node-blox-sdk";
+import { functions } from "yah-node-sdk";
 
 functions.run(ExampleHandler)
 ```
@@ -45,7 +45,7 @@ To work with functions in local, There are 2 options.
 
 1. Using emulator
 
-Make use of appblox emulator. Emulator will act as a proxy, instead of we pointing and managing multiple port emulator will takecare of that hard jobsm
+Make use of yah CLI emulator. Emulator will act as a proxy, instead of we pointing and managing multiple port emulator will takecare of that hard jobs
 then run functions.
 
 ```
@@ -66,11 +66,11 @@ npm index.js --port=3000
 
 the above command will run function in port 3000
 
-go to [functions-example repo](https://github.com/AppBlox/node-blox-sdk/tree/main/examples/functions-example) to see example.
+go to [functions-example repo](https://github.com/yahilo/yah-node-sdk/tree/main/examples/functions-example) to see example.
 
 ### Internals SDK
 
-Internals SDK module is used to initialize the app using credentials from Appblox app, so that only your account and its resources are accessed by the SDK.
+Internals SDK module is used to initialize the app using credentials from Yahilo app, so that only your account and its resources are accessed by the SDK.
 
 #### Functions
 
@@ -83,17 +83,17 @@ options Object: { clientId : string, clientSecret : string }
 #### Example
 
 ```
-import { internals } from "node-blox-sdk";
+import { internals } from "yah-node-sdk";
 
 internals.initialize({
-		clientId:     APPBLOX_APP_CLIENT_ID,
-		clientSecret: APPBLOX_APP_CLIENT_SECRET,
+		clientId:     YAHILO_APP_CLIENT_ID,
+		clientSecret: YAHILO_APP_CLIENT_SECRET,
 	})
 ```
 
 ### Shield SDK
 
-Shield SDK module is used to implement and interact with the appblox shield.
+Shield SDK module is used to implement and interact with the Yahilo SHIELD.
 
 :::note
 Before using shield, Initialze the application using internals SDK.
@@ -107,12 +107,12 @@ getUID( request : ResquestObject ) : ShieldUIDResponse
 #### Example
 
 ```
-import { shield, internals } from "node-blox-sdk";
+import { shield, internals } from "yah-node-sdk";
 
-// Initialize using appblox credentials
+// Initialize using Yahilo credentials
 internals.initialize({
-		clientId:     APPBLOX_APP_CLIENT_ID,
-		clientSecret: APPBLOX_APP_CLIENT_SECRET,
+		clientId:     YAHILO_APP_CLIENT_ID,
+		clientSecret: YAHILO_APP_CLIENT_SECRET,
 	})
 
 const SheildExampleHandler = async (req, res, next) => {
@@ -130,11 +130,11 @@ const SheildExampleHandler = async (req, res, next) => {
 };
 ```
 
-go to [shield-example repo](https://github.com/AppBlox/node-blox-sdk/tree/main/examples/shield-example) to see example.
+go to [shield-example repo](https://github.com/yahilo/yah-node-sdk/tree/main/examples/shield-example) to see example.
 
 ### Environment SDK
 
-Environment SDK module is used initialize the enviroments, So that blox functions can access the environments.
+Environment SDK module is used initialize the enviroments, So that block functions can access the environments.
 
 #### Functions
 
@@ -143,7 +143,7 @@ init() : void
 #### Example
 
 ```
-import { env } from "node-blox-sdk";
+import { env } from "yah-node-sdk";
 
 // Initialize the env
 env.init();
@@ -158,4 +158,4 @@ const envExampleHandler = async (req, res, next) => {
 };
 ```
 
-go to [env-example repo](https://github.com/AppBlox/node-blox-sdk/tree/main/examples/env-example) to see example.
+go to [env-example repo](https://github.com/yahilo/yah-node-sdk/tree/main/examples/env-example) to see example.

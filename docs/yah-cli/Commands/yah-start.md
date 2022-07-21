@@ -19,7 +19,7 @@ The `yah start` command will start the emulator and also all the available ui bl
 
 ### Details
 
-All blocks will be updated and started. Function bloxes will be started in an emulator (a single process) and all ui bloxes will be seperate processes.  
+All blocks will be updated and started. Function blocks will be started in an emulator (a single process) and all ui blocks will be seperate processes.  
 There will be seperate logs for all ui blocks and a single log for the emulator.  
 Command is smart enough to know if the blocks are already live and won't start them again.  
 For ui blocks, the port given in its webpack config is given priority, if it is not available another port is assigned.

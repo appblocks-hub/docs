@@ -5,34 +5,34 @@ import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
-    title: 'Blox Architecture',
-    Svg: require('@site/static/img/icons/blox-arc-icon.svg').default,
+    title: 'Blocks Architecture',
+    Svg: require('@site/static/img/icons/blocks-arc-icon.svg').default,
     description: (
       <>
-        Content related to Blox Architecture
+        Content related to Blocks Architecture
       </>
     ),
     link: "/docs/intro/"
   },
   {
-    title: 'Blox CLI',
-    Svg: require('@site/static/img/icons/blox-cli-icon.svg').default,
+    title: 'yah CLI',
+    Svg: require('@site/static/img/icons/blocks-cli-icon.svg').default,
     description: (
       <>
-        Content related to Blox CLI
+        Content related to Yah CLI
       </>
     ),
-    link:"/docs/blox-cli/commands/blox-login/",
+    link:"/docs/yah-cli/commands/yah-login/",
   },
   {
-    title: 'Blox Store',
-    Svg: require('@site/static/img/icons/blox-store-icon.svg').default,
+    title: 'Blocks Store',
+    Svg: require('@site/static/img/icons/blocks-store-icon.svg').default,
     description: (
       <>
-        Content related to Blox Store
+        Content related to Blocks Store
       </>
     ),
-    link:"/docs/blox-store/walkthrough/",
+    link:"/docs/blocks-store/walkthrough/",
   },
   {
     title: 'Advanced SDK Docs',
@@ -42,7 +42,7 @@ const FeatureList = [
        Content related to Advanced Docs
       </>
     ),
-    link:"/docs/blox-sdk/blox-js-sdk/",
+    link:"/docs/yah-sdks/yah-js-sdk/",
   },
 ];
 
