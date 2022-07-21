@@ -42,7 +42,7 @@ const FeatureList = [
        Content related to Advanced Docs
       </>
     ),
-    link:"/docs/yah-sdk/yah-js-sdk/",
+    link:"/docs/yah-sdks/yah-js-sdk/",
   },
 ];
 

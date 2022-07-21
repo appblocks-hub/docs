@@ -128,7 +128,7 @@
         "items": [
           {
             "type": "link",
-            "label": "Blox Store Walkthrough",
+            "label": "Blocks Store Walkthrough",
             "href": "/docs/blocks-store/walkthrough",
             "docId": "blocks-store/walkthrough"
           }
@@ -148,7 +148,7 @@
           },
           {
             "type": "link",
-            "label": "Node blox SDK",
+            "label": "yah-node-sdk",
             "href": "/docs/yah-SDKs/yah-node-sdk",
             "docId": "yah-SDKs/yah-node-sdk"
           }
@@ -159,8 +159,8 @@
   "docs": {
     "blocks-store/walkthrough": {
       "id": "blocks-store/walkthrough",
-      "title": "Blox Store Walkthrough",
-      "description": "Blox Store",
+      "title": "Blocks Store Walkthrough",
+      "description": "Blocks Store",
       "sidebar": "tutorialSidebar"
     },
     "composability-vs-dependency": {
@@ -267,8 +267,8 @@
     },
     "yah-SDKs/yah-node-sdk": {
       "id": "yah-SDKs/yah-node-sdk",
-      "title": "Node blox SDK",
-      "description": "The Node Blox SDK implements the server-side libraries used by applications using Appblox services.",
+      "title": "yah-node-sdk",
+      "description": "This includes the server-side libraries used by applications using Yahilo services.",
       "sidebar": "tutorialSidebar"
     }
   }
