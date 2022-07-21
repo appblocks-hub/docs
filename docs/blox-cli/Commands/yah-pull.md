@@ -21,8 +21,8 @@ The command will pull the latest code of _block1_ to the local directory.
 
 ### Details
 
-Non-appblox type blocks can only be pulled with `yah pull`.  
-For appblox type blocks, use _pull-appblox_ command
+Non-appblock type blocks can only be pulled with `yah pull`.  
+For appblock type blocks, use _pull-appblox_ command
 
 <!-- ### Configuration -->
 
