@@ -2,16 +2,16 @@
 sidebar_position: 6
 ---
 
-# blox stop
+# yah stop
 
-Blox stop will stop all running ui bloxes and also kill the emulator
+The 'yah stop' command will stop all running ui blocks and also kill the emulator.
 
 ### Synopsis
 
-    blox stop
+    yah stop
 
 ### Details
 
-Kills all the process id's related to running bloxes.
+Kills all the process id's related to running blocks.
 
 <!-- ### Configuration -->
