@@ -2,17 +2,17 @@
 sidebar_position: 5
 ---
 
-# blox connect
+# yah connect
 
 To connect to Github.
 
 ### Synopsis
 
-    blox connect <service>
+    yah connect <service>
 
 ### Description
 
-Connect command can be used to authorize CLI to use source controls (only Git is supported), enabling the user to easily do Git operations through CLI and across multiple Blox at once.
+Connect command can be used to authorize CLI to use source controls (only Git is supported), enabling the user to easily do Git operations through CLI and across multiple blocks at once.
 
 ### Details
 
