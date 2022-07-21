@@ -148,9 +148,9 @@ function Footer() {
                             </defs>
                         </svg>
                       </div>
-                      <p className="mb-0">Appblox</p>
+                      <p className="mb-0">Yahilo Developer Docs</p>
                     </div>
-                    <p className="text-sm w-full float-left">Blox. Built like Lego, but a lot more flexible.</p>
+                    <p className="text-sm w-full float-left">Build like Lego, but a lot more flexible.</p>
                 </div>
               <MultiColumnLinks links={links} />
             </div>

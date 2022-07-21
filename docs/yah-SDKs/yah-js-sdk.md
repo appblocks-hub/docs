@@ -5,13 +5,13 @@ sidebar_position: 5
 yah-js-sdk
 ===========
 
-blox-js-sdk provides the essential packages to facilitate appblox features across appblox applications.
+yah-js-sdk provides the essential packages to facilitate Yahilo features across Yahilo applications.
 
 As of now, yah-js-sdk contains the following packages
 - shield
 - ab-federation-helpers
 
-shield helps to setup authentication for your application. It contains many methods to setup user authentication with shield and obtain tokens across appblox applications.
+shield helps to setup authentication for your application. It contains many methods to setup user authentication with shield and obtain tokens across Yahilo applications.
 
 ab-federation-helpers contains hooks and methods to facilitate federated Components and Modules
 
@@ -27,7 +27,7 @@ Usage
 
 ---
 # shield
-blox-js-sdk/shield includes the following elements
+yah-js-sdk/shield includes the following elements
 1. [tokenStore](#tokenStore)
 2. [init](#init)
 3. [verifyLogin](#verifyLogin)

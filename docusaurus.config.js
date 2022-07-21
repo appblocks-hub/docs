@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Yahilo',
+  title: 'Yahilo Developer Docs',
   tagline: 'Build like Lego, but a lot more flexible.',
   url: 'https://docs.yahilo.com',
   baseUrl: '/',
@@ -49,7 +49,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/Appblox",
+            href: "https://github.com/yahilo",
             label: "GitHub",
             position: "right",
           },

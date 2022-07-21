@@ -6,30 +6,30 @@ import Link from '@docusaurus/Link';
 const FeatureList = [
   {
     title: 'Blocks Architecture',
-    Svg: require('@site/static/img/icons/blox-arc-icon.svg').default,
+    Svg: require('@site/static/img/icons/blocks-arc-icon.svg').default,
     description: (
       <>
-        Content related to Blox Architecture
+        Content related to Blocks Architecture
       </>
     ),
     link: "/docs/intro/"
   },
   {
     title: 'yah CLI',
-    Svg: require('@site/static/img/icons/blox-cli-icon.svg').default,
+    Svg: require('@site/static/img/icons/blocks-cli-icon.svg').default,
     description: (
       <>
-        Content related to Blox CLI
+        Content related to Yah CLI
       </>
     ),
     link:"/docs/yah-cli/commands/yah-login/",
   },
   {
     title: 'Blocks Store',
-    Svg: require('@site/static/img/icons/blox-store-icon.svg').default,
+    Svg: require('@site/static/img/icons/blocks-store-icon.svg').default,
     description: (
       <>
-        Content related to Blox Store
+        Content related to Blocks Store
       </>
     ),
     link:"/docs/blocks-store/walkthrough/",

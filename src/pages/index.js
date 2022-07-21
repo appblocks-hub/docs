@@ -11,7 +11,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary banner-bg', styles.heroBanner)}>
       <div className="container text-left pt-4 pb-40 md:py-20">
-        <h1 className="hero__title text-3xl mb-0 lg:mb-4 lg:text-5xl">Appblox</h1>
+        <h1 className="hero__title text-3xl mb-0 lg:mb-4 lg:text-5xl">Yahilo</h1>
         <p className="hero__subtitle text-xl py-2">{siteConfig.tagline}</p>
         <div className="text-left">
           <Link
@@ -29,7 +29,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>

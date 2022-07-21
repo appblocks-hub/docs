@@ -262,7 +262,7 @@
     "yah-SDKs/yah-js-sdk": {
       "id": "yah-SDKs/yah-js-sdk",
       "title": "yah-js-sdk",
-      "description": "blox-js-sdk provides the essential packages to facilitate appblox features across appblox applications.",
+      "description": "yah-js-sdk provides the essential packages to facilitate Yahilo features across Yahilo applications.",
       "sidebar": "tutorialSidebar"
     },
     "yah-SDKs/yah-node-sdk": {
