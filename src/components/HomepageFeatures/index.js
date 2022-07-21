@@ -5,7 +5,7 @@ import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
-    title: 'Blox Architecture',
+    title: 'Blocks Architecture',
     Svg: require('@site/static/img/icons/blox-arc-icon.svg').default,
     description: (
       <>
@@ -15,24 +15,24 @@ const FeatureList = [
     link: "/docs/intro/"
   },
   {
-    title: 'Blox CLI',
+    title: 'yah CLI',
     Svg: require('@site/static/img/icons/blox-cli-icon.svg').default,
     description: (
       <>
         Content related to Blox CLI
       </>
     ),
-    link:"/docs/blox-cli/commands/blox-login/",
+    link:"/docs/yah-cli/commands/yah-login/",
   },
   {
-    title: 'Blox Store',
+    title: 'Blocks Store',
     Svg: require('@site/static/img/icons/blox-store-icon.svg').default,
     description: (
       <>
         Content related to Blox Store
       </>
     ),
-    link:"/docs/blox-store/walkthrough/",
+    link:"/docs/blocks-store/walkthrough/",
   },
   {
     title: 'Advanced SDK Docs',
@@ -42,7 +42,7 @@ const FeatureList = [
        Content related to Advanced Docs
       </>
     ),
-    link:"/docs/blox-sdk/blox-js-sdk/",
+    link:"/docs/yah-sdk/yah-js-sdk/",
   },
 ];
 

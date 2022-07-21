@@ -4,6 +4,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug','3d6'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config','914'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content','c28'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes','244'),
+    exact: true
+  },
+  {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive','f4c'),
     exact: true
@@ -15,101 +50,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','ac3'),
+    component: ComponentCreator('/docs','ca8'),
     routes: [
       {
-        path: '/docs/blox-cli/Commands/blox-connect',
-        component: ComponentCreator('/docs/blox-cli/Commands/blox-connect','dec'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-cli/Commands/blox-create',
-        component: ComponentCreator('/docs/blox-cli/Commands/blox-create','504'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-cli/Commands/blox-exec',
-        component: ComponentCreator('/docs/blox-cli/Commands/blox-exec','206'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-cli/Commands/blox-init',
-        component: ComponentCreator('/docs/blox-cli/Commands/blox-init','846'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-cli/Commands/blox-log',
-        component: ComponentCreator('/docs/blox-cli/Commands/blox-log','c24'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-cli/Commands/blox-login',
-        component: ComponentCreator('/docs/blox-cli/Commands/blox-login','f16'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-cli/Commands/blox-ls',
-        component: ComponentCreator('/docs/blox-cli/Commands/blox-ls','eed'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-cli/Commands/blox-pull',
-        component: ComponentCreator('/docs/blox-cli/Commands/blox-pull','904'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-cli/Commands/blox-push',
-        component: ComponentCreator('/docs/blox-cli/Commands/blox-push','de1'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-cli/Commands/blox-push-config',
-        component: ComponentCreator('/docs/blox-cli/Commands/blox-push-config','b61'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-cli/Commands/blox-start',
-        component: ComponentCreator('/docs/blox-cli/Commands/blox-start','e27'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-cli/Commands/blox-stop',
-        component: ComponentCreator('/docs/blox-cli/Commands/blox-stop','431'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-cli/Commands/blox-sync',
-        component: ComponentCreator('/docs/blox-cli/Commands/blox-sync','e88'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-sdk/blox-js-sdk',
-        component: ComponentCreator('/docs/blox-sdk/blox-js-sdk','7e7'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-sdk/blox-nodejs-sdk',
-        component: ComponentCreator('/docs/blox-sdk/blox-nodejs-sdk','004'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blox-store/walkthrough',
-        component: ComponentCreator('/docs/blox-store/walkthrough','415'),
+        path: '/docs/blocks-store/walkthrough',
+        component: ComponentCreator('/docs/blocks-store/walkthrough','7c7'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -126,8 +71,98 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/types-of-blox',
-        component: ComponentCreator('/docs/types-of-blox','6c1'),
+        path: '/docs/types-of-blocks',
+        component: ComponentCreator('/docs/types-of-blocks','9a0'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-cli/Commands/yah-connect',
+        component: ComponentCreator('/docs/yah-cli/Commands/yah-connect','8b1'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-cli/Commands/yah-create',
+        component: ComponentCreator('/docs/yah-cli/Commands/yah-create','851'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-cli/Commands/yah-exec',
+        component: ComponentCreator('/docs/yah-cli/Commands/yah-exec','a75'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-cli/Commands/yah-init',
+        component: ComponentCreator('/docs/yah-cli/Commands/yah-init','5d9'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-cli/Commands/yah-log',
+        component: ComponentCreator('/docs/yah-cli/Commands/yah-log','bca'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-cli/Commands/yah-login',
+        component: ComponentCreator('/docs/yah-cli/Commands/yah-login','9f8'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-cli/Commands/yah-ls',
+        component: ComponentCreator('/docs/yah-cli/Commands/yah-ls','b94'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-cli/Commands/yah-pull',
+        component: ComponentCreator('/docs/yah-cli/Commands/yah-pull','e61'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-cli/Commands/yah-push',
+        component: ComponentCreator('/docs/yah-cli/Commands/yah-push','b4f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-cli/Commands/yah-push-config',
+        component: ComponentCreator('/docs/yah-cli/Commands/yah-push-config','5bf'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-cli/Commands/yah-start',
+        component: ComponentCreator('/docs/yah-cli/Commands/yah-start','33e'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-cli/Commands/yah-stop',
+        component: ComponentCreator('/docs/yah-cli/Commands/yah-stop','736'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-cli/Commands/yah-sync',
+        component: ComponentCreator('/docs/yah-cli/Commands/yah-sync','89c'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-SDKs/yah-js-sdk',
+        component: ComponentCreator('/docs/yah-SDKs/yah-js-sdk','cce'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/yah-SDKs/yah-node-sdk',
+        component: ComponentCreator('/docs/yah-SDKs/yah-node-sdk','91d'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

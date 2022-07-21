@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-Blox JS SDK
+yah-js-sdk
 ===========
 
 blox-js-sdk provides the essential packages to facilitate appblox features across appblox applications.
