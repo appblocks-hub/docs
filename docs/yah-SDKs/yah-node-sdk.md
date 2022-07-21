@@ -1,18 +1,18 @@
-# Node blox SDK
+# yah-node-sdk
 
-The Node Blox SDK implements the server-side libraries used by applications using Appblox services.
+This includes the server-side libraries used by applications using Yahilo services.
 
 ## Installation
 
 This SDK is distributed via:
 
-[npm package](https://www.npmjs.com/package/node-blox-sdk)
+[npm package](https://www.npmjs.com/package/yah-node-sdk)
 
 ```
-npm install node-blox-sdk
+npm install yah-node-sdk
 ```
 
-For source code, see the [Node Blox SDK Github repo](https://github.com/AppBlox/node-blox-sdk/tree/main).
+For source code, see the [Node Blox SDK Github repo](https://github.com/yahilo/yah-node-sdk/tree/main).
 
 ## Modules
 

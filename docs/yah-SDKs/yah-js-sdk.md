@@ -7,7 +7,7 @@ yah-js-sdk
 
 blox-js-sdk provides the essential packages to facilitate appblox features across appblox applications.
 
-As of now, blox-js-sdk contains the following packages
+As of now, yah-js-sdk contains the following packages
 - shield
 - ab-federation-helpers
 
@@ -17,13 +17,13 @@ ab-federation-helpers contains hooks and methods to facilitate federated Compone
 
 Installation
 ---------------
-        npm i blox-js-sdk -s
+        npm i yah-js-sdk -s
 
 Usage
 -----
-        import { shield } from 'blox-js-sdk/shield'
+        import { shield } from 'yah-js-sdk/shield'
 
-        import { useFederatedComponent } from 'blox-js-sdk/ab-federation-helpers'
+        import { useFederatedComponent } from 'yah-js-sdk/ab-federation-helpers'
 
 ---
 # shield
