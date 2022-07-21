@@ -2,42 +2,42 @@
 sidebar_position: 17
 ---
 
-# blox pull
+# yah pull
 
-Pull command is used pull new bloxes into an app.
+Pull command is used pull new blocks into an app.
 
-1. [Pull a blox](#pull-a-blox)
-2. [Create custom version of a blox](#create-custom-version-of-a-blox)
+1. [Pull a block](#pull-a-block)
+2. [Create custom version of a block](#create-custom-version-of-a-block)
 
-## Pull a blox
+## Pull a block
 
 ### Synopsis
 
-    blox pull blox1
+    yah pull block1
 
 ### Description
 
-The command will pull the latest code of _blox1_ to the local directory.
+The command will pull the latest code of _block1_ to the local directory.
 
 ### Details
 
-Non-appblox type bloxes can only be pulled with `blox pull`.  
-For appblox type bloxes, use _pull-appblox_ command
+Non-appblox type blocks can only be pulled with `yah pull`.  
+For appblox type blocks, use _pull-appblox_ command
 
 <!-- ### Configuration -->
 
-## Create custom version of a blox
+## Create custom version of a block
 
 ### Synopsis
 
-    blox pull blox1
+    yah pull block1
 
 ### Details
 
-If the user wants to customise a blox by cloning the blox code to own repo, the pull command prompts with a question at the start.
+If the user wants to customise a block by cloning the block code to own repo, the pull command prompts with a question at the start.
 
-    Do you wish to create a new blox from blox1
+    Do you wish to create a new block from block1
 
-The flow is similar to `blox create` except in place of a sample template, source code of _blox1_ will be present.
+The flow is similar to `yah create` except in place of a sample template, source code of _block1_ will be present.
 
 <!-- ### Configuration -->
