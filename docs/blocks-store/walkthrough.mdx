@@ -16,12 +16,12 @@ Sort the Blocks Store by different parameters by clicking the sort button on the
 
 ### Visiting a Block
 
-When you click any Block in the Blocks Store, you are redirected to the ___ page. It gives you all details about the particular Block. There are four tabs present in it, viz. ReadMe, Dependencies, Versions and Composable Block. If the Block you are visiting is an App Block, there will be a 5th tab called Structure.
+When you click any Block in the Blocks Store, you are redirected to the Block Details page. It gives you all details about the particular Block. There are four tabs present in it, viz. ReadMe, Dependencies, Versions and Composable Block. If the Block you are visiting is an App Block, there will be a 5th tab called Structure.
 
 ![Blocks Store-details](https://user-images.githubusercontent.com/33730398/159855841-9b7f0cde-c43f-41ab-b943-51884454c280.png)
 
 #### ReadMe
-The ReadMe tab contains general information about this particular Block. To reuse a Block in your app, copy the link given below "Install" on the top right corner of this tab and _______. 
+The ReadMe tab contains general information about this particular Block. To reuse a Block in your app, copy the link given below "Install" on the top right corner of this tab and paste it in Yah CLI. 
 
 ![Blocks Store-details-1](https://user-images.githubusercontent.com/33730398/159855910-e1f265b2-a853-43ea-8bd8-48ad3d77677e.png)
 ReadMe also gives the number of downloads, tags, list of contributors and other useful information about the Block.
@@ -35,16 +35,23 @@ In the Dependencies tab, as shown below, all dependent Blocks of the chosen Bloc
 The Versions tab will display all versions of the Block to date. 
 ![Blocks Store-details-8](https://user-images.githubusercontent.com/33730398/159856147-af169e37-e8cd-4a34-99dc-55befa0b2d68.png)
 
-#### Composible Block
+#### Composable Block
 All composable Blocks are listed in this tab as shown below. Click *here* to read more.
 ![Blocks Store-details-4](https://user-images.githubusercontent.com/33730398/159856037-06dc32c0-8d71-47a3-9e10-a7683204abf9.png)
 
 #### Structure
 If the visited Block is an Appblock, the Structure tab will be present. It will display the entire app structure. 
-
 As shown below, the flow diagrams give you a good understanding of how the UI Blocks are connected to function Blocks and the function interfaces present in the Appblock.
 
 ![Structure](https://user-images.githubusercontent.com/33730398/159856612-c69f9228-b470-4b97-9687-49f9c637e41d.png)
 
 Another salient feature is that testing can be performed using the test endpoints. 
 ![Structure - expanded-1](https://user-images.githubusercontent.com/33730398/159856664-aba51cb1-ade5-44fb-999d-917d8196237b.png)
+
+#### Variants
+When a block is tweaked a bit and published as a new block, then the new block is a variant of the previous block. So any block can have any number of variants in the Blocks Store. Example: Login block - username with password, login block - username with email id and password.
+When a block is pulled, the CLI asks the end user if it has to be created as a variant or not. The updates in the former block will get notified to the owner of the latter (variant) block. Variants can be created by anybody.
+
+#### Package dependencies
+A package dependency is another package that your package needs in order to work. Every block has its own package dependencies and they are mentioned in a tab in the block details page. Here, this comes in assistance to the composable blocks tab, as the composable block have their own dependencies and the user can find the optimal composable blocks by comparing them.
+Package dependencies are uploaded from the CLI.
