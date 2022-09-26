@@ -17,6 +17,6 @@ Run the command inside the AppBlock directory.
 ### Details
 
 Pushing the AppBlock config to the registry can be useful for collaboration,
-as teammates can later use the pull_appblox command and continue building.
+as teammates can later use the pull_appblock command and continue building.
 
 <!-- ### Configuration -->

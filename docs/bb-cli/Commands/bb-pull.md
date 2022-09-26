@@ -22,7 +22,7 @@ The command will pull the latest code of _block1_ to the local directory.
 ### Details
 
 Non-appblock type blocks can only be pulled with `bb pull`.  
-For appblock type blocks, use _pull-appblox_ command
+For appblock type blocks, use _pull-appblock_ command
 
 <!-- ### Configuration -->
 
