@@ -2,17 +2,17 @@
 sidebar_position: 14
 ---
 
-# yah ls
+# bb ls
 
 To display the block and its current statuses.
 
 ### Synopsis
 
-    yah ls
+    bb ls
 
 ### Description
 
-yah ls will display all blocks present in the app along with the current running status in a table.
+bb ls will display all blocks present in the app along with the current running status in a table.
 
 ### Details
 

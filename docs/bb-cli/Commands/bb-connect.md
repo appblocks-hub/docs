@@ -2,13 +2,13 @@
 sidebar_position: 5
 ---
 
-# yah connect
+# bb connect
 
 To connect to Github.
 
 ### Synopsis
 
-    yah connect <service>
+    bb connect <service>
 
 ### Description
 

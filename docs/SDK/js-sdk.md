@@ -2,32 +2,32 @@
 sidebar_position: 5
 ---
 
-yah-js-sdk
+@appblocks/js-sdk
 ===========
 
-yah-js-sdk provides the essential packages to facilitate Yahilo features across Yahilo applications.
+@appblocks/js-sdk provides the essential packages to facilitate Appblocks features across Appblocks applications.
 
-As of now, yah-js-sdk contains the following packages
+As of now, @appblocks/js-sdk contains the following packages
 - shield
 - ab-federation-helpers
 
-shield helps to setup authentication for your application. It contains many methods to setup user authentication with shield and obtain tokens across Yahilo applications.
+shield helps to setup authentication for your application. It contains many methods to setup user authentication with shield and obtain tokens across Appblocks applications.
 
 ab-federation-helpers contains hooks and methods to facilitate federated Components and Modules
 
 Installation
 ---------------
-        npm i yah-js-sdk -s
+        npm i @appblocks/js-sdk -s
 
 Usage
 -----
-        import { shield } from 'yah-js-sdk/shield'
+        import { shield } from '@appblocks/js-sdk/shield'
 
-        import { useFederatedComponent } from 'yah-js-sdk/ab-federation-helpers'
+        import { useFederatedComponent } from '@appblocks/js-sdk/ab-federation-helpers'
 
 ---
 # shield
-yah-js-sdk/shield includes the following elements
+@appblocks/js-sdk/shield includes the following elements
 1. [tokenStore](#tokenStore)
 2. [init](#init)
 3. [verifyLogin](#verifyLogin)

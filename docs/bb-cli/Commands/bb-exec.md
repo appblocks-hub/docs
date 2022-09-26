@@ -2,9 +2,9 @@
 sidebar_position: 13
 ---
 
-# yah exec
+# bb exec
 
-yah exec lets you run system commands inside all blocks' directories in one go.
+bb exec lets you run system commands inside all blocks' directories in one go.
 
 Deploying a **block** includes the following steps:
 
@@ -16,16 +16,16 @@ Deploying a **block** includes the following steps:
 
 ### Synopsis
 
-    yah exec "ls -a" block1
+    bb exec "ls -a" block1
 
 ### Description
 
-yah exec lets you run a command in a single block's directory, a list of blocks' directories or all present blocks at once.
+bb exec lets you run a command in a single block's directory, a list of blocks' directories or all present blocks at once.
 
 ### Details
 
 To install packages in a block,
-`yah exec "npm i" -in block1`
+`bb exec "npm i" -in block1`
 
 <!-- ### Configuration -->
 
@@ -33,7 +33,7 @@ To install packages in a block,
 
 ### Synopsis
 
-    yah exec "ls -a" -in block1 block2
+    bb exec "ls -a" -in block1 block2
 
 ### Description
 
@@ -42,7 +42,7 @@ To run a command inside a list of selected **blocks**, space-separated block nam
 ### Details
 
 To install packages in multiple **blocks** at once,
-`yah exec "npm i" --inside block1 block2 block3`
+`bb exec "npm i" --inside block1 block2 block3`
 
 <!-- ### Configuration -->
 
@@ -50,7 +50,7 @@ To install packages in multiple **blocks** at once,
 
 ### Synopsis
 
-    yah exec "npm i"
+    bb exec "npm i"
 
 ### Description
 
@@ -58,6 +58,6 @@ If no options is provided, the given command is executed inside all the blocks b
 
 ### Details
 
-`yah exec "npm i"`
+`bb exec "npm i"`
 
 <!-- ### Configuration -->

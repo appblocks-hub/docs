@@ -15,14 +15,14 @@ const FeatureList = [
     link: "/docs/intro/"
   },
   {
-    title: 'yah CLI',
+    title: 'BB CLI',
     Svg: require('@site/static/img/icons/blocks-cli-icon.svg').default,
     description: (
       <>
-        Content related to Yah CLI
+        Content related to BB CLI
       </>
     ),
-    link:"/docs/yah-cli/commands/yah-login/",
+    link:"/docs/bb-cli/commands/bb-login/",
   },
   {
     title: 'Blocks Store',
@@ -42,7 +42,7 @@ const FeatureList = [
        Content related to Advanced Docs
       </>
     ),
-    link:"/docs/yah-sdks/yah-js-sdk/",
+    link:"/docs/sdk/js-sdk/",
   },
 ];
 

@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# yah start
+# bb start
 
 1. [Start all blocks](#start-all-blocks)
 2. [Start a block](#start-one-ui-block)
@@ -11,11 +11,11 @@ sidebar_position: 5
 
 ### Synopsis
 
-    yah start
+    bb start
 
 ### Description
 
-The `yah start` command will start the emulator and also all the available ui blocks, installing all its pacakge dependencies first.
+The `bb start` command will start the emulator and also all the available ui blocks, installing all its pacakge dependencies first.
 
 ### Details
 
@@ -30,7 +30,7 @@ For ui blocks, the port given in its webpack config is given priority, if it is 
 
 ### Synopsis
 
-    yah start block1
+    bb start block1
 
 ### Description
 

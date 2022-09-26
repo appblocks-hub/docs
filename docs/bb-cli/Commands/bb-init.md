@@ -2,13 +2,13 @@
 sidebar_position: 7
 ---
 
-# yah init
+# bb init
 
-The 'yah init' command can be employed to create and register an appblock.
+The 'bb init' command can be employed to create and register an appblock.
 
 ### Synopsis
 
-    yah init <appblock-name>
+    bb init <appblock-name>
 
 ### Description
 
@@ -18,7 +18,7 @@ so peers can use the same and build on it.
 
 ### Details
 
-`yah init block1`  
+`bb init block1`  
 The command will fail if run inside a git repository. A clean directory is expected.  
 If name already exists, a prompt to enter new name is shown.
 
