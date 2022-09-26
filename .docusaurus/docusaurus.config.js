@@ -10,7 +10,7 @@ export default {
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/favicon.png",
   "organizationName": "appblocks",
   "projectName": "docs",
   "presets": [
@@ -18,11 +18,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/ntpl/NEOITO_PROJECTS/APPBLOCKS/docs/sidebars.js",
+          "sidebarPath": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblox-development/docs-v2/docs/sidebars.js",
           "editUrl": "https://github.com/appblocks-hub/docs/tree/main/"
         },
         "theme": {
-          "customCss": "/home/ntpl/NEOITO_PROJECTS/APPBLOCKS/docs/src/css/custom.css"
+          "customCss": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblox-development/docs-v2/docs/src/css/custom.css"
         }
       }
     ]
