@@ -2,13 +2,13 @@
 sidebar_position: 8
 ---
 
-# yah create
+# bb create
 
-yah create can be used to create all kinds of blocks!
+bb create can be used to create all kinds of blocks!
 
 ### Synopsis
 
-    yah create [options]
+    bb create [options]
 
 ### Description
 
@@ -18,7 +18,7 @@ The command accepts one option
 
 ### Details
 
-`yah create block1 --type ui-container` will create a container block, with a basic template code in the local directory and register the block.
+`bb create block1 --type ui-container` will create a container block, with a basic template code in the local directory and register the block.
 
 If `--type` is not passed, user will be prompted to enter the type before the operation.
 

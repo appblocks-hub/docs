@@ -6,14 +6,14 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Yahilo Developer Docs',
+  title: 'Appblocks Developer Docs',
   tagline: 'Build like Lego, but a lot more flexible.',
-  url: 'https://docs.yahilo.com',
+  url: 'https://docs.appblocks.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'yahilo', // Usually your GitHub org/user name.
+  organizationName: 'appblocks', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   presets: [
     [
@@ -23,7 +23,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/yahilo/docs/tree/main/",
+          editUrl: "https://github.com/appblocks-hub/docs/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -38,7 +38,7 @@ const config = {
       navbar: {
         title: "",
         logo: {
-          alt: "Yahilo Logo",
+          alt: "Appblocks Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -49,7 +49,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/yahilo",
+            href: "https://github.com/appblocks-hub",
             label: "GitHub",
             position: "right",
           },
@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/yahilo/docs",
+                href: "https://github.com/appblocks-hub/docs",
               },
             ],
           },
@@ -88,13 +88,13 @@ const config = {
             title: "Contact Us",
             items: [
               {
-                label: "support@yahilo.com",
-                href: "mailto:support@yahilo.com",
+                label: "support@appblocks.com",
+                href: "mailto:support@appblocks.com",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Yahilo.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Appblocks.`,
       },
       prism: {
         theme: lightCodeTheme,

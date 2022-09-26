@@ -147,7 +147,7 @@ function Footer() {
     <rect x="280.091" y="128" width="47.2727" height="256" fill="white"/>
 </svg>
                       </div>
-                      <p className="mb-0">Yahilo</p>
+                      <p className="mb-0">Appblocks</p>
                     </div>
                     <p className="text-sm w-full float-left">Build like Lego, but a lot more flexible.</p>
                 </div>

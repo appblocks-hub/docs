@@ -4,25 +4,25 @@ Your edits in this file will be overwritten in the next build!
 Modify the docusaurus.config.js file at your site's root instead.
 */
 export default {
-  "title": "Yahilo Developer Docs",
+  "title": "Appblocks Developer Docs",
   "tagline": "Build like Lego, but a lot more flexible.",
-  "url": "https://docs.yahilo.com",
+  "url": "https://docs.appblocks.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "yahilo",
+  "organizationName": "appblocks",
   "projectName": "docs",
   "presets": [
     [
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/thatcoder/Desktop/yahilo/docs/sidebars.js",
-          "editUrl": "https://github.com/yahilo/docs/tree/main/"
+          "sidebarPath": "/home/ntpl/NEOITO_PROJECTS/APPBLOCKS/docs/sidebars.js",
+          "editUrl": "https://github.com/appblocks-hub/docs/tree/main/"
         },
         "theme": {
-          "customCss": "/Users/thatcoder/Desktop/yahilo/docs/src/css/custom.css"
+          "customCss": "/home/ntpl/NEOITO_PROJECTS/APPBLOCKS/docs/src/css/custom.css"
         }
       }
     ]
@@ -31,7 +31,7 @@ export default {
     "navbar": {
       "title": "",
       "logo": {
-        "alt": "Yahilo Logo",
+        "alt": "Appblocks Logo",
         "src": "img/logo.svg"
       },
       "items": [
@@ -42,7 +42,7 @@ export default {
           "position": "right"
         },
         {
-          "href": "https://github.com/yahilo",
+          "href": "https://github.com/appblocks-hub",
           "label": "GitHub",
           "position": "right"
         }
@@ -74,7 +74,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/yahilo/docs"
+              "href": "https://github.com/appblocks-hub/docs"
             }
           ]
         },
@@ -82,13 +82,13 @@ export default {
           "title": "Contact Us",
           "items": [
             {
-              "label": "support@yahilo.com",
-              "href": "mailto:support@yahilo.com"
+              "label": "support@appblocks.com",
+              "href": "mailto:support@appblocks.com"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2022 Yahilo."
+      "copyright": "Copyright © 2022 Appblocks."
     },
     "prism": {
       "theme": {

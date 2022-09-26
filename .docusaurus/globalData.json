@@ -11,6 +11,71 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "bb-cli/Commands/bb-connect",
+              "path": "/docs/bb-cli/Commands/bb-connect",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bb-cli/Commands/bb-create",
+              "path": "/docs/bb-cli/Commands/bb-create",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bb-cli/Commands/bb-exec",
+              "path": "/docs/bb-cli/Commands/bb-exec",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bb-cli/Commands/bb-init",
+              "path": "/docs/bb-cli/Commands/bb-init",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bb-cli/Commands/bb-log",
+              "path": "/docs/bb-cli/Commands/bb-log",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bb-cli/Commands/bb-login",
+              "path": "/docs/bb-cli/Commands/bb-login",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bb-cli/Commands/bb-ls",
+              "path": "/docs/bb-cli/Commands/bb-ls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bb-cli/Commands/bb-pull",
+              "path": "/docs/bb-cli/Commands/bb-pull",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bb-cli/Commands/bb-push",
+              "path": "/docs/bb-cli/Commands/bb-push",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bb-cli/Commands/bb-push-config",
+              "path": "/docs/bb-cli/Commands/bb-push-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bb-cli/Commands/bb-start",
+              "path": "/docs/bb-cli/Commands/bb-start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bb-cli/Commands/bb-stop",
+              "path": "/docs/bb-cli/Commands/bb-stop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bb-cli/Commands/bb-sync",
+              "path": "/docs/bb-cli/Commands/bb-sync",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "blocks-store/walkthrough",
               "path": "/docs/blocks-store/walkthrough",
               "sidebar": "tutorialSidebar"
@@ -26,83 +91,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "SDK/js-sdk",
+              "path": "/docs/SDK/js-sdk",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "SDK/node-sdk",
+              "path": "/docs/SDK/node-sdk",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "types-of-blocks",
               "path": "/docs/types-of-blocks",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-cli/Commands/yah-connect",
-              "path": "/docs/yah-cli/Commands/yah-connect",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-cli/Commands/yah-create",
-              "path": "/docs/yah-cli/Commands/yah-create",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-cli/Commands/yah-exec",
-              "path": "/docs/yah-cli/Commands/yah-exec",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-cli/Commands/yah-init",
-              "path": "/docs/yah-cli/Commands/yah-init",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-cli/Commands/yah-log",
-              "path": "/docs/yah-cli/Commands/yah-log",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-cli/Commands/yah-login",
-              "path": "/docs/yah-cli/Commands/yah-login",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-cli/Commands/yah-ls",
-              "path": "/docs/yah-cli/Commands/yah-ls",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-cli/Commands/yah-pull",
-              "path": "/docs/yah-cli/Commands/yah-pull",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-cli/Commands/yah-push",
-              "path": "/docs/yah-cli/Commands/yah-push",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-cli/Commands/yah-push-config",
-              "path": "/docs/yah-cli/Commands/yah-push-config",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-cli/Commands/yah-start",
-              "path": "/docs/yah-cli/Commands/yah-start",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-cli/Commands/yah-stop",
-              "path": "/docs/yah-cli/Commands/yah-stop",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-cli/Commands/yah-sync",
-              "path": "/docs/yah-cli/Commands/yah-sync",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-SDKs/yah-js-sdk",
-              "path": "/docs/yah-SDKs/yah-js-sdk",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "yah-SDKs/yah-node-sdk",
-              "path": "/docs/yah-SDKs/yah-node-sdk",
               "sidebar": "tutorialSidebar"
             }
           ],

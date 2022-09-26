@@ -2,13 +2,13 @@
 sidebar_position: 6
 ---
 
-# yah stop
+# bb stop
 
-The 'yah stop' command will stop all running ui blocks and also kill the emulator.
+The 'bb stop' command will stop all running ui blocks and also kill the emulator.
 
 ### Synopsis
 
-    yah stop
+    bb stop
 
 ### Details
 

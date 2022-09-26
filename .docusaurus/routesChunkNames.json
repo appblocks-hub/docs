@@ -29,9 +29,61 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-ca8": {
+  "/docs-f0f": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/bb-cli/Commands/bb-connect-b6c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-bb-connect-072-baf"
+  },
+  "/docs/bb-cli/Commands/bb-create-b1b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-bb-create-0-cd-2a7"
+  },
+  "/docs/bb-cli/Commands/bb-exec-6cf": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-bb-exec-00-d-289"
+  },
+  "/docs/bb-cli/Commands/bb-init-9b7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-bb-initad-1-ac9"
+  },
+  "/docs/bb-cli/Commands/bb-log-4b6": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-bb-log-341-3b0"
+  },
+  "/docs/bb-cli/Commands/bb-login-0c4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-bb-loginaba-fb3"
+  },
+  "/docs/bb-cli/Commands/bb-ls-a9b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-bb-ls-7-e-4-6dd"
+  },
+  "/docs/bb-cli/Commands/bb-pull-15c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-bb-pulla-74-0bd"
+  },
+  "/docs/bb-cli/Commands/bb-push-720": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-bb-pushb-19-7bc"
+  },
+  "/docs/bb-cli/Commands/bb-push-config-de7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-bb-push-confige-6-d-29f"
+  },
+  "/docs/bb-cli/Commands/bb-start-510": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-bb-start-268-fbc"
+  },
+  "/docs/bb-cli/Commands/bb-stop-539": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-bb-stopb-87-a1c"
+  },
+  "/docs/bb-cli/Commands/bb-sync-a25": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-bb-syncd-3-b-8dc"
   },
   "/docs/blocks-store/walkthrough-7c7": {
     "component": "component---theme-doc-item-178-a40",
@@ -45,69 +97,17 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-introf-84-2b4"
   },
+  "/docs/SDK/js-sdk-f98": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-sdk-js-sdk-092-3d4"
+  },
+  "/docs/SDK/node-sdk-6d8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-sdk-node-sdk-2-b-5-2e2"
+  },
   "/docs/types-of-blocks-9a0": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-types-of-blocks-0-a-5-ec8"
-  },
-  "/docs/yah-cli/Commands/yah-connect-8b1": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-cli-commands-yah-connectcbd-2fc"
-  },
-  "/docs/yah-cli/Commands/yah-create-851": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-cli-commands-yah-createc-9-e-479"
-  },
-  "/docs/yah-cli/Commands/yah-exec-a75": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-cli-commands-yah-execd-80-03a"
-  },
-  "/docs/yah-cli/Commands/yah-init-5d9": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-cli-commands-yah-init-834-d99"
-  },
-  "/docs/yah-cli/Commands/yah-log-bca": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-cli-commands-yah-logd-28-23e"
-  },
-  "/docs/yah-cli/Commands/yah-login-9f8": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-cli-commands-yah-logina-28-422"
-  },
-  "/docs/yah-cli/Commands/yah-ls-b94": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-cli-commands-yah-ls-796-0b2"
-  },
-  "/docs/yah-cli/Commands/yah-pull-e61": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-cli-commands-yah-pull-438-f8d"
-  },
-  "/docs/yah-cli/Commands/yah-push-b4f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-cli-commands-yah-pushce-5-efb"
-  },
-  "/docs/yah-cli/Commands/yah-push-config-5bf": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-cli-commands-yah-push-configfb-9-50f"
-  },
-  "/docs/yah-cli/Commands/yah-start-33e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-cli-commands-yah-start-74-d-e47"
-  },
-  "/docs/yah-cli/Commands/yah-stop-736": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-cli-commands-yah-stopb-51-8ea"
-  },
-  "/docs/yah-cli/Commands/yah-sync-89c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-cli-commands-yah-sync-5-e-6-11b"
-  },
-  "/docs/yah-SDKs/yah-js-sdk-cce": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-sd-ks-yah-js-sdkf-9-f-8fc"
-  },
-  "/docs/yah-SDKs/yah-node-sdk-91d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-yah-sd-ks-yah-node-sdk-84-f-82a"
   },
   "/-deb": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",

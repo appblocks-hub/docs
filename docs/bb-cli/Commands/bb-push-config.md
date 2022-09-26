@@ -2,13 +2,13 @@
 sidebar_position: 12
 ---
 
-# yah push-config
+# bb push-config
 
 To push the AppBlock config to registry.
 
 ### Synopsis
 
-    yah push-config
+    bb push-config
 
 ### Description
 

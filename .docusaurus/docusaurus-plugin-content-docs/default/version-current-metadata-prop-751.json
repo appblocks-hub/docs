@@ -28,7 +28,7 @@
       },
       {
         "type": "category",
-        "label": "yah CLI",
+        "label": "BB CLI",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -40,83 +40,103 @@
             "items": [
               {
                 "type": "link",
-                "label": "yah login",
-                "href": "/docs/yah-cli/Commands/yah-login",
-                "docId": "yah-cli/Commands/yah-login"
+                "label": "bb login",
+                "href": "/docs/bb-cli/Commands/bb-login",
+                "docId": "bb-cli/Commands/bb-login"
               },
               {
                 "type": "link",
-                "label": "yah connect",
-                "href": "/docs/yah-cli/Commands/yah-connect",
-                "docId": "yah-cli/Commands/yah-connect"
+                "label": "bb connect",
+                "href": "/docs/bb-cli/Commands/bb-connect",
+                "docId": "bb-cli/Commands/bb-connect"
               },
               {
                 "type": "link",
-                "label": "yah start",
-                "href": "/docs/yah-cli/Commands/yah-start",
-                "docId": "yah-cli/Commands/yah-start"
+                "label": "bb start",
+                "href": "/docs/bb-cli/Commands/bb-start",
+                "docId": "bb-cli/Commands/bb-start"
               },
               {
                 "type": "link",
-                "label": "yah stop",
-                "href": "/docs/yah-cli/Commands/yah-stop",
-                "docId": "yah-cli/Commands/yah-stop"
+                "label": "bb stop",
+                "href": "/docs/bb-cli/Commands/bb-stop",
+                "docId": "bb-cli/Commands/bb-stop"
               },
               {
                 "type": "link",
-                "label": "yah init",
-                "href": "/docs/yah-cli/Commands/yah-init",
-                "docId": "yah-cli/Commands/yah-init"
+                "label": "bb init",
+                "href": "/docs/bb-cli/Commands/bb-init",
+                "docId": "bb-cli/Commands/bb-init"
               },
               {
                 "type": "link",
-                "label": "yah create",
-                "href": "/docs/yah-cli/Commands/yah-create",
-                "docId": "yah-cli/Commands/yah-create"
+                "label": "bb create",
+                "href": "/docs/bb-cli/Commands/bb-create",
+                "docId": "bb-cli/Commands/bb-create"
               },
               {
                 "type": "link",
-                "label": "yah log",
-                "href": "/docs/yah-cli/Commands/yah-log",
-                "docId": "yah-cli/Commands/yah-log"
+                "label": "bb log",
+                "href": "/docs/bb-cli/Commands/bb-log",
+                "docId": "bb-cli/Commands/bb-log"
               },
               {
                 "type": "link",
-                "label": "yah push",
-                "href": "/docs/yah-cli/Commands/yah-push",
-                "docId": "yah-cli/Commands/yah-push"
+                "label": "bb push",
+                "href": "/docs/bb-cli/Commands/bb-push",
+                "docId": "bb-cli/Commands/bb-push"
               },
               {
                 "type": "link",
-                "label": "yah push-config",
-                "href": "/docs/yah-cli/Commands/yah-push-config",
-                "docId": "yah-cli/Commands/yah-push-config"
+                "label": "bb push-config",
+                "href": "/docs/bb-cli/Commands/bb-push-config",
+                "docId": "bb-cli/Commands/bb-push-config"
               },
               {
                 "type": "link",
-                "label": "yah exec",
-                "href": "/docs/yah-cli/Commands/yah-exec",
-                "docId": "yah-cli/Commands/yah-exec"
+                "label": "bb exec",
+                "href": "/docs/bb-cli/Commands/bb-exec",
+                "docId": "bb-cli/Commands/bb-exec"
               },
               {
                 "type": "link",
-                "label": "yah ls",
-                "href": "/docs/yah-cli/Commands/yah-ls",
-                "docId": "yah-cli/Commands/yah-ls"
+                "label": "bb ls",
+                "href": "/docs/bb-cli/Commands/bb-ls",
+                "docId": "bb-cli/Commands/bb-ls"
               },
               {
                 "type": "link",
-                "label": "yah sync",
-                "href": "/docs/yah-cli/Commands/yah-sync",
-                "docId": "yah-cli/Commands/yah-sync"
+                "label": "bb sync",
+                "href": "/docs/bb-cli/Commands/bb-sync",
+                "docId": "bb-cli/Commands/bb-sync"
               },
               {
                 "type": "link",
-                "label": "yah pull",
-                "href": "/docs/yah-cli/Commands/yah-pull",
-                "docId": "yah-cli/Commands/yah-pull"
+                "label": "bb pull",
+                "href": "/docs/bb-cli/Commands/bb-pull",
+                "docId": "bb-cli/Commands/bb-pull"
               }
             ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Appblock SDK",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "@appblocks/js-sdk",
+            "href": "/docs/SDK/js-sdk",
+            "docId": "SDK/js-sdk"
+          },
+          {
+            "type": "link",
+            "label": "@appblocks/node-sdk",
+            "href": "/docs/SDK/node-sdk",
+            "docId": "SDK/node-sdk"
           }
         ]
       },
@@ -133,30 +153,88 @@
             "docId": "blocks-store/walkthrough"
           }
         ]
-      },
-      {
-        "type": "category",
-        "label": "Yah SDKs",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "yah-js-sdk",
-            "href": "/docs/yah-SDKs/yah-js-sdk",
-            "docId": "yah-SDKs/yah-js-sdk"
-          },
-          {
-            "type": "link",
-            "label": "yah-node-sdk",
-            "href": "/docs/yah-SDKs/yah-node-sdk",
-            "docId": "yah-SDKs/yah-node-sdk"
-          }
-        ]
       }
     ]
   },
   "docs": {
+    "bb-cli/Commands/bb-connect": {
+      "id": "bb-cli/Commands/bb-connect",
+      "title": "bb connect",
+      "description": "To connect to Github.",
+      "sidebar": "tutorialSidebar"
+    },
+    "bb-cli/Commands/bb-create": {
+      "id": "bb-cli/Commands/bb-create",
+      "title": "bb create",
+      "description": "bb create can be used to create all kinds of blocks!",
+      "sidebar": "tutorialSidebar"
+    },
+    "bb-cli/Commands/bb-exec": {
+      "id": "bb-cli/Commands/bb-exec",
+      "title": "bb exec",
+      "description": "bb exec lets you run system commands inside all blocks' directories in one go.",
+      "sidebar": "tutorialSidebar"
+    },
+    "bb-cli/Commands/bb-init": {
+      "id": "bb-cli/Commands/bb-init",
+      "title": "bb init",
+      "description": "The 'bb init' command can be employed to create and register an appblock.",
+      "sidebar": "tutorialSidebar"
+    },
+    "bb-cli/Commands/bb-log": {
+      "id": "bb-cli/Commands/bb-log",
+      "title": "bb log",
+      "description": "bb log command reads and displays logs related to live blocks.",
+      "sidebar": "tutorialSidebar"
+    },
+    "bb-cli/Commands/bb-login": {
+      "id": "bb-cli/Commands/bb-login",
+      "title": "bb login",
+      "description": "bb login lets you log into Appblock/ block Registry.",
+      "sidebar": "tutorialSidebar"
+    },
+    "bb-cli/Commands/bb-ls": {
+      "id": "bb-cli/Commands/bb-ls",
+      "title": "bb ls",
+      "description": "To display the block and its current statuses.",
+      "sidebar": "tutorialSidebar"
+    },
+    "bb-cli/Commands/bb-pull": {
+      "id": "bb-cli/Commands/bb-pull",
+      "title": "bb pull",
+      "description": "Pull command is used pull new blocks into an app.",
+      "sidebar": "tutorialSidebar"
+    },
+    "bb-cli/Commands/bb-push": {
+      "id": "bb-cli/Commands/bb-push",
+      "title": "bb push",
+      "description": "To push block code to source control.",
+      "sidebar": "tutorialSidebar"
+    },
+    "bb-cli/Commands/bb-push-config": {
+      "id": "bb-cli/Commands/bb-push-config",
+      "title": "bb push-config",
+      "description": "To push the AppBlock config to registry.",
+      "sidebar": "tutorialSidebar"
+    },
+    "bb-cli/Commands/bb-start": {
+      "id": "bb-cli/Commands/bb-start",
+      "title": "bb start",
+      "description": "1. Start all blocks",
+      "sidebar": "tutorialSidebar"
+    },
+    "bb-cli/Commands/bb-stop": {
+      "id": "bb-cli/Commands/bb-stop",
+      "title": "bb stop",
+      "description": "The 'bb stop' command will stop all running ui blocks and also kill the emulator.",
+      "sidebar": "tutorialSidebar"
+    },
+    "bb-cli/Commands/bb-sync": {
+      "id": "bb-cli/Commands/bb-sync",
+      "title": "bb sync",
+      "description": "The 'bb sync' command can be used to convert existing projects that were not built as blocks, to appblock projects.",
+      "sidebar": "tutorialSidebar"
+    },
     "blocks-store/walkthrough": {
       "id": "blocks-store/walkthrough",
       "title": "Blocks Store Walkthrough",
@@ -175,100 +253,22 @@
       "description": "“As business needs change, organizations must be able to deliver innovation quickly and adapt applications dynamically — reassembling capabilities from inside and outside the enterprise. To do this, organizations must understand and implement the “composable enterprise.” – Gartner",
       "sidebar": "tutorialSidebar"
     },
+    "SDK/js-sdk": {
+      "id": "SDK/js-sdk",
+      "title": "@appblocks/js-sdk",
+      "description": "@appblocks/js-sdk provides the essential packages to facilitate Appblocks features across Appblocks applications.",
+      "sidebar": "tutorialSidebar"
+    },
+    "SDK/node-sdk": {
+      "id": "SDK/node-sdk",
+      "title": "@appblocks/node-sdk",
+      "description": "This includes the server-side libraries used by applications using Appblocks services.",
+      "sidebar": "tutorialSidebar"
+    },
     "types-of-blocks": {
       "id": "types-of-blocks",
       "title": "Types of Blocks",
       "description": "We have predefined types for blocks in the registry. Each type refers to where and how it is utilised. Following is the list of Block Types available.",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-cli/Commands/yah-connect": {
-      "id": "yah-cli/Commands/yah-connect",
-      "title": "yah connect",
-      "description": "To connect to Github.",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-cli/Commands/yah-create": {
-      "id": "yah-cli/Commands/yah-create",
-      "title": "yah create",
-      "description": "yah create can be used to create all kinds of blocks!",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-cli/Commands/yah-exec": {
-      "id": "yah-cli/Commands/yah-exec",
-      "title": "yah exec",
-      "description": "yah exec lets you run system commands inside all blocks' directories in one go.",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-cli/Commands/yah-init": {
-      "id": "yah-cli/Commands/yah-init",
-      "title": "yah init",
-      "description": "The 'yah init' command can be employed to create and register an appblock.",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-cli/Commands/yah-log": {
-      "id": "yah-cli/Commands/yah-log",
-      "title": "yah log",
-      "description": "yah log command reads and displays logs related to live blocks.",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-cli/Commands/yah-login": {
-      "id": "yah-cli/Commands/yah-login",
-      "title": "yah login",
-      "description": "yah login lets you log into Appblock/ block Registry.",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-cli/Commands/yah-ls": {
-      "id": "yah-cli/Commands/yah-ls",
-      "title": "yah ls",
-      "description": "To display the block and its current statuses.",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-cli/Commands/yah-pull": {
-      "id": "yah-cli/Commands/yah-pull",
-      "title": "yah pull",
-      "description": "Pull command is used pull new blocks into an app.",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-cli/Commands/yah-push": {
-      "id": "yah-cli/Commands/yah-push",
-      "title": "yah push",
-      "description": "To push block code to source control.",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-cli/Commands/yah-push-config": {
-      "id": "yah-cli/Commands/yah-push-config",
-      "title": "yah push-config",
-      "description": "To push the AppBlock config to registry.",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-cli/Commands/yah-start": {
-      "id": "yah-cli/Commands/yah-start",
-      "title": "yah start",
-      "description": "1. Start all blocks",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-cli/Commands/yah-stop": {
-      "id": "yah-cli/Commands/yah-stop",
-      "title": "yah stop",
-      "description": "The 'yah stop' command will stop all running ui blocks and also kill the emulator.",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-cli/Commands/yah-sync": {
-      "id": "yah-cli/Commands/yah-sync",
-      "title": "yah sync",
-      "description": "The 'yah sync' command can be used to convert existing projects that were not built as blocks, to appblock projects.",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-SDKs/yah-js-sdk": {
-      "id": "yah-SDKs/yah-js-sdk",
-      "title": "yah-js-sdk",
-      "description": "yah-js-sdk provides the essential packages to facilitate Yahilo features across Yahilo applications.",
-      "sidebar": "tutorialSidebar"
-    },
-    "yah-SDKs/yah-node-sdk": {
-      "id": "yah-SDKs/yah-node-sdk",
-      "title": "yah-node-sdk",
-      "description": "This includes the server-side libraries used by applications using Yahilo services.",
       "sidebar": "tutorialSidebar"
     }
   }

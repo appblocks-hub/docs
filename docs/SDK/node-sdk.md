@@ -1,22 +1,22 @@
-# yah-node-sdk
+# @appblocks/node-sdk
 
-This includes the server-side libraries used by applications using Yahilo services.
+This includes the server-side libraries used by applications using Appblocks services.
 
 ## Installation
 
 This SDK is distributed via:
 
-[npm package](https://www.npmjs.com/package/yah-node-sdk)
+[npm package](https://www.npmjs.com/package/@appblocks/node-sdk)
 
 ```
-npm install yah-node-sdk
+npm install @appblocks/node-sdk
 ```
 
-For source code, see the [Yah Node SDK Github repo](https://github.com/yahilo/yah-node-sdk/tree/main).
+For source code, see the [Appblocks Node SDK Github repo](https://github.com/appblocks-hub/node-sdk/tree/main).
 
 ## Modules
 
-This yah-node-sdk included following modules,
+This @appblocks/node-sdk included following modules,
 
 1. [Functions SDK](#functions-sdk)
 2. [Internals SDK](#internals-sdk)
@@ -27,7 +27,7 @@ This yah-node-sdk included following modules,
 
 Functions SDK module is used to run the Block functions.
 
-Run Handler / Function using run method by importing functions sdk from yah-node-sdk.
+Run Handler / Function using run method by importing functions sdk from @appblocks/node-sdk.
 
 #### Functions
 
@@ -36,7 +36,7 @@ run () : void
 #### Example
 
 ```
-import { functions } from "yah-node-sdk";
+import { functions } from "@appblocks/node-sdk";
 
 functions.run(ExampleHandler)
 ```
@@ -45,7 +45,7 @@ To work with functions in local, There are 2 options.
 
 1. Using emulator
 
-Make use of yah CLI emulator. Emulator will act as a proxy, instead of we pointing and managing multiple port emulator will takecare of that hard jobs
+Make use of BB CLI emulator. Emulator will act as a proxy, instead of we pointing and managing multiple port emulator will takecare of that hard jobs
 then run functions.
 
 ```
@@ -66,11 +66,11 @@ npm index.js --port=3000
 
 the above command will run function in port 3000
 
-go to [functions-example repo](https://github.com/yahilo/yah-node-sdk/tree/main/examples/functions-example) to see example.
+go to [functions-example repo](https://github.com/appblocks-hub/node-sdk/tree/main/examples/functions-example) to see example.
 
 ### Internals SDK
 
-Internals SDK module is used to initialize the app using credentials from Yahilo app, so that only your account and its resources are accessed by the SDK.
+Internals SDK module is used to initialize the app using credentials from Appblocks app, so that only your account and its resources are accessed by the SDK.
 
 #### Functions
 
@@ -83,17 +83,17 @@ options Object: { clientId : string, clientSecret : string }
 #### Example
 
 ```
-import { internals } from "yah-node-sdk";
+import { internals } from "@appblocks/node-sdk";
 
 internals.initialize({
-		clientId:     YAHILO_APP_CLIENT_ID,
-		clientSecret: YAHILO_APP_CLIENT_SECRET,
+		clientId:     AB_APP_CLIENT_ID,
+		clientSecret: AB_APP_CLIENT_SECRET,
 	})
 ```
 
 ### Shield SDK
 
-Shield SDK module is used to implement and interact with the Yahilo SHIELD.
+Shield SDK module is used to implement and interact with the Appblocks SHIELD.
 
 :::note
 Before using shield, Initialze the application using internals SDK.
@@ -107,12 +107,12 @@ getUID( request : ResquestObject ) : ShieldUIDResponse
 #### Example
 
 ```
-import { shield, internals } from "yah-node-sdk";
+import { shield, internals } from "@appblocks/node-sdk";
 
-// Initialize using Yahilo credentials
+// Initialize using Appblocks credentials
 internals.initialize({
-		clientId:     YAHILO_APP_CLIENT_ID,
-		clientSecret: YAHILO_APP_CLIENT_SECRET,
+		clientId:     AB_APP_CLIENT_ID,
+		clientSecret: AB_APP_CLIENT_SECRET,
 	})
 
 const SheildExampleHandler = async (req, res, next) => {
@@ -130,7 +130,7 @@ const SheildExampleHandler = async (req, res, next) => {
 };
 ```
 
-go to [shield-example repo](https://github.com/yahilo/yah-node-sdk/tree/main/examples/shield-example) to see example.
+go to [shield-example repo](https://github.com/appblocks-hub/node-sdk/tree/main/examples/shield-example) to see example.
 
 ### Environment SDK
 
@@ -143,7 +143,7 @@ init() : void
 #### Example
 
 ```
-import { env } from "yah-node-sdk";
+import { env } from "@appblocks/node-sdk";
 
 // Initialize the env
 env.init();
@@ -158,4 +158,4 @@ const envExampleHandler = async (req, res, next) => {
 };
 ```
 
-go to [env-example repo](https://github.com/yahilo/yah-node-sdk/tree/main/examples/env-example) to see example.
+go to [env-example repo](https://github.com/appblocks-hub/node-sdk/tree/main/examples/env-example) to see example.

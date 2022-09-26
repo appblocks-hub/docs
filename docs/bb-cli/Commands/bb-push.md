@@ -2,17 +2,17 @@
 sidebar_position: 11
 ---
 
-# yah push
+# bb push
 
 To push block code to source control.
 
 ### Synopsis
 
-    yah push [block-name] [options]
+    bb push [block-name] [options]
 
 ### Description
 
-yah push command can be used to make commits and to push block code to connected source control.
+bb push command can be used to make commits and to push block code to connected source control.
 The operation can be performed on a single block or all the blocks at once.
 
 ### Details
@@ -20,9 +20,9 @@ The operation can be performed on a single block or all the blocks at once.
 The command requires two options to be passed, `-f` or `--force` if no block name is provided. Also, the commit message passed with `-m` or `--message` flag.
 
 To push a single block by the name block1 with the commit message "initial commit", the command looks like so:
-`yah push block1 -m "initial commit"`
+`bb push block1 -m "initial commit"`
 
-`yah push -f -m "initial commit"` will commit and push all the blocks with the commit message "initial commit".
+`bb push -f -m "initial commit"` will commit and push all the blocks with the commit message "initial commit".
 
 In case a message was not passed initially, a prompt will ask for a message before committing.
 

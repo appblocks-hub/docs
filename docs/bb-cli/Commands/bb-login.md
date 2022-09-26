@@ -2,15 +2,15 @@
 sidebar_position: 4
 ---
 
-# yah login
+# bb login
 
-`yah login` lets you log into Appblock/ block Registry.
+`bb login` lets you log into Appblock/ block Registry.
 
 Deploying a block includes the following steps:
 
 ### Synopsis
 
-    yah login [options]
+    bb login [options]
 
 ### Description
 
