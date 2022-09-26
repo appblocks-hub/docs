@@ -136,16 +136,20 @@ function Footer() {
             <div className="row footer__links mb-1">
               <div className="col footer__col">
                     <div className="float-left flex flex-col items-start text-base font-semibold">
-                      <div className="w-full text-center mb-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="33" height="38" viewBox="0 0 512 512" fill="none">
-    <rect x="1" y="1" width="511" height="511" rx="39.9219" fill="black"/>
-    <rect x="268.437" y="267.605" width="9.69486" height="46.5354" fill="white"/>
-    <rect x="268.437" y="337.409" width="11.6338" height="46.5354" fill="#1B1F23"/>
-    <rect x="187" y="128" width="46.5455" height="186.182" fill="white"/>
-    <rect x="233.546" y="267.636" width="34.9091" height="46.5455" fill="white"/>
-    <rect x="233.535" y="337.409" width="44.5964" height="46.5354" fill="white"/>
-    <rect x="280.091" y="128" width="47.2727" height="256" fill="white"/>
-</svg>
+                      <div className="w-full text-left mb-1">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1.33984 8.10525H5.85135V26.1513H1.33984V8.10525Z" fill="white"/>
+                          <path d="M10.3624 5.84961H14.8739V17.1284H10.3624V5.84961Z" fill="white"/>
+                          <path d="M10.3624 21.6401H14.8739V26.1516H10.3624V21.6401Z" fill="white"/>
+                          <path d="M5.85177 12.6169L5.85135 8.10525L10.3633 8.10536V12.6169H5.85177Z" fill="white"/>
+                          <path d="M21.6392 21.6401H26.1507V26.1516H21.6392V21.6401Z" fill="#6F42C1"/>
+                          <path d="M26.1511 12.6169H30.6626V26.1514L26.1507 26.1516L26.1511 12.6169Z" fill="#6F42C1"/>
+                          <path d="M21.6392 12.6169H26.1511L26.1507 17.1284H21.6392V12.6169Z" fill="#6F42C1"/>
+                          <path d="M14.9727 17.1285L14.9727 12.617H17.1277V17.1285H14.9727Z" fill="#6F42C1"/>
+                          <path d="M17.1272 26.1514L17.1272 5.84961L21.6387 5.84961L21.6392 26.1516L17.1272 26.1514Z" fill="#6F42C1"/>
+                          <path d="M14.9789 26.1514L14.9789 21.6399H17.1277L17.1272 26.1514H14.9789Z" fill="#6F42C1"/>
+                          <path d="M5.85156 21.6396L5.85156 17.1281L16.9672 17.1281L16.9672 21.6396L5.85156 21.6396Z" fill="white"/>
+                        </svg>
                       </div>
                       <p className="mb-0">Appblocks</p>
                     </div>

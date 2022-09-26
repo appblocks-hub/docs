@@ -1,9 +1,25 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1" y="1" width="511" height="511" rx="39.9219" fill="black"/>
-<rect x="268.437" y="267.605" width="9.69486" height="46.5354" fill="white"/>
-<rect x="268.437" y="337.409" width="11.6338" height="46.5354" fill="#1B1F23"/>
-<rect x="187" y="128" width="46.5455" height="186.182" fill="white"/>
-<rect x="233.546" y="267.636" width="34.9091" height="46.5455" fill="white"/>
-<rect x="233.535" y="337.409" width="44.5964" height="46.5354" fill="white"/>
-<rect x="280.091" y="128" width="47.2727" height="256" fill="white"/>
+<svg width="650" height="450" viewBox="0 0 650 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="50" width="100" height="400" fill="#24292E"/>
+<mask id="path-2-inside-1_9483_41793" fill="white">
+<path d="M200 0H300V250H200V0Z"/>
+</mask>
+<path d="M200 0H300V250H200V0Z" fill="#24292E"/>
+<path d="M298 0V250H302V0H298Z" fill="white" mask="url(#path-2-inside-1_9483_41793)"/>
+<mask id="path-4-inside-2_9483_41793" fill="white">
+<path d="M200 350H300V450H200V350Z"/>
+</mask>
+<path d="M200 350H300V450H200V350Z" fill="#24292E"/>
+<path d="M298 350V450H302V350H298Z" fill="white" mask="url(#path-4-inside-2_9483_41793)"/>
+<rect x="450" y="350" width="100" height="100" fill="#6F42C1"/>
+<rect x="550" y="150" width="100" height="300" fill="#6F42C1"/>
+<rect x="450" y="150" width="100" height="100" fill="#6F42C1"/>
+<rect x="100" y="150" width="100" height="100" transform="rotate(-90 100 150)" fill="#24292E"/>
+<rect x="300" y="250" width="100" height="50" transform="rotate(-90 300 250)" fill="#6F42C1"/>
+<rect x="350" y="450" width="450" height="100" transform="rotate(-90 350 450)" fill="#6F42C1"/>
+<rect x="300" y="450" width="100" height="50" transform="rotate(-90 300 450)" fill="#6F42C1"/>
+<mask id="path-13-inside-3_9483_41793" fill="white">
+<path d="M100 350L100 250L350 250L350 350L100 350Z"/>
+</mask>
+<path d="M100 350L100 250L350 250L350 350L100 350Z" fill="#24292E"/>
+<path d="M348 250L348 350L352 350L352 250L348 250Z" fill="white" mask="url(#path-13-inside-3_9483_41793)"/>
 </svg>
