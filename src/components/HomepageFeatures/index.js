@@ -48,13 +48,13 @@ const FeatureList = [
 
 function Feature({Svg, title, description, link}) {
   return (
-    <Link to={link}>
+    <Link to={link} className="box-link-main">
       <div className={clsx('group bg-white border border-solid rounded-lg border-primary py-8 xl:py-12 hover:shadow-[0_0px_0px_3px_#E6DCFD] cursor-pointer flex flex-col justify-center w-full h-full items-center')}>
         <div className="text--center pb-4">
           <Svg className={styles.featureSvg} role="img" />
         </div>
         <div className="text--center padding-horiz--md">
-          <h3 className="text-xl font-semibold group-hover:text-[#6F42C1] mb-1.5">{title}</h3>
+          <h3 className="text-xl font-semibold text-gray-dark group-hover:text-[#6F42C1] mb-1.5">{title}</h3>
           <p className="text-sm text-gray-light mb-0">{description}</p>
         </div>
       </div>
