@@ -181,3 +181,10 @@
 .theme-doc-markdown a{
   color: #6F42C1 !important;
 }
+.box-link-main{
+  color: #24292E !important;
+}
+.box-link-main:hover{
+  color: #6F42C1 !important;
+  text-decoration: none !important;
+}

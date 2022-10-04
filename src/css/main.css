@@ -75,10 +75,6 @@
   margin-top: 2rem;
 }
 
-.mb-2{
-  margin-bottom: 0.5rem;
-}
-
 .flex{
   display: flex;
 }
@@ -220,10 +216,6 @@
 
 .text-left{
   text-align: left;
-}
-
-.text-center{
-  text-align: center;
 }
 
 .text-3xl{
@@ -399,9 +391,19 @@ input:focus{
   outline-offset: 2px;
 }
 
+.group:hover .group-hover\:text-\[\#eee\]{
+  --tw-text-opacity: 1;
+  color: rgb(238 238 238 / var(--tw-text-opacity));
+}
+
 .group:hover .group-hover\:text-\[\#6F42C1\]{
   --tw-text-opacity: 1;
   color: rgb(111 66 193 / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:no-underline{
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 
 @media (min-width: 768px){

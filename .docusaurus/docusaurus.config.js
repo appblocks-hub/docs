@@ -5,7 +5,7 @@ Modify the docusaurus.config.js file at your site's root instead.
 */
 export default {
   "title": "Appblocks Developer Docs",
-  "tagline": "Build like Lego, but a lot more flexible.",
+  "tagline": "Build tools the world can build upon, Block by Block.",
   "url": "https://docs.appblocks.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -18,11 +18,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/ntpl/NEOITO_PROJECTS/APPBLOCKS/docs/sidebars.js",
+          "sidebarPath": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblox-development/docs-v2/docs-shan-for-push/sidebars.js",
           "editUrl": "https://github.com/appblocks-hub/docs/tree/main/"
         },
         "theme": {
-          "customCss": "/home/ntpl/NEOITO_PROJECTS/APPBLOCKS/docs/src/css/custom.css"
+          "customCss": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblox-development/docs-v2/docs-shan-for-push/src/css/custom.css"
         }
       }
     ]

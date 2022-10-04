@@ -142,7 +142,7 @@
       },
       {
         "type": "category",
-        "label": "Blox Store",
+        "label": "Blocks Store",
         "collapsible": true,
         "collapsed": true,
         "items": [

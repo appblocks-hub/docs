@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Appblocks Developer Docs',
-  tagline: 'Build like Lego, but a lot more flexible.',
+  tagline: 'Build tools the world can build upon, Block by Block.',
   url: 'https://docs.appblocks.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
