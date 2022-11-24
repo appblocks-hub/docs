@@ -1,0 +1,32 @@
+# Getting Started with Blocks
+
+You should be signed up with Appblocks to create a **block (hyperlink)**. Have a text editor of your choice installed for your programming.
+
+## Installing the CLI
+
+1. Login to Appblocks if not logged in already.
+    * bb login //command to login into shield. 
+    * This will redirect to the shield page,  where users can login with credentials. And return back to CLI.
+2. Connect with Github
+    * bb connect service_name [-f] // [-f force if needed to change existing connection] 
+    * Command to connect with git service provider
+
+
+## Creating a block using the CLI
+
+1. Creating a new block
+   * A block should be created under a packaged block (parent block) steps
+   * Create a new packaged block will prompt with pic1  
+      > bb init packaged_block_name  
+   * This will create a packaged_block_name dir with block.config.json and if the chosen sample project that will be also there.  
+   * Now cd into packaged_block_name workspace
+   * To create block can create ui-container , ui-elements , function , shared-fn , job blocks will prompt with pic2 for job block and for rest there will be no prompt for enter cron schedule and time zone information, the rest workflow is same for all blocks
+      > bb create block_name
+   * To pull block (also have option to pull and create with new name) will prompt with pic3, where user can create a new clone or fork the block OR just use it as it is 
+      > bb pull block_name 
+   * After your necessary changes are made in the code
+      > bb push [-f or block_name]  
+      * [-f => push all changes to this block or specified block]
+    * used to publish the block
+        > bb publish block_name 
+
