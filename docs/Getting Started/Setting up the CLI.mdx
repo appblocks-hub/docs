@@ -1,0 +1,56 @@
+## Setting up the CLI
+
+### 1. Linux and Mac:  
+
+#### 1.1 Install nvm
+1.1.1.	It is recommended to use nvm for installing node.  
+
+1.1.2.	You can install nvm using the command ,
+ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+If curl is not installed, run sudo apt-get install curl  
+
+![git4](https://user-images.githubusercontent.com/97872852/203755963-0ed75bc1-5af0-42fc-b8bc-49c168de93e5.gif)  
+
+#### 1.2. Install NodeJs
+1.2.1.	Install LTS of v16
+Further reading: https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl  
+
+![git5](https://user-images.githubusercontent.com/97872852/203756175-9d98c29c-421b-4deb-be4a-c44c67ae3038.gif)  
+
+#### 1.3. Install @appblocks/bb-cli
+1.3.1.	Installing bb-cli is simple. Run npm i -g @appblocks/bb-cli
+1.3.2.	It is recommended to install bb-cli globally (hence the -g flag), if you prefer to install without -g, command might need to be prefixed with npx ( Eg. npx bb login )  
+
+![git6](https://user-images.githubusercontent.com/97872852/203756370-557ad93f-4817-4cc7-b7c3-cdbfa65b39cb.gif)  
+
+### 2. Windows
+bb-cli works best in linux bash.If you prefer working in windows, it is adviced to do so in wsl with windows terminal application
+#### 2.1. Installing WSL
+2.1.1.	Open windows Powershell or Command Prompt in administrator mode  
+
+2.1.2.	Run wsl –install  
+
+This will install and setup all the things necessary to run linux, including the latest ubuntu distro. For futher reading: https://learn.microsoft.com/en-us/windows/wsl/install  
+
+![gitt](https://user-images.githubusercontent.com/97872852/203749101-a6915fec-cb28-4d01-9a3e-fc85533eea11.gif)  
+
+2.1.3. Setup Ubuntu  
+
+Open ubuntu from start, a terminal window will appear, where you can set the username and password for the linux user  
+
+![git1](https://user-images.githubusercontent.com/97872852/203754998-6b5c3e72-56a2-46b3-b8a9-ce14db3ec661.gif)  
+
+2.1.4. Install Terminal  
+
+  Visit windows store and search for Terminal. Install the first suggestion.  
+ 
+![git2](https://user-images.githubusercontent.com/97872852/203755290-dcb464d2-98fa-4152-b2b7-055d2c11f96f.gif)  
+
+2.1.5. Change default profile  
+
+   Windows terminal by default will be set to open in powershell, you can shange that to use ubuntu profile by default. For further reading: https://learn.microsoft.com/en-us/windows/terminal  
+
+![git3](https://user-images.githubusercontent.com/97872852/203755570-fc9eb24a-2339-4d13-9dc1-4d70dcfc0f8e.gif)  
+
+2.1.6 Continue steps **1.1. Install nvm**, **1.2. Install NodeJs** and **1.3. Install @appblocks/bb-cli**.
+
