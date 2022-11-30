@@ -25,6 +25,8 @@ If a directory for a block is present and is valid, but the cli cannot identify 
 The `bb sync` command will scan through the entire appblock directory, looking for valid _block.config.json_ files. It'll also check for the location of blocks in directory tree based on type. If there are misplaced blocks, command will ask user to move folders to expected paths. Command will also check with the registry for the existence of found blocks, and prompt user to register all the non-registered blocks.  
 At last a new config json is displayed where user can accept or reject the new config.
 
+If blocks are rearranged within directories, bb sync can be used for rebuilding config.json locally.
+
 <!-- ### Configuration -->
 
 ## Recreate missing config json
