@@ -1,5 +1,5 @@
-| Function     | Command | Description       |
-| ----------- | ----------- |----------------- | 
+ |  Function      |  Command      |   Description        |
+| ----------- | ----------------------- |---------- | 
 | Appblocks Login  | [bb login](https://docs.appblocks.com/docs/bb-cli/Commands/bb-login)        |  Lets the user login to Appblocks with Shield.       |
 | Github Connection   | [bb connect](https://docs.appblocks.com/docs/bb-cli/Commands/bb-connect)       | Connect command can be used to authorize CLI to use source controls (only Git is supported)           |
 | Start all blocks   | [bb start](https://docs.appblocks.com/docs/bb-cli/Commands/bb-start)        | Starts the emulator and also all the available ui blocks, installing all its pacakge dependencies first|
@@ -16,7 +16,13 @@
 | Push all blocks to source control   | [bb push --force](https://docs.appblocks.com/docs/bb-cli/Commands/bb-push)    | Can be used to commit and push all blocks code to connected source control. Here, '-f' can be used instead of '--force' and you will also be prompted for commit message     |
 | Push single block  |  [bb push < block-name >](https://docs.appblocks.com/docs/bb-cli/Commands/bb-push#details)  | Can be used to commit and push the block code to connected source control. You will also be prompted for commit message      |
 | Push all blocks with commit message   |  [bb push --force --message < "commit message" > ](https://docs.appblocks.com/docs/bb-cli/Commands/bb-push#details)   |  Can be used to commit and push all blocks code to connected source control with a commit message. Here, '-f' can be used instead of '--force' and '-m' instead of '--message'      |
-| Push a block with commit message   |  [bb push < block-name > --message < "commit message" >](https://docs.appblocks.com/docs/bb-cli/Commands/bb-push#details)  | Can be used to commit and push the block code to connected source control with a commit message. Here, '-m' instead of '--message'       |
-| Paragraph   |     | Paragraph        |
-| Paragraph   |     | Paragraph        |
-| Paragraph   |     | Paragraph        |
+| Push a block with commit message   |  [bb push < block-name > --message < "commit message" >](https://docs.appblocks.com/docs/bb-cli/Commands/bb-push#details)  | Can be used to commit and push the block code to connected source control with a commit message. Here, '-m' instead of '--message'     |
+| Push the Packaged block config   |  [bb push-config](https://docs.appblocks.com/docs/bb-cli/Commands/bb-push-config)  | Run the command inside the packaged block directory to push the config to registry|
+| Executing command in one block   |  [bb exec "ls -a" < block-name >](https://docs.appblocks.com/docs/bb-cli/Commands/bb-exec#executing-a-command-in-one-block)   | Lets you run a command in a single block's directory, a list of blocks' directories or all present blocks at once.        |
+| Executing a command in a List of blocks   |   [bb exec "ls -a" -in < block1-name >  < block2-name >](https://docs.appblocks.com/docs/bb-cli/Commands/bb-exec#executing-a-command-in-a-list-of-blocks)  | To run a command inside a list of selected blocks, space-separated block names can be passed with -in or --inside options.|
+| Executing a command in all the blocks   |  [bb exec "npm i"](https://docs.appblocks.com/docs/bb-cli/Commands/bb-exec#executing-a-command-in-all-the-blocks)   | If no options is provided, the given command is executed inside all the blocks by default|
+| Display the block and its current statuses   |  [bb ls](https://docs.appblocks.com/docs/bb-cli/Commands/bb-ls)   | bb ls will display all blocks present in the app along with the current running status in a table|
+| Rebuild config json   |   [bb sync](https://docs.appblocks.com/docs/bb-cli/Commands/bb-sync#rebuild-config-json)  |      If a directory for a block is present and is valid, but the cli cannot identify it because it is not present in appblock config, running bb sync will add it to the config.   |
+| Recreate missing config json   |  [bb sync](https://docs.appblocks.com/docs/bb-cli/Commands/bb-sync#recreate-missing-config-json)   | If the appblock.config.json is gone missing, bb sync can also rebuild it from scratch |
+| Pull a block| [bb pull < block-name >](https://docs.appblocks.com/docs/bb-cli/Commands/bb-pull#pull-a-block) | The command will pull the latest code of < block-name > to the local directory| 
+|Create custom version of a block | [bb pull < block-name >](https://docs.appblocks.com/docs/bb-cli/Commands/bb-pull#create-custom-version-of-a-block) |If the user wants to customise a block by cloning the block code to own repo, the pull command prompts with a question at the start|
