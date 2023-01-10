@@ -43,59 +43,60 @@ const config = {
         },
         items: [
           {
-            type: "doc",
-            docId: "intro",
-            label: "Docs",
+            href: "#",
+            label: "Appblocks Store",
             position: "right",
+            className:"primary-link-underline"
           },
           {
             href: "https://github.com/appblocks-hub",
             label: "GitHub",
             position: "right",
+            className:"github-btn"
           },
         ],
       },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Discord",
-                href: "https://adddiscordhere",
-              },
-              {
-                label: "Twitter",
-                href: "https://addtwitterhere",
-              },
-              {
-                label: "GitHub",
-                href: "https://addtwitterhere",
-              },
-            ],
-          },
-          {
-            title: "Legal",
-            items: [
-              {
-                label: "GitHub",
-                href: "https://github.com/appblocks-hub/docs",
-              },
-            ],
-          },
-          {
-            title: "Contact Us",
-            items: [
-              {
-                label: "support@appblocks.com",
-                href: "mailto:support@appblocks.com",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Appblocks.`,
-      },
+      // footer: {
+      //   style: "dark",
+      //   links: [
+      //     {
+      //       title: "Community",
+      //       items: [
+      //         {
+      //           label: "Discord",
+      //           href: "https://adddiscordhere",
+      //         },
+      //         {
+      //           label: "Twitter",
+      //           href: "https://addtwitterhere",
+      //         },
+      //         {
+      //           label: "GitHub",
+      //           href: "https://addtwitterhere",
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: "Legal",
+      //       items: [
+      //         {
+      //           label: "GitHub",
+      //           href: "https://github.com/appblocks-hub/docs",
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: "Contact Us",
+      //       items: [
+      //         {
+      //           label: "support@appblocks.com",
+      //           href: "mailto:support@appblocks.com",
+      //         },
+      //       ],
+      //     },
+      //   ],
+      //   copyright: `Copyright © ${new Date().getFullYear()} Appblocks.`,
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

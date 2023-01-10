@@ -71,6 +71,18 @@
   margin-bottom: 0.25rem;
 }
 
+.mt-6{
+  margin-top: 1.5rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.mt-14{
+  margin-top: 3.5rem;
+}
+
 .mt-8{
   margin-top: 2rem;
 }
@@ -103,8 +115,8 @@
   width: 2.5rem;
 }
 
-.max-w-6xl{
-  max-width: 72rem;
+.max-w-5xl{
+  max-width: 64rem;
 }
 
 .transform{
@@ -127,24 +139,20 @@
   align-items: flex-start;
 }
 
-.items-center{
-  align-items: center;
-}
-
-.justify-center{
-  justify-content: center;
+.justify-between{
+  justify-content: space-between;
 }
 
 .gap-4{
   gap: 1rem;
 }
 
-.rounded-lg{
-  border-radius: 0.5rem;
-}
-
 .rounded-md{
   border-radius: 0.375rem;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
 }
 
 .border{
@@ -157,6 +165,11 @@
 
 .border-none{
   border-style: none;
+}
+
+.border-primary{
+  --tw-border-opacity: 1;
+  border-color: rgb(94 94 221 / var(--tw-border-opacity));
 }
 
 .bg-white{
@@ -173,14 +186,18 @@
   background-color: transparent;
 }
 
+.p-4{
+  padding: 1rem;
+}
+
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .px-4{
@@ -206,8 +223,12 @@
   padding-bottom: 10rem;
 }
 
-.pb-4{
-  padding-bottom: 1rem;
+.pb-3{
+  padding-bottom: 0.75rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
 }
 
 .pb-2{
@@ -233,9 +254,9 @@
   line-height: 1.25rem;
 }
 
-.text-base{
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-xs{
@@ -243,8 +264,32 @@
   line-height: 1rem;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-semibold{
   font-weight: 600;
+}
+
+.font-medium{
+  font-weight: 500;
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-ab-black{
+  --tw-text-opacity: 1;
+  color: rgb(72 72 72 / var(--tw-text-opacity));
 }
 
 .outline-none{
@@ -322,6 +367,11 @@ input:focus{
   background-color: #29134E;
 }
 
+.primary-link-underline{
+  color: #5E5EDD;
+  text-decoration: underline;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -375,13 +425,28 @@ input:focus{
   color: rgb(28 30 33 / var(--tw-text-opacity));
 }
 
-.hover\:text-\[\#6F42C1\]:hover{
+.hover\:\!text-primary:hover{
+  --tw-text-opacity: 1 !important;
+  color: rgb(94 94 221 / var(--tw-text-opacity)) !important;
+}
+
+.hover\:text-primary:hover{
   --tw-text-opacity: 1;
-  color: rgb(111 66 193 / var(--tw-text-opacity));
+  color: rgb(94 94 221 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover{
+  text-decoration-line: underline;
 }
 
 .hover\:shadow-\[0_0px_0px_3px_\#E6DCFD\]:hover{
   --tw-shadow: 0 0px 0px 3px #E6DCFD;
+  --tw-shadow-colored: 0 0px 0px 3px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:shadow-\[0_0px_0px_3px_\#5E5EDD\]:hover{
+  --tw-shadow: 0 0px 0px 3px #5E5EDD;
   --tw-shadow-colored: 0 0px 0px 3px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
@@ -391,19 +456,14 @@ input:focus{
   outline-offset: 2px;
 }
 
-.group:hover .group-hover\:text-\[\#eee\]{
-  --tw-text-opacity: 1;
-  color: rgb(238 238 238 / var(--tw-text-opacity));
-}
-
 .group:hover .group-hover\:text-\[\#6F42C1\]{
   --tw-text-opacity: 1;
   color: rgb(111 66 193 / var(--tw-text-opacity));
 }
 
-.group:hover .group-hover\:no-underline{
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+.group:hover .group-hover\:text-primary{
+  --tw-text-opacity: 1;
+  color: rgb(94 94 221 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
@@ -413,10 +473,6 @@ input:focus{
 
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:gap-8{
-    gap: 2rem;
   }
 
   .md\:border{
@@ -447,28 +503,12 @@ input:focus{
     display: inline-block;
   }
 
-  .lg\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:gap-16{
-    gap: 4rem;
-  }
-
-  .lg\:px-16{
-    padding-left: 4rem;
-    padding-right: 4rem;
+  .lg\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:text-5xl{
     font-size: 3rem;
     line-height: 1;
-  }
-}
-
-@media (min-width: 1280px){
-  .xl\:py-12{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
   }
 }

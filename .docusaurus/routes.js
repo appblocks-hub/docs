@@ -50,7 +50,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','f0f'),
+    component: ComponentCreator('/docs','8e9'),
     routes: [
       {
         path: '/docs/bb-cli/Commands/bb-connect',
@@ -137,14 +137,32 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/Buying a Block',
+        component: ComponentCreator('/docs/Buying a Block','e2a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/composability-vs-dependency',
         component: ComponentCreator('/docs/composability-vs-dependency','31d'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/Getting Started with blocks',
+        component: ComponentCreator('/docs/Getting Started with blocks','c62'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','99a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Licences and Subscriptions',
+        component: ComponentCreator('/docs/Licences and Subscriptions','89f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -157,6 +175,24 @@ export default [
       {
         path: '/docs/SDK/node-sdk',
         component: ComponentCreator('/docs/SDK/node-sdk','6d8'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Selling a Block',
+        component: ComponentCreator('/docs/Selling a Block','e15'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Spaces',
+        component: ComponentCreator('/docs/Spaces','0df'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Tracking your Sales and Orders',
+        component: ComponentCreator('/docs/Tracking your Sales and Orders','a21'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

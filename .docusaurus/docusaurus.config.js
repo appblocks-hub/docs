@@ -18,11 +18,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblox-development/docs-v2/docs-shan-for-push/sidebars.js",
+          "sidebarPath": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/Docs/docs/sidebars.js",
           "editUrl": "https://github.com/appblocks-hub/docs/tree/main/"
         },
         "theme": {
-          "customCss": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblox-development/docs-v2/docs-shan-for-push/src/css/custom.css"
+          "customCss": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/Docs/docs/src/css/custom.css"
         }
       }
     ]
@@ -36,59 +36,19 @@ export default {
       },
       "items": [
         {
-          "type": "doc",
-          "docId": "intro",
-          "label": "Docs",
-          "position": "right"
+          "href": "#",
+          "label": "Appblocks Store",
+          "position": "right",
+          "className": "primary-link-underline"
         },
         {
           "href": "https://github.com/appblocks-hub",
           "label": "GitHub",
-          "position": "right"
+          "position": "right",
+          "className": "github-btn"
         }
       ],
       "hideOnScroll": false
-    },
-    "footer": {
-      "style": "dark",
-      "links": [
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Discord",
-              "href": "https://adddiscordhere"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://addtwitterhere"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://addtwitterhere"
-            }
-          ]
-        },
-        {
-          "title": "Legal",
-          "items": [
-            {
-              "label": "GitHub",
-              "href": "https://github.com/appblocks-hub/docs"
-            }
-          ]
-        },
-        {
-          "title": "Contact Us",
-          "items": [
-            {
-              "label": "support@appblocks.com",
-              "href": "mailto:support@appblocks.com"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2022 Appblocks."
     },
     "prism": {
       "theme": {

@@ -54,6 +54,10 @@ input:focus{
 .banner-bg{
   background-color: #29134E;
 }
+.primary-link-underline{
+  color: #5E5EDD;
+  text-decoration: underline;
+}
 
 @keyframes fadeIn {
   from {

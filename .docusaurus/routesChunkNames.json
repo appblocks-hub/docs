@@ -29,7 +29,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-f0f": {
+  "/docs-8e9": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -89,13 +89,25 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-blocks-store-walkthroughd-38-e46"
   },
+  "/docs/Buying a Block-e2a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-buying-a-block-0-ce-af3"
+  },
   "/docs/composability-vs-dependency-31d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-composability-vs-dependency-1-b-9-3ea"
   },
+  "/docs/Getting Started with blocks-c62": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-with-blocksb-92-5b0"
+  },
   "/docs/intro-99a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-introf-84-2b4"
+  },
+  "/docs/Licences and Subscriptions-89f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-licences-and-subscriptions-59-d-b1d"
   },
   "/docs/SDK/js-sdk-f98": {
     "component": "component---theme-doc-item-178-a40",
@@ -104,6 +116,18 @@
   "/docs/SDK/node-sdk-6d8": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-sdk-node-sdk-2-b-5-2e2"
+  },
+  "/docs/Selling a Block-e15": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-selling-a-blockfdc-81c"
+  },
+  "/docs/Spaces-0df": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-spacesd-37-b0d"
+  },
+  "/docs/Tracking your Sales and Orders-a21": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-tracking-your-sales-and-orders-1-db-83b"
   },
   "/docs/types-of-blocks-9a0": {
     "component": "component---theme-doc-item-178-a40",

@@ -81,13 +81,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Buying a Block",
+              "path": "/docs/Buying a Block",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "composability-vs-dependency",
               "path": "/docs/composability-vs-dependency",
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Getting Started with blocks",
+              "path": "/docs/Getting Started with blocks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Licences and Subscriptions",
+              "path": "/docs/Licences and Subscriptions",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -98,6 +113,21 @@
             {
               "id": "SDK/node-sdk",
               "path": "/docs/SDK/node-sdk",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Selling a Block",
+              "path": "/docs/Selling a Block",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Spaces",
+              "path": "/docs/Spaces",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tracking your Sales and Orders",
+              "path": "/docs/Tracking your Sales and Orders",
               "sidebar": "tutorialSidebar"
             },
             {
