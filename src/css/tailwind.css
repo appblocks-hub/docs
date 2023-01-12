@@ -4,9 +4,9 @@
 
 @tailwind utilities;
 
-body{
+html,body{
   background-color: #FAFBFC;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif !important;
 }
 .border-primary{
   border-color: #E1E4E8;
