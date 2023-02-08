@@ -159,9 +159,8 @@ function DocSearch({contextualSearch, externalUrlRegex, ...props}) {
         />
       </Head>
 
-      {/* <div className={`${styles.searchBox} nav-search`}>
+      <div className={styles.searchBox}>
         <DocSearchButton
-          className="border-none md:border md:border-solid w-10 md:w-64 border-primary bg-white rounded-lg h-8"
           onTouchStart={importDocSearchModalIfNeeded}
           onFocus={importDocSearchModalIfNeeded}
           onMouseOver={importDocSearchModalIfNeeded}
@@ -172,7 +171,7 @@ function DocSearch({contextualSearch, externalUrlRegex, ...props}) {
             buttonAriaLabel: translatedSearchLabel,
           }}
         />
-      </div> */}
+      </div>
 
       {isOpen &&
         DocSearchModal &&

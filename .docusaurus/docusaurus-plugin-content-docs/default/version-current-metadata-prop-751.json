@@ -9,6 +9,20 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
+        "type": "category",
+        "label": "Overview",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/docs/Overview/get-started",
+            "docId": "Overview/get-started"
+          }
+        ]
+      },
+      {
         "type": "link",
         "label": "Blocks Architecture",
         "href": "/docs/intro",
@@ -115,6 +129,12 @@
                 "label": "bb pull",
                 "href": "/docs/bb-cli/Commands/bb-pull",
                 "docId": "bb-cli/Commands/bb-pull"
+              },
+              {
+                "type": "link",
+                "label": "Overview",
+                "href": "/docs/bb-cli/Commands/Overview",
+                "docId": "bb-cli/Commands/Overview"
               }
             ]
           }
@@ -155,40 +175,68 @@
         ]
       },
       {
-        "type": "link",
-        "label": "Buying a Block",
-        "href": "/docs/Buying a Block",
-        "docId": "Buying a Block"
+        "type": "category",
+        "label": "Getting Started",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Setting up the CLI",
+            "href": "/docs/Getting Started/Setting up the CLI",
+            "docId": "Getting Started/Setting up the CLI"
+          },
+          {
+            "type": "link",
+            "label": "Creating Blocks and Apps",
+            "href": "/docs/Getting Started/Creating Blocks and Apps",
+            "docId": "Getting Started/Creating Blocks and Apps"
+          },
+          {
+            "type": "link",
+            "label": "Using the purchased block",
+            "href": "/docs/Getting Started/Using the purchased block",
+            "docId": "Getting Started/Using the purchased block"
+          }
+        ]
       },
       {
-        "type": "link",
-        "label": "Getting Started with Blocks",
-        "href": "/docs/Getting Started with blocks",
-        "docId": "Getting Started with blocks"
-      },
-      {
-        "type": "link",
-        "label": "Licenses and Subscriptions",
-        "href": "/docs/Licences and Subscriptions",
-        "docId": "Licences and Subscriptions"
-      },
-      {
-        "type": "link",
-        "label": "Selling a Block",
-        "href": "/docs/Selling a Block",
-        "docId": "Selling a Block"
+        "type": "category",
+        "label": "Sales and Purchases",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Buying a Block",
+            "href": "/docs/Sales and Purchases/Buying a Block",
+            "docId": "Sales and Purchases/Buying a Block"
+          },
+          {
+            "type": "link",
+            "label": "Licenses and Subscriptions",
+            "href": "/docs/Sales and Purchases/Licences and Subscriptions",
+            "docId": "Sales and Purchases/Licences and Subscriptions"
+          },
+          {
+            "type": "link",
+            "label": "Selling a Block",
+            "href": "/docs/Sales and Purchases/Selling a Block",
+            "docId": "Sales and Purchases/Selling a Block"
+          },
+          {
+            "type": "link",
+            "label": "Tracking your Sales, Orders and Block Management",
+            "href": "/docs/Sales and Purchases/Tracking your Sales and Orders",
+            "docId": "Sales and Purchases/Tracking your Sales and Orders"
+          }
+        ]
       },
       {
         "type": "link",
         "label": "Spaces",
         "href": "/docs/Spaces",
         "docId": "Spaces"
-      },
-      {
-        "type": "link",
-        "label": "Tracking your Sales, Orders and Block Management",
-        "href": "/docs/Tracking your Sales and Orders",
-        "docId": "Tracking your Sales and Orders"
       }
     ]
   },
@@ -271,16 +319,16 @@
       "description": "The 'bb sync' command can be used to convert existing projects that were not built as blocks, to appblock projects.",
       "sidebar": "tutorialSidebar"
     },
+    "bb-cli/Commands/Overview": {
+      "id": "bb-cli/Commands/Overview",
+      "title": "Overview",
+      "description": "|Function      |Command      |Description        |",
+      "sidebar": "tutorialSidebar"
+    },
     "blocks-store/walkthrough": {
       "id": "blocks-store/walkthrough",
       "title": "Blocks Store Walkthrough",
       "description": "Blocks Store",
-      "sidebar": "tutorialSidebar"
-    },
-    "Buying a Block": {
-      "id": "Buying a Block",
-      "title": "Buying a Block",
-      "description": "1.  Login to your Appblocks account and visit the store at https://store.appblocks.com/",
       "sidebar": "tutorialSidebar"
     },
     "composability-vs-dependency": {
@@ -289,10 +337,22 @@
       "description": "Composability",
       "sidebar": "tutorialSidebar"
     },
-    "Getting Started with blocks": {
-      "id": "Getting Started with blocks",
-      "title": "Getting Started with Blocks",
-      "description": "You should be signed up with Appblocks to create a block (hyperlink). Have a text editor of your choice installed for your programming.",
+    "Getting Started/Creating Blocks and Apps": {
+      "id": "Getting Started/Creating Blocks and Apps",
+      "title": "Creating Blocks and Apps",
+      "description": "Creating blocks and apps",
+      "sidebar": "tutorialSidebar"
+    },
+    "Getting Started/Setting up the CLI": {
+      "id": "Getting Started/Setting up the CLI",
+      "title": "Setting up the CLI",
+      "description": "Setting up the CLI",
+      "sidebar": "tutorialSidebar"
+    },
+    "Getting Started/Using the purchased block": {
+      "id": "Getting Started/Using the purchased block",
+      "title": "Using the purchased block",
+      "description": "Using the purchased block",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
@@ -301,10 +361,34 @@
       "description": "“As business needs change, organizations must be able to deliver innovation quickly and adapt applications dynamically — reassembling capabilities from inside and outside the enterprise. To do this, organizations must understand and implement the “composable enterprise.” – Gartner",
       "sidebar": "tutorialSidebar"
     },
-    "Licences and Subscriptions": {
-      "id": "Licences and Subscriptions",
+    "Overview/get-started": {
+      "id": "Overview/get-started",
+      "title": "Overview",
+      "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Sales and Purchases/Buying a Block": {
+      "id": "Sales and Purchases/Buying a Block",
+      "title": "Buying a Block",
+      "description": "1.  Login to your Appblocks account and visit the store at https://store.appblocks.com/",
+      "sidebar": "tutorialSidebar"
+    },
+    "Sales and Purchases/Licences and Subscriptions": {
+      "id": "Sales and Purchases/Licences and Subscriptions",
       "title": "Licenses and Subscriptions",
       "description": "Seller may list their blocks as free or paid.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Sales and Purchases/Selling a Block": {
+      "id": "Sales and Purchases/Selling a Block",
+      "title": "Selling a Block",
+      "description": "The instance you create a block using the CLI, it will appear in the store as a private and other pages of Appblocks in your logged in account.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Sales and Purchases/Tracking your Sales and Orders": {
+      "id": "Sales and Purchases/Tracking your Sales and Orders",
+      "title": "Tracking your Sales, Orders and Block Management",
+      "description": "Sales History",
       "sidebar": "tutorialSidebar"
     },
     "SDK/js-sdk": {
@@ -319,22 +403,10 @@
       "description": "This includes the server-side libraries used by applications using Appblocks services.",
       "sidebar": "tutorialSidebar"
     },
-    "Selling a Block": {
-      "id": "Selling a Block",
-      "title": "Selling a Block",
-      "description": "The instance you create a block using the CLI, it will appear in the store as a private and other pages of Appblocks in your logged in account.",
-      "sidebar": "tutorialSidebar"
-    },
     "Spaces": {
       "id": "Spaces",
       "title": "Spaces",
       "description": "Space is where you as an organization collaborate, manage access, subscriptions, licenses and track your sales and purchases. Track and manage everything related to Appblocks in one space. Helps your organizations and teams to collaboratively work on applications and blocks and allows you to manage accesses of all these, all in one workspace.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Tracking your Sales and Orders": {
-      "id": "Tracking your Sales and Orders",
-      "title": "Tracking your Sales, Orders and Block Management",
-      "description": "Sales History",
       "sidebar": "tutorialSidebar"
     },
     "types-of-blocks": {

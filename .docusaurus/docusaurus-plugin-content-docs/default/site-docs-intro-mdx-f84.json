@@ -15,6 +15,10 @@
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/Overview/get-started"
+  },
   "next": {
     "title": "Composability vs Dependency",
     "permalink": "/docs/composability-vs-dependency"

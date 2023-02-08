@@ -250,7 +250,7 @@ export default function Navbar() {
           ))}
         </div>
         <div className="navbar__items navbar__items--right">
-         {!hasSearchNavbarItem && <SearchBar />}
+         {/* {!hasSearchNavbarItem && <SearchBar />} */}
           {rightItems.map((item, i) => (
             <NavbarItem {...item} key={i} />
           ))}
