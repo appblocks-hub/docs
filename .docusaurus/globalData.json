@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "Overview/get-started",
+          "mainDocId": "Overview/Overview",
           "docs": [
             {
               "id": "bb-cli/Commands/bb-connect",
@@ -116,6 +116,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Overview/Overview",
+              "path": "/docs/Overview/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Sales and Purchases/Buying a Block",
               "path": "/docs/Sales and Purchases/Buying a Block",
               "sidebar": "tutorialSidebar"
@@ -159,8 +164,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/Overview/get-started",
-                "label": "Overview/get-started"
+                "path": "/docs/Overview/",
+                "label": "Overview"
               }
             }
           }

@@ -29,7 +29,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-f61": {
+  "/docs-abb": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -112,6 +112,10 @@
   "/docs/intro-99a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-introf-84-2b4"
+  },
+  "/docs/Overview/-2c1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-overview-6-db-826"
   },
   "/docs/Overview/get-started-af4": {
     "component": "component---theme-doc-item-178-a40",

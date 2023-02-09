@@ -319,3 +319,7 @@ button.clean-btn.tocCollapsibleButton_node_modules-\@docusaurus-theme-classic-li
 .search-input{
   background: url(../../static/img/icons/search-icon.svg) no-repeat center right 16px #fff;
 }
+nav.menu .menu__caret:before{
+  background-size: 22px !important;
+  background-repeat: no-repeat;
+}

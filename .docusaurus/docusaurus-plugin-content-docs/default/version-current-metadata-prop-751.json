@@ -16,11 +16,12 @@
         "items": [
           {
             "type": "link",
-            "label": "Overview",
+            "label": "Get Started",
             "href": "/docs/Overview/get-started",
             "docId": "Overview/get-started"
           }
-        ]
+        ],
+        "href": "/docs/Overview/"
       },
       {
         "type": "link",
@@ -363,6 +364,12 @@
     },
     "Overview/get-started": {
       "id": "Overview/get-started",
+      "title": "Get Started",
+      "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Overview/Overview": {
+      "id": "Overview/Overview",
       "title": "Overview",
       "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       "sidebar": "tutorialSidebar"

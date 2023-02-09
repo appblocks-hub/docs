@@ -50,7 +50,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','f61'),
+    component: ComponentCreator('/docs','abb'),
     routes: [
       {
         path: '/docs/bb-cli/Commands/bb-connect',
@@ -169,6 +169,12 @@ export default [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','99a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Overview/',
+        component: ComponentCreator('/docs/Overview/','2c1'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
