@@ -29,7 +29,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-8e9": {
+  "/docs-abb": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -85,29 +85,57 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-bb-cli-commands-bb-syncd-3-b-8dc"
   },
+  "/docs/bb-cli/Commands/Overview-4c4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bb-cli-commands-overviewc-36-050"
+  },
   "/docs/blocks-store/walkthrough-7c7": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-blocks-store-walkthroughd-38-e46"
-  },
-  "/docs/Buying a Block-e2a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-buying-a-block-0-ce-af3"
   },
   "/docs/composability-vs-dependency-31d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-composability-vs-dependency-1-b-9-3ea"
   },
-  "/docs/Getting Started with blocks-c62": {
+  "/docs/Getting Started/Creating Blocks and Apps-d7b": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-with-blocksb-92-5b0"
+    "content": "content---docs-getting-started-creating-blocks-and-apps-8-c-8-2c5"
+  },
+  "/docs/Getting Started/Setting up the CLI-dcd": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-setting-up-the-cl-iea-8-671"
+  },
+  "/docs/Getting Started/Using the purchased block-9ee": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-using-the-purchased-block-647-7aa"
   },
   "/docs/intro-99a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-introf-84-2b4"
   },
-  "/docs/Licences and Subscriptions-89f": {
+  "/docs/Overview/-2c1": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-licences-and-subscriptions-59-d-b1d"
+    "content": "content---docs-overview-6-db-826"
+  },
+  "/docs/Overview/get-started-af4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-overview-get-started-43-b-078"
+  },
+  "/docs/Sales and Purchases/Buying a Block-496": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-sales-and-purchases-buying-a-block-408-700"
+  },
+  "/docs/Sales and Purchases/Licences and Subscriptions-4df": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-sales-and-purchases-licences-and-subscriptions-862-f3f"
+  },
+  "/docs/Sales and Purchases/Selling a Block-df7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-sales-and-purchases-selling-a-blockf-7-a-f56"
+  },
+  "/docs/Sales and Purchases/Tracking your Sales and Orders-b1a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-sales-and-purchases-tracking-your-sales-and-orders-81-a-3ba"
   },
   "/docs/SDK/js-sdk-f98": {
     "component": "component---theme-doc-item-178-a40",
@@ -117,17 +145,9 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-sdk-node-sdk-2-b-5-2e2"
   },
-  "/docs/Selling a Block-e15": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-selling-a-blockfdc-81c"
-  },
   "/docs/Spaces-0df": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-spacesd-37-b0d"
-  },
-  "/docs/Tracking your Sales and Orders-a21": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tracking-your-sales-and-orders-1-db-83b"
   },
   "/docs/types-of-blocks-9a0": {
     "component": "component---theme-doc-item-178-a40",

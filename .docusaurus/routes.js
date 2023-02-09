@@ -50,7 +50,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','8e9'),
+    component: ComponentCreator('/docs','abb'),
     routes: [
       {
         path: '/docs/bb-cli/Commands/bb-connect',
@@ -131,14 +131,14 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/blocks-store/walkthrough',
-        component: ComponentCreator('/docs/blocks-store/walkthrough','7c7'),
+        path: '/docs/bb-cli/Commands/Overview',
+        component: ComponentCreator('/docs/bb-cli/Commands/Overview','4c4'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Buying a Block',
-        component: ComponentCreator('/docs/Buying a Block','e2a'),
+        path: '/docs/blocks-store/walkthrough',
+        component: ComponentCreator('/docs/blocks-store/walkthrough','7c7'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -149,8 +149,20 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Getting Started with blocks',
-        component: ComponentCreator('/docs/Getting Started with blocks','c62'),
+        path: '/docs/Getting Started/Creating Blocks and Apps',
+        component: ComponentCreator('/docs/Getting Started/Creating Blocks and Apps','d7b'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Getting Started/Setting up the CLI',
+        component: ComponentCreator('/docs/Getting Started/Setting up the CLI','dcd'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Getting Started/Using the purchased block',
+        component: ComponentCreator('/docs/Getting Started/Using the purchased block','9ee'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -161,8 +173,38 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Licences and Subscriptions',
-        component: ComponentCreator('/docs/Licences and Subscriptions','89f'),
+        path: '/docs/Overview/',
+        component: ComponentCreator('/docs/Overview/','2c1'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Overview/get-started',
+        component: ComponentCreator('/docs/Overview/get-started','af4'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Sales and Purchases/Buying a Block',
+        component: ComponentCreator('/docs/Sales and Purchases/Buying a Block','496'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Sales and Purchases/Licences and Subscriptions',
+        component: ComponentCreator('/docs/Sales and Purchases/Licences and Subscriptions','4df'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Sales and Purchases/Selling a Block',
+        component: ComponentCreator('/docs/Sales and Purchases/Selling a Block','df7'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/Sales and Purchases/Tracking your Sales and Orders',
+        component: ComponentCreator('/docs/Sales and Purchases/Tracking your Sales and Orders','b1a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -179,20 +221,8 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Selling a Block',
-        component: ComponentCreator('/docs/Selling a Block','e15'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
         path: '/docs/Spaces',
         component: ComponentCreator('/docs/Spaces','0df'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/Tracking your Sales and Orders',
-        component: ComponentCreator('/docs/Tracking your Sales and Orders','a21'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "Overview/Overview",
           "docs": [
             {
               "id": "bb-cli/Commands/bb-connect",
@@ -76,13 +76,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "blocks-store/walkthrough",
-              "path": "/docs/blocks-store/walkthrough",
+              "id": "bb-cli/Commands/Overview",
+              "path": "/docs/bb-cli/Commands/Overview",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Buying a Block",
-              "path": "/docs/Buying a Block",
+              "id": "blocks-store/walkthrough",
+              "path": "/docs/blocks-store/walkthrough",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -91,8 +91,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Getting Started with blocks",
-              "path": "/docs/Getting Started with blocks",
+              "id": "Getting Started/Creating Blocks and Apps",
+              "path": "/docs/Getting Started/Creating Blocks and Apps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Getting Started/Setting up the CLI",
+              "path": "/docs/Getting Started/Setting up the CLI",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Getting Started/Using the purchased block",
+              "path": "/docs/Getting Started/Using the purchased block",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -101,8 +111,33 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Licences and Subscriptions",
-              "path": "/docs/Licences and Subscriptions",
+              "id": "Overview/get-started",
+              "path": "/docs/Overview/get-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Overview/Overview",
+              "path": "/docs/Overview/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Sales and Purchases/Buying a Block",
+              "path": "/docs/Sales and Purchases/Buying a Block",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Sales and Purchases/Licences and Subscriptions",
+              "path": "/docs/Sales and Purchases/Licences and Subscriptions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Sales and Purchases/Selling a Block",
+              "path": "/docs/Sales and Purchases/Selling a Block",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Sales and Purchases/Tracking your Sales and Orders",
+              "path": "/docs/Sales and Purchases/Tracking your Sales and Orders",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -116,18 +151,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Selling a Block",
-              "path": "/docs/Selling a Block",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Spaces",
               "path": "/docs/Spaces",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Tracking your Sales and Orders",
-              "path": "/docs/Tracking your Sales and Orders",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -139,8 +164,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/Overview/",
+                "label": "Overview"
               }
             }
           }
