@@ -71,7 +71,7 @@ const GetStartedList = [
 
 function Feature({Svg, title, description, link}) {
   return (
-    <div className="box-link-main">
+    <Link to={link} className="box-link-main group">
       <div className={clsx('group bg-white border border-solid rounded-md border-primary py-6 cursor-pointer flex flex-col justify-between w-full h-full p-4')}>
         <div className="w-full flex flex-col">
           <div className="w-full flex flex-start pb-3 pt-5">
@@ -82,9 +82,9 @@ function Feature({Svg, title, description, link}) {
             <p className="text-sm text-gray-light mb-0">{description}</p>
           </div>
         </div>
-        <Link to={link} className=" text-xs text-left text-gray-light float-left mb-0 mt-6 hover:text-primary hover:underline">Read Now</Link>
+        <span className="text-xs text-left text-gray-light float-left mb-0 mt-6 hover:text-primary hover:underline">Read Now</span>
       </div>
-    </div>
+    </Link>
   );
 }
 
