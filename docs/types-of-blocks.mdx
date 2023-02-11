@@ -24,7 +24,7 @@ These are independently developed and tested `unit frontend Block`.
 
 This Block is not supposed to work alone but be pulled into a UI container Block/ host Block and run together. This process of connecting the elements happens at runtime. 
 
-Appblock enforces strict standard regulations as there are increased chances of runtime errors. It ensures that all the element Blocks which are supposed to be connected are composable by design.
+Appblocks enforces strict standard regulations as there are increased chances of runtime errors. It ensures that all the element Blocks which are supposed to be connected are composable by design.
 
 ### Container Block
 
@@ -48,7 +48,7 @@ Every Fn Block will have a specific URL to invoke it and in practical scenarios,
 
 In case a particular Fn is having more traffic, ie, needs to be scaled that Fn Blocks alone will be isolated and run in a separate instance. 
 
-Appblock gateway in the proxy layer will intelligently route the traffic between the stitched app and the isolated Fn Block instance.
+Appblocks gateway in the proxy layer will intelligently route the traffic between the stitched app and the isolated Fn Block instance.
 
 Fn Blocks are language agnostic. Despite that, is always better for developers to stick with the same language in app development for maintainability.
 
@@ -64,13 +64,13 @@ With our efficient searching dashboard, it would be easy for a developer to find
 
 In the frontend, it can be either a very common function, for example, a function to find the difference between two dates or a reusable button with a default loader added. 
 
-## App Block
+## Package Block
 
 `UI, Fn and shared Blocks have their own repositories`. They are the building blocks of an application. 
 
 Once all the Blocks are stitched together, we build a configuration that is a snapshot of how the apps are composed. 
 
-This configuration can be pulled and run on any machine using BB CLI. We call this hypothetical entity an `Appblock`. 
+This configuration can be pulled and run on any machine using BB CLI. We call this hypothetical entity an `Package Block`. 
 
 It's a collection of Blocks that will act together as an application.
 
@@ -82,9 +82,9 @@ It will hold the `meta information of the Block`, which can be read by the CLI /
 
 ## Appblock.config.json
 
-This `configuration file is at the root of any Appblock`. 
+This `configuration file is at the root of any Package Block`. 
 
-Appblock.config.json will have `meta-information about all the Blocks in that Appblock` and other `necessary metadata about its runtime`. 
+Appblock.config.json will have `meta-information about all the Blocks in that package block` and other `necessary metadata about its runtime`. 
 
 This configuration resides in the Blocks registry and can be pulled by anyone who has the right access privileges.
 
