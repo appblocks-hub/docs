@@ -53,8 +53,7 @@
             ],
             "href": "/docs/quickstart/start-from-template/"
           }
-        ],
-        "href": "/docs/quickstart/"
+        ]
       },
       {
         "type": "category",
@@ -238,12 +237,6 @@
       "id": "Platform Features/Spaces",
       "title": "Spaces",
       "description": "Space is where you as an organization collaborate, manage access, subscriptions, licenses and track your sales and purchases. Track and manage everything related to Appblocks in one space. Helps your organizations and teams to collaboratively work on applications and blocks and allows you to manage accesses of all these, all in one workspace.",
-      "sidebar": "tutorialSidebar"
-    },
-    "quickstart/index": {
-      "id": "quickstart/index",
-      "title": "Core",
-      "description": "SDM",
       "sidebar": "tutorialSidebar"
     },
     "quickstart/start-from-template/Config": {

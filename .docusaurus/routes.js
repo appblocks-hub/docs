@@ -50,7 +50,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','e43'),
+    component: ComponentCreator('/docs','0e9'),
     routes: [
       {
         path: '/docs/CLI/commands',
@@ -115,12 +115,6 @@ export default [
       {
         path: '/docs/Platform Features/Spaces',
         component: ComponentCreator('/docs/Platform Features/Spaces','aa9'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/quickstart/',
-        component: ComponentCreator('/docs/quickstart/','ccf'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

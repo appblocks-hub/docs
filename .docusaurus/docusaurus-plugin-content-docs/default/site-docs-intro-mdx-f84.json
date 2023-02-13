@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Core",
-    "permalink": "/docs/quickstart/"
+    "title": "Setup",
+    "permalink": "/docs/quickstart/start-from-template/"
   }
 }
