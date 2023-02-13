@@ -7,7 +7,7 @@ Run ```bb sync```
 
 [https://lh6.googleusercontent.com/U-e-i39uy2O9yezJqyzCcvJehqExFH8usE4fsNw4uRAB43f0o2hDTS14IkzMgbg79rqBKWbOeSW_SXaEtYTmuRS6b7jzmyi_VomXvo8uduQvxwY4d0iXzgOAWzCYemFP8CKLN_nlsQkR9PXV4egZBfg](https://lh6.googleusercontent.com/U-e-i39uy2O9yezJqyzCcvJehqExFH8usE4fsNw4uRAB43f0o2hDTS14IkzMgbg79rqBKWbOeSW_SXaEtYTmuRS6b7jzmyi_VomXvo8uduQvxwY4d0iXzgOAWzCYemFP8CKLN_nlsQkR9PXV4egZBfg)
 
-Hit yes. CLI found 6 folders with blocks.config.json and is asking you to sync that with the registry. Once the process is completed it will push the code to the individual repository as well.
+Hit yes. CLI found 6 folders with ```blocks.config.json``` and is asking you to sync that with the registry. Once the process is completed it will push the code to the individual repository as well.
 
 You can start syncing all 6 blocks like below as we did.
 
