@@ -1,112 +1,90 @@
 {
-  "/__docusaurus/debug-3d6": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/config-914": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/content-c28": {
-    "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-3cf": {
-    "component": "component---theme-debug-global-dataede-0fa"
-  },
-  "/__docusaurus/debug/metadata-31b": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
-  },
-  "/__docusaurus/debug/registry-0da": {
-    "component": "component---theme-debug-registry-679-501"
-  },
-  "/__docusaurus/debug/routes-244": {
-    "component": "component---theme-debug-routes-946-699"
-  },
   "/blog/archive-f4c": {
-    "component": "component---theme-blog-archive-page-9-e-4-1d8",
-    "archive": "archive---blog-archiveb-2-f-393"
+    "component": "9e4087bc",
+    "archive": "b2f554cd"
   },
   "/markdown-page-be1": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---markdown-page-393-028"
+    "component": "1f391b9e",
+    "content": "393be207"
   },
   "/docs-0e9": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-935-398"
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
   },
   "/docs/CLI/commands-8b2": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-cli-commandscb-7-d2f"
+    "component": "17896441",
+    "content": "cb73d8b0"
   },
   "/docs/core-concepts/-786": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-core-concepts-da-6-a41"
+    "component": "17896441",
+    "content": "da6537e0"
   },
   "/docs/core-concepts/composition-b69": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-core-concepts-compositiond-0-d-73f"
+    "component": "17896441",
+    "content": "d0d244b4"
   },
   "/docs/core-concepts/type-of-blocks-42c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-core-concepts-type-of-blocks-40-f-f31"
+    "component": "17896441",
+    "content": "40f54c0f"
   },
   "/docs/intro-99a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-introf-84-2b4"
+    "component": "17896441",
+    "content": "f8409a7e"
   },
   "/docs/Platform Features/blocks-store/walkthrough-e90": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-platform-features-blocks-store-walkthrough-3-ae-9c0"
+    "component": "17896441",
+    "content": "3ae6fcf9"
   },
   "/docs/Platform Features/Sales and Purchases/Buying a Block-bbe": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-platform-features-sales-and-purchases-buying-a-block-907-38c"
+    "component": "17896441",
+    "content": "907390cc"
   },
   "/docs/Platform Features/Sales and Purchases/Licences and Subscriptions-67c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-platform-features-sales-and-purchases-licences-and-subscriptions-088-906"
+    "component": "17896441",
+    "content": "0883403c"
   },
   "/docs/Platform Features/Sales and Purchases/Selling a Block-3da": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-platform-features-sales-and-purchases-selling-a-blockce-6-125"
+    "component": "17896441",
+    "content": "ce6faf1e"
   },
   "/docs/Platform Features/Sales and Purchases/Tracking your Sales and Orders-e37": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-platform-features-sales-and-purchases-tracking-your-sales-and-orders-3-d-9-0b5"
+    "component": "17896441",
+    "content": "3d9e709e"
   },
   "/docs/Platform Features/Spaces-aa9": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-platform-features-spaces-567-5df"
+    "component": "17896441",
+    "content": "567e7fca"
   },
   "/docs/quickstart/start-from-template/-c1c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-quickstart-start-from-template-fa-1-f7e"
+    "component": "17896441",
+    "content": "fa114727"
   },
   "/docs/quickstart/start-from-template/Config-b0b": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-quickstart-start-from-template-config-398-04e"
+    "component": "17896441",
+    "content": "398e1f74"
   },
   "/docs/quickstart/start-from-template/create your first block-6c1": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-quickstart-start-from-template-create-your-first-blockef-0-ff9"
+    "component": "17896441",
+    "content": "ef018df7"
   },
   "/docs/quickstart/start-from-template/Starting your first App-c20": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-quickstart-start-from-template-starting-your-first-app-4-a-6-45d"
+    "component": "17896441",
+    "content": "4a6320a1"
   },
   "/docs/quickstart/start-from-template/Sync-b05": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-quickstart-start-from-template-syncb-32-398"
+    "component": "17896441",
+    "content": "b3268bc7"
   },
   "/docs/sdk/js-sdk-175": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sdk-js-sdk-757-061"
+    "component": "17896441",
+    "content": "7577750d"
   },
   "/docs/sdk/node-sdk-f93": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sdk-node-sdk-8-dd-39f"
+    "component": "17896441",
+    "content": "8ddb7317"
   },
   "/-deb": {
-    "component": "component---site-src-pages-index-jsc-4-f-f99",
-    "config": "config---5-e-9-4f3"
+    "component": "c4f5d8e4",
+    "config": "5e9f5e1a"
   }
 }
