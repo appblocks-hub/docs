@@ -1,90 +1,112 @@
 {
+  "/__docusaurus/debug-3d6": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/config-914": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/content-c28": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-3cf": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/__docusaurus/debug/metadata-31b": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/__docusaurus/debug/registry-0da": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/__docusaurus/debug/routes-244": {
+    "component": "component---theme-debug-routes-946-699"
+  },
   "/blog/archive-f4c": {
-    "component": "9e4087bc",
-    "archive": "b2f554cd"
+    "component": "component---theme-blog-archive-page-9-e-4-1d8",
+    "archive": "archive---blog-archiveb-2-f-393"
   },
   "/markdown-page-be1": {
-    "component": "1f391b9e",
-    "content": "393be207"
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---markdown-page-393-028"
   },
-  "/docs-0e9": {
-    "component": "1be78505",
-    "versionMetadata": "935f2afb"
+  "/docs-2e2": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---docs-935-398"
   },
   "/docs/CLI/commands-8b2": {
-    "component": "17896441",
-    "content": "cb73d8b0"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-cli-commandscb-7-d2f"
   },
   "/docs/core-concepts/-786": {
-    "component": "17896441",
-    "content": "da6537e0"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-concepts-da-6-a41"
   },
   "/docs/core-concepts/composition-b69": {
-    "component": "17896441",
-    "content": "d0d244b4"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-concepts-compositiond-0-d-73f"
   },
   "/docs/core-concepts/type-of-blocks-42c": {
-    "component": "17896441",
-    "content": "40f54c0f"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-concepts-type-of-blocks-40-f-f31"
   },
   "/docs/intro-99a": {
-    "component": "17896441",
-    "content": "f8409a7e"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-introf-84-2b4"
   },
   "/docs/Platform Features/blocks-store/walkthrough-e90": {
-    "component": "17896441",
-    "content": "3ae6fcf9"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-platform-features-blocks-store-walkthrough-3-ae-9c0"
   },
   "/docs/Platform Features/Sales and Purchases/Buying a Block-bbe": {
-    "component": "17896441",
-    "content": "907390cc"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-platform-features-sales-and-purchases-buying-a-block-907-38c"
   },
   "/docs/Platform Features/Sales and Purchases/Licences and Subscriptions-67c": {
-    "component": "17896441",
-    "content": "0883403c"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-platform-features-sales-and-purchases-licences-and-subscriptions-088-906"
   },
   "/docs/Platform Features/Sales and Purchases/Selling a Block-3da": {
-    "component": "17896441",
-    "content": "ce6faf1e"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-platform-features-sales-and-purchases-selling-a-blockce-6-125"
   },
   "/docs/Platform Features/Sales and Purchases/Tracking your Sales and Orders-e37": {
-    "component": "17896441",
-    "content": "3d9e709e"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-platform-features-sales-and-purchases-tracking-your-sales-and-orders-3-d-9-0b5"
   },
   "/docs/Platform Features/Spaces-aa9": {
-    "component": "17896441",
-    "content": "567e7fca"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-platform-features-spaces-567-5df"
   },
   "/docs/quickstart/start-from-template/-c1c": {
-    "component": "17896441",
-    "content": "fa114727"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-start-from-template-fa-1-f7e"
   },
   "/docs/quickstart/start-from-template/Config-b0b": {
-    "component": "17896441",
-    "content": "398e1f74"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-start-from-template-config-398-04e"
   },
   "/docs/quickstart/start-from-template/create your first block-6c1": {
-    "component": "17896441",
-    "content": "ef018df7"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-start-from-template-create-your-first-blockef-0-ff9"
   },
   "/docs/quickstart/start-from-template/Starting your first App-c20": {
-    "component": "17896441",
-    "content": "4a6320a1"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-start-from-template-starting-your-first-app-4-a-6-45d"
   },
   "/docs/quickstart/start-from-template/Sync-b05": {
-    "component": "17896441",
-    "content": "b3268bc7"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-start-from-template-syncb-32-398"
   },
-  "/docs/sdk/js-sdk-175": {
-    "component": "17896441",
-    "content": "7577750d"
+  "/docs/SDK/js-sdk-f98": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-sdk-js-sdk-092-3d4"
   },
-  "/docs/sdk/node-sdk-f93": {
-    "component": "17896441",
-    "content": "8ddb7317"
+  "/docs/SDK/node-sdk-6d8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-sdk-node-sdk-2-b-5-2e2"
   },
   "/-deb": {
-    "component": "c4f5d8e4",
-    "config": "5e9f5e1a"
+    "component": "component---site-src-pages-index-jsc-4-f-f99",
+    "config": "config---5-e-9-4f3"
   }
 }
