@@ -3,7 +3,7 @@ title: Setup
 sidebar_position: 1
 ---
 
-To create composable apps/ blocks, we definitely need some set of tools.
+To create composable apps/ [blocks](/docs/core-concepts/core#block), we definitely need some set of tools.
 
 BB(Build with Blocks) CLI is used to create, collaborate, manage, and deploy blocks by connecting with Appblocks Registry(Blocks Store).
 

@@ -4,41 +4,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug','3d6'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config','914'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content','c28'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes','244'),
-    exact: true
-  },
-  {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive','f4c'),
     exact: true
@@ -50,7 +15,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','2e2'),
+    component: ComponentCreator('/docs','7d3'),
     routes: [
       {
         path: '/docs/CLI/commands',
@@ -59,14 +24,14 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/core-concepts/',
-        component: ComponentCreator('/docs/core-concepts/','786'),
+        path: '/docs/core-concepts/composition',
+        component: ComponentCreator('/docs/core-concepts/composition','b69'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/core-concepts/composition',
-        component: ComponentCreator('/docs/core-concepts/composition','b69'),
+        path: '/docs/core-concepts/core',
+        component: ComponentCreator('/docs/core-concepts/core','e60'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -119,12 +84,6 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/quickstart/start-from-template/',
-        component: ComponentCreator('/docs/quickstart/start-from-template/','c1c'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
         path: '/docs/quickstart/start-from-template/Config',
         component: ComponentCreator('/docs/quickstart/start-from-template/Config','b0b'),
         exact: true,
@@ -133,6 +92,12 @@ export default [
       {
         path: '/docs/quickstart/start-from-template/create your first block',
         component: ComponentCreator('/docs/quickstart/start-from-template/create your first block','6c1'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/quickstart/start-from-template/setup',
+        component: ComponentCreator('/docs/quickstart/start-from-template/setup','207'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -149,14 +114,14 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/SDK/js-sdk',
-        component: ComponentCreator('/docs/SDK/js-sdk','f98'),
+        path: '/docs/sdk/js-sdk',
+        component: ComponentCreator('/docs/sdk/js-sdk','175'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/SDK/node-sdk',
-        component: ComponentCreator('/docs/SDK/node-sdk','6d8'),
+        path: '/docs/sdk/node-sdk',
+        component: ComponentCreator('/docs/sdk/node-sdk','f93'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

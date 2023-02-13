@@ -21,8 +21,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "core-concepts/index",
-              "path": "/docs/core-concepts/",
+              "id": "core-concepts/core",
+              "path": "/docs/core-concepts/core",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -76,8 +76,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "quickstart/start-from-template/index",
-              "path": "/docs/quickstart/start-from-template/",
+              "id": "quickstart/start-from-template/setup",
+              "path": "/docs/quickstart/start-from-template/setup",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -91,13 +91,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "SDK/js-sdk",
-              "path": "/docs/SDK/js-sdk",
+              "id": "sdk/js-sdk",
+              "path": "/docs/sdk/js-sdk",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "SDK/node-sdk",
-              "path": "/docs/SDK/node-sdk",
+              "id": "sdk/node-sdk",
+              "path": "/docs/sdk/node-sdk",
               "sidebar": "tutorialSidebar"
             }
           ],

@@ -28,6 +28,12 @@
             "items": [
               {
                 "type": "link",
+                "label": "Setup",
+                "href": "/docs/quickstart/start-from-template/setup",
+                "docId": "quickstart/start-from-template/setup"
+              },
+              {
+                "type": "link",
                 "label": "Create your first Block",
                 "href": "/docs/quickstart/start-from-template/create your first block",
                 "docId": "quickstart/start-from-template/create your first block"
@@ -50,8 +56,7 @@
                 "href": "/docs/quickstart/start-from-template/Starting your first App",
                 "docId": "quickstart/start-from-template/Starting your first App"
               }
-            ],
-            "href": "/docs/quickstart/start-from-template/"
+            ]
           }
         ]
       },
@@ -61,6 +66,12 @@
         "collapsible": true,
         "collapsed": true,
         "items": [
+          {
+            "type": "link",
+            "label": "Core",
+            "href": "/docs/core-concepts/core",
+            "docId": "core-concepts/core"
+          },
           {
             "type": "link",
             "label": "Type of Blocks",
@@ -73,8 +84,7 @@
             "href": "/docs/core-concepts/composition",
             "docId": "core-concepts/composition"
           }
-        ],
-        "href": "/docs/core-concepts/"
+        ]
       },
       {
         "type": "category",
@@ -99,14 +109,14 @@
           {
             "type": "link",
             "label": "@appblocks/js-sdk",
-            "href": "/docs/SDK/js-sdk",
-            "docId": "SDK/js-sdk"
+            "href": "/docs/sdk/js-sdk",
+            "docId": "sdk/js-sdk"
           },
           {
             "type": "link",
             "label": "@appblocks/node-sdk",
-            "href": "/docs/SDK/node-sdk",
-            "docId": "SDK/node-sdk"
+            "href": "/docs/sdk/node-sdk",
+            "docId": "sdk/node-sdk"
           }
         ]
       },
@@ -185,10 +195,10 @@
       "description": "Composition",
       "sidebar": "tutorialSidebar"
     },
-    "core-concepts/index": {
-      "id": "core-concepts/index",
+    "core-concepts/core": {
+      "id": "core-concepts/core",
       "title": "Core",
-      "description": "SDM",
+      "description": "Block",
       "sidebar": "tutorialSidebar"
     },
     "core-concepts/type-of-blocks": {
@@ -251,8 +261,8 @@
       "description": "A package block context is always required for the generation of any block. Run the command below to build a package block.",
       "sidebar": "tutorialSidebar"
     },
-    "quickstart/start-from-template/index": {
-      "id": "quickstart/start-from-template/index",
+    "quickstart/start-from-template/setup": {
+      "id": "quickstart/start-from-template/setup",
       "title": "Setup",
       "description": "To create composable apps/ blocks, we definitely need some set of tools.",
       "sidebar": "tutorialSidebar"
@@ -269,14 +279,14 @@
       "description": "Run `bb sync`",
       "sidebar": "tutorialSidebar"
     },
-    "SDK/js-sdk": {
-      "id": "SDK/js-sdk",
+    "sdk/js-sdk": {
+      "id": "sdk/js-sdk",
       "title": "@appblocks/js-sdk",
       "description": "@appblocks/js-sdk provides the essential packages to facilitate Appblocks features across Appblocks applications.",
       "sidebar": "tutorialSidebar"
     },
-    "SDK/node-sdk": {
-      "id": "SDK/node-sdk",
+    "sdk/node-sdk": {
+      "id": "sdk/node-sdk",
       "title": "@appblocks/node-sdk",
       "description": "This includes the server-side libraries used by applications using Appblocks services.",
       "sidebar": "tutorialSidebar"
