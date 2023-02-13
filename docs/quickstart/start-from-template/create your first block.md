@@ -4,9 +4,9 @@ sidebar_position: 2
 ---
 
 A package block context is always required for the generation of any block. Run the command below to build a package block.
-
-bb init example_todo_package_block
-
+```
+    bb init example_todo_package_block
+```
 It’ll prompt you to choose your space and your personal / org GitHub account.
 
 By selecting "public" as visibility in this case, the associated repository will become accessible to the public.
