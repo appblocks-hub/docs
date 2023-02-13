@@ -50,119 +50,29 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','abb'),
+    component: ComponentCreator('/docs','e43'),
     routes: [
       {
-        path: '/docs/bb-cli/Commands/bb-connect',
-        component: ComponentCreator('/docs/bb-cli/Commands/bb-connect','b6c'),
+        path: '/docs/CLI/commands',
+        component: ComponentCreator('/docs/CLI/commands','8b2'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/bb-cli/Commands/bb-create',
-        component: ComponentCreator('/docs/bb-cli/Commands/bb-create','b1b'),
+        path: '/docs/core-concepts/',
+        component: ComponentCreator('/docs/core-concepts/','786'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/bb-cli/Commands/bb-exec',
-        component: ComponentCreator('/docs/bb-cli/Commands/bb-exec','6cf'),
+        path: '/docs/core-concepts/composition',
+        component: ComponentCreator('/docs/core-concepts/composition','b69'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/bb-cli/Commands/bb-init',
-        component: ComponentCreator('/docs/bb-cli/Commands/bb-init','9b7'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/bb-cli/Commands/bb-log',
-        component: ComponentCreator('/docs/bb-cli/Commands/bb-log','4b6'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/bb-cli/Commands/bb-login',
-        component: ComponentCreator('/docs/bb-cli/Commands/bb-login','0c4'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/bb-cli/Commands/bb-ls',
-        component: ComponentCreator('/docs/bb-cli/Commands/bb-ls','a9b'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/bb-cli/Commands/bb-pull',
-        component: ComponentCreator('/docs/bb-cli/Commands/bb-pull','15c'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/bb-cli/Commands/bb-push',
-        component: ComponentCreator('/docs/bb-cli/Commands/bb-push','720'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/bb-cli/Commands/bb-push-config',
-        component: ComponentCreator('/docs/bb-cli/Commands/bb-push-config','de7'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/bb-cli/Commands/bb-start',
-        component: ComponentCreator('/docs/bb-cli/Commands/bb-start','510'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/bb-cli/Commands/bb-stop',
-        component: ComponentCreator('/docs/bb-cli/Commands/bb-stop','539'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/bb-cli/Commands/bb-sync',
-        component: ComponentCreator('/docs/bb-cli/Commands/bb-sync','a25'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/bb-cli/Commands/Overview',
-        component: ComponentCreator('/docs/bb-cli/Commands/Overview','4c4'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/blocks-store/walkthrough',
-        component: ComponentCreator('/docs/blocks-store/walkthrough','7c7'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/composability-vs-dependency',
-        component: ComponentCreator('/docs/composability-vs-dependency','31d'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/Getting Started/Creating Blocks and Apps',
-        component: ComponentCreator('/docs/Getting Started/Creating Blocks and Apps','d7b'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/Getting Started/Setting up the CLI',
-        component: ComponentCreator('/docs/Getting Started/Setting up the CLI','dcd'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/Getting Started/Using the purchased block',
-        component: ComponentCreator('/docs/Getting Started/Using the purchased block','9ee'),
+        path: '/docs/core-concepts/type-of-blocks',
+        component: ComponentCreator('/docs/core-concepts/type-of-blocks','42c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -173,62 +83,86 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Overview/',
-        component: ComponentCreator('/docs/Overview/','2c1'),
+        path: '/docs/Platform Features/blocks-store/walkthrough',
+        component: ComponentCreator('/docs/Platform Features/blocks-store/walkthrough','e90'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Overview/get-started',
-        component: ComponentCreator('/docs/Overview/get-started','af4'),
+        path: '/docs/Platform Features/Sales and Purchases/Buying a Block',
+        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Buying a Block','bbe'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Sales and Purchases/Buying a Block',
-        component: ComponentCreator('/docs/Sales and Purchases/Buying a Block','496'),
+        path: '/docs/Platform Features/Sales and Purchases/Licences and Subscriptions',
+        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Licences and Subscriptions','67c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Sales and Purchases/Licences and Subscriptions',
-        component: ComponentCreator('/docs/Sales and Purchases/Licences and Subscriptions','4df'),
+        path: '/docs/Platform Features/Sales and Purchases/Selling a Block',
+        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Selling a Block','3da'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Sales and Purchases/Selling a Block',
-        component: ComponentCreator('/docs/Sales and Purchases/Selling a Block','df7'),
+        path: '/docs/Platform Features/Sales and Purchases/Tracking your Sales and Orders',
+        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Tracking your Sales and Orders','e37'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Sales and Purchases/Tracking your Sales and Orders',
-        component: ComponentCreator('/docs/Sales and Purchases/Tracking your Sales and Orders','b1a'),
+        path: '/docs/Platform Features/Spaces',
+        component: ComponentCreator('/docs/Platform Features/Spaces','aa9'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/SDK/js-sdk',
-        component: ComponentCreator('/docs/SDK/js-sdk','f98'),
+        path: '/docs/quickstart/',
+        component: ComponentCreator('/docs/quickstart/','ccf'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/SDK/node-sdk',
-        component: ComponentCreator('/docs/SDK/node-sdk','6d8'),
+        path: '/docs/quickstart/start-from-template/',
+        component: ComponentCreator('/docs/quickstart/start-from-template/','c1c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Spaces',
-        component: ComponentCreator('/docs/Spaces','0df'),
+        path: '/docs/quickstart/start-from-template/Config',
+        component: ComponentCreator('/docs/quickstart/start-from-template/Config','b0b'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/types-of-blocks',
-        component: ComponentCreator('/docs/types-of-blocks','9a0'),
+        path: '/docs/quickstart/start-from-template/create your first block',
+        component: ComponentCreator('/docs/quickstart/start-from-template/create your first block','6c1'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/quickstart/start-from-template/Starting your first App',
+        component: ComponentCreator('/docs/quickstart/start-from-template/Starting your first App','c20'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/quickstart/start-from-template/Sync',
+        component: ComponentCreator('/docs/quickstart/start-from-template/Sync','b05'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/sdk/js-sdk',
+        component: ComponentCreator('/docs/sdk/js-sdk','175'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/sdk/node-sdk',
+        component: ComponentCreator('/docs/sdk/node-sdk','f93'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

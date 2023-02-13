@@ -23,20 +23,10 @@ const FeatureList = [
         Content related to BB CLI
       </>
     ),
-    link:"/docs/bb-cli/commands/bb-login/",
+    link:"/docs/CLI/commands",
   },
   {
-    title: 'Blocks Store',
-    Svg: require('@site/static/img/icons/blocks-store-icon.svg').default,
-    description: (
-      <>
-        Content related to Blocks Store
-      </>
-    ),
-    link:"/docs/blocks-store/walkthrough/",
-  },
-  {
-    title: 'Advanced SDK',
+    title: 'SDKs',
     Svg: require('@site/static/img/icons/adv-docs-icon.svg').default,
     description: (
       <>
@@ -44,6 +34,16 @@ const FeatureList = [
       </>
     ),
     link:"/docs/sdk/js-sdk/",
+  },
+  {
+    title: 'Platform Features',
+    Svg: require('@site/static/img/icons/blocks-store-icon.svg').default,
+    description: (
+      <>
+        Content related to Blocks Store
+      </>
+    ),
+    link:"/docs/blocks-store/walkthrough/",
   },
 ];
 const GetStartedList = [
@@ -102,7 +102,7 @@ export default function HomepageFeatures() {
         </div>
       </div>
     </section>
-    <section>
+    {/* <section>
       <div className="max-w-7xl mx-auto px-4 md:px-8 w-full mt-4">
         <h3 className="text-black font-medium text-2xl mb-2">Get started</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 mt-4">
@@ -114,8 +114,8 @@ export default function HomepageFeatures() {
           ))}
         </div>
       </div>
-    </section>
-    <section>
+    </section> */}
+    {/* <section>
       <div className="max-w-7xl mx-auto px-4 md:px-8 w-full mt-10">
         <div className="border-0 border-b border-ab-gray-dark border-solid pb-10">
           <h3 className="text-black font-medium text-2xl mb-2">Lorem ipsum dolor</h3>
@@ -123,7 +123,7 @@ export default function HomepageFeatures() {
           <a href="javascript:;" className="bg-primary max-w-[320px] w-full h-12 inline-flex items-center justify-center rounded text-white hover:no-underline hover:opacity-90 hover:text-white focus:outline-none py-3.5 px-4">Store Walkthrough</a>
         </div>
       </div>
-    </section>
+    </section> */}
     <section>
       <div className="max-w-7xl mx-auto px-4 md:px-8 w-full">
         <CustomerSupport/>

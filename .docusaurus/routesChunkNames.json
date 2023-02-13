@@ -29,129 +29,85 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-abb": {
+  "/docs-e43": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/docs/bb-cli/Commands/bb-connect-b6c": {
+  "/docs/CLI/commands-8b2": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-bb-connect-072-baf"
+    "content": "content---docs-cli-commandscb-7-d2f"
   },
-  "/docs/bb-cli/Commands/bb-create-b1b": {
+  "/docs/core-concepts/-786": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-bb-create-0-cd-2a7"
+    "content": "content---docs-core-concepts-da-6-a41"
   },
-  "/docs/bb-cli/Commands/bb-exec-6cf": {
+  "/docs/core-concepts/composition-b69": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-bb-exec-00-d-289"
+    "content": "content---docs-core-concepts-compositiond-0-d-73f"
   },
-  "/docs/bb-cli/Commands/bb-init-9b7": {
+  "/docs/core-concepts/type-of-blocks-42c": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-bb-initad-1-ac9"
-  },
-  "/docs/bb-cli/Commands/bb-log-4b6": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-bb-log-341-3b0"
-  },
-  "/docs/bb-cli/Commands/bb-login-0c4": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-bb-loginaba-fb3"
-  },
-  "/docs/bb-cli/Commands/bb-ls-a9b": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-bb-ls-7-e-4-6dd"
-  },
-  "/docs/bb-cli/Commands/bb-pull-15c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-bb-pulla-74-0bd"
-  },
-  "/docs/bb-cli/Commands/bb-push-720": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-bb-pushb-19-7bc"
-  },
-  "/docs/bb-cli/Commands/bb-push-config-de7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-bb-push-confige-6-d-29f"
-  },
-  "/docs/bb-cli/Commands/bb-start-510": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-bb-start-268-fbc"
-  },
-  "/docs/bb-cli/Commands/bb-stop-539": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-bb-stopb-87-a1c"
-  },
-  "/docs/bb-cli/Commands/bb-sync-a25": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-bb-syncd-3-b-8dc"
-  },
-  "/docs/bb-cli/Commands/Overview-4c4": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bb-cli-commands-overviewc-36-050"
-  },
-  "/docs/blocks-store/walkthrough-7c7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-blocks-store-walkthroughd-38-e46"
-  },
-  "/docs/composability-vs-dependency-31d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-composability-vs-dependency-1-b-9-3ea"
-  },
-  "/docs/Getting Started/Creating Blocks and Apps-d7b": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-creating-blocks-and-apps-8-c-8-2c5"
-  },
-  "/docs/Getting Started/Setting up the CLI-dcd": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-setting-up-the-cl-iea-8-671"
-  },
-  "/docs/Getting Started/Using the purchased block-9ee": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-using-the-purchased-block-647-7aa"
+    "content": "content---docs-core-concepts-type-of-blocks-40-f-f31"
   },
   "/docs/intro-99a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-introf-84-2b4"
   },
-  "/docs/Overview/-2c1": {
+  "/docs/Platform Features/blocks-store/walkthrough-e90": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-overview-6-db-826"
+    "content": "content---docs-platform-features-blocks-store-walkthrough-3-ae-9c0"
   },
-  "/docs/Overview/get-started-af4": {
+  "/docs/Platform Features/Sales and Purchases/Buying a Block-bbe": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-overview-get-started-43-b-078"
+    "content": "content---docs-platform-features-sales-and-purchases-buying-a-block-907-38c"
   },
-  "/docs/Sales and Purchases/Buying a Block-496": {
+  "/docs/Platform Features/Sales and Purchases/Licences and Subscriptions-67c": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sales-and-purchases-buying-a-block-408-700"
+    "content": "content---docs-platform-features-sales-and-purchases-licences-and-subscriptions-088-906"
   },
-  "/docs/Sales and Purchases/Licences and Subscriptions-4df": {
+  "/docs/Platform Features/Sales and Purchases/Selling a Block-3da": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sales-and-purchases-licences-and-subscriptions-862-f3f"
+    "content": "content---docs-platform-features-sales-and-purchases-selling-a-blockce-6-125"
   },
-  "/docs/Sales and Purchases/Selling a Block-df7": {
+  "/docs/Platform Features/Sales and Purchases/Tracking your Sales and Orders-e37": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sales-and-purchases-selling-a-blockf-7-a-f56"
+    "content": "content---docs-platform-features-sales-and-purchases-tracking-your-sales-and-orders-3-d-9-0b5"
   },
-  "/docs/Sales and Purchases/Tracking your Sales and Orders-b1a": {
+  "/docs/Platform Features/Spaces-aa9": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sales-and-purchases-tracking-your-sales-and-orders-81-a-3ba"
+    "content": "content---docs-platform-features-spaces-567-5df"
   },
-  "/docs/SDK/js-sdk-f98": {
+  "/docs/quickstart/-ccf": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sdk-js-sdk-092-3d4"
+    "content": "content---docs-quickstart-dab-5d9"
   },
-  "/docs/SDK/node-sdk-6d8": {
+  "/docs/quickstart/start-from-template/-c1c": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-sdk-node-sdk-2-b-5-2e2"
+    "content": "content---docs-quickstart-start-from-template-fa-1-f7e"
   },
-  "/docs/Spaces-0df": {
+  "/docs/quickstart/start-from-template/Config-b0b": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-spacesd-37-b0d"
+    "content": "content---docs-quickstart-start-from-template-config-398-04e"
   },
-  "/docs/types-of-blocks-9a0": {
+  "/docs/quickstart/start-from-template/create your first block-6c1": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-types-of-blocks-0-a-5-ec8"
+    "content": "content---docs-quickstart-start-from-template-create-your-first-blockef-0-ff9"
+  },
+  "/docs/quickstart/start-from-template/Starting your first App-c20": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-start-from-template-starting-your-first-app-4-a-6-45d"
+  },
+  "/docs/quickstart/start-from-template/Sync-b05": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-start-from-template-syncb-32-398"
+  },
+  "/docs/sdk/js-sdk-175": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-sdk-js-sdk-757-061"
+  },
+  "/docs/sdk/node-sdk-f93": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-sdk-node-sdk-8-dd-39f"
   },
   "/-deb": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",

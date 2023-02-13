@@ -1,8 +1,8 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "Blocks Architecture",
-  "description": "“As business needs change, organizations must be able to deliver innovation quickly and adapt applications dynamically — reassembling capabilities from inside and outside the enterprise. To do this, organizations must understand and implement the “composable enterprise.” – Gartner",
+  "title": "Why Appblocks?",
+  "description": "Motivation",
   "source": "@site/docs/intro.mdx",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -12,15 +12,12 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
+    "title": "Why Appblocks?",
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Get Started",
-    "permalink": "/docs/Overview/get-started"
-  },
   "next": {
-    "title": "Composability vs Dependency",
-    "permalink": "/docs/composability-vs-dependency"
+    "title": "Core",
+    "permalink": "/docs/quickstart/"
   }
 }

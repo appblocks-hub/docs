@@ -8,101 +8,26 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "Overview/Overview",
+          "mainDocId": "intro",
           "docs": [
             {
-              "id": "bb-cli/Commands/bb-connect",
-              "path": "/docs/bb-cli/Commands/bb-connect",
+              "id": "CLI/commands",
+              "path": "/docs/CLI/commands",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "bb-cli/Commands/bb-create",
-              "path": "/docs/bb-cli/Commands/bb-create",
+              "id": "core-concepts/composition",
+              "path": "/docs/core-concepts/composition",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "bb-cli/Commands/bb-exec",
-              "path": "/docs/bb-cli/Commands/bb-exec",
+              "id": "core-concepts/index",
+              "path": "/docs/core-concepts/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "bb-cli/Commands/bb-init",
-              "path": "/docs/bb-cli/Commands/bb-init",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "bb-cli/Commands/bb-log",
-              "path": "/docs/bb-cli/Commands/bb-log",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "bb-cli/Commands/bb-login",
-              "path": "/docs/bb-cli/Commands/bb-login",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "bb-cli/Commands/bb-ls",
-              "path": "/docs/bb-cli/Commands/bb-ls",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "bb-cli/Commands/bb-pull",
-              "path": "/docs/bb-cli/Commands/bb-pull",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "bb-cli/Commands/bb-push",
-              "path": "/docs/bb-cli/Commands/bb-push",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "bb-cli/Commands/bb-push-config",
-              "path": "/docs/bb-cli/Commands/bb-push-config",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "bb-cli/Commands/bb-start",
-              "path": "/docs/bb-cli/Commands/bb-start",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "bb-cli/Commands/bb-stop",
-              "path": "/docs/bb-cli/Commands/bb-stop",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "bb-cli/Commands/bb-sync",
-              "path": "/docs/bb-cli/Commands/bb-sync",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "bb-cli/Commands/Overview",
-              "path": "/docs/bb-cli/Commands/Overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "blocks-store/walkthrough",
-              "path": "/docs/blocks-store/walkthrough",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "composability-vs-dependency",
-              "path": "/docs/composability-vs-dependency",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Getting Started/Creating Blocks and Apps",
-              "path": "/docs/Getting Started/Creating Blocks and Apps",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Getting Started/Setting up the CLI",
-              "path": "/docs/Getting Started/Setting up the CLI",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Getting Started/Using the purchased block",
-              "path": "/docs/Getting Started/Using the purchased block",
+              "id": "core-concepts/type-of-blocks",
+              "path": "/docs/core-concepts/type-of-blocks",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -111,61 +36,81 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Overview/get-started",
-              "path": "/docs/Overview/get-started",
+              "id": "Platform Features/blocks-store/walkthrough",
+              "path": "/docs/Platform Features/blocks-store/walkthrough",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Overview/Overview",
-              "path": "/docs/Overview/",
+              "id": "Platform Features/Sales and Purchases/Buying a Block",
+              "path": "/docs/Platform Features/Sales and Purchases/Buying a Block",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Sales and Purchases/Buying a Block",
-              "path": "/docs/Sales and Purchases/Buying a Block",
+              "id": "Platform Features/Sales and Purchases/Licences and Subscriptions",
+              "path": "/docs/Platform Features/Sales and Purchases/Licences and Subscriptions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Sales and Purchases/Licences and Subscriptions",
-              "path": "/docs/Sales and Purchases/Licences and Subscriptions",
+              "id": "Platform Features/Sales and Purchases/Selling a Block",
+              "path": "/docs/Platform Features/Sales and Purchases/Selling a Block",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Sales and Purchases/Selling a Block",
-              "path": "/docs/Sales and Purchases/Selling a Block",
+              "id": "Platform Features/Sales and Purchases/Tracking your Sales and Orders",
+              "path": "/docs/Platform Features/Sales and Purchases/Tracking your Sales and Orders",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Sales and Purchases/Tracking your Sales and Orders",
-              "path": "/docs/Sales and Purchases/Tracking your Sales and Orders",
+              "id": "Platform Features/Spaces",
+              "path": "/docs/Platform Features/Spaces",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "SDK/js-sdk",
-              "path": "/docs/SDK/js-sdk",
+              "id": "quickstart/index",
+              "path": "/docs/quickstart/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "SDK/node-sdk",
-              "path": "/docs/SDK/node-sdk",
+              "id": "quickstart/start-from-template/Config",
+              "path": "/docs/quickstart/start-from-template/Config",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Spaces",
-              "path": "/docs/Spaces",
+              "id": "quickstart/start-from-template/create your first block",
+              "path": "/docs/quickstart/start-from-template/create your first block",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "types-of-blocks",
-              "path": "/docs/types-of-blocks",
+              "id": "quickstart/start-from-template/index",
+              "path": "/docs/quickstart/start-from-template/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart/start-from-template/Starting your first App",
+              "path": "/docs/quickstart/start-from-template/Starting your first App",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart/start-from-template/Sync",
+              "path": "/docs/quickstart/start-from-template/Sync",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdk/js-sdk",
+              "path": "/docs/sdk/js-sdk",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdk/node-sdk",
+              "path": "/docs/sdk/node-sdk",
               "sidebar": "tutorialSidebar"
             }
           ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/Overview/",
-                "label": "Overview"
+                "path": "/docs/intro",
+                "label": "intro"
               }
             }
           }

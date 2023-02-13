@@ -1,26 +1,36 @@
 ---
+title: Why Appblocks?
 sidebar_position: 1
 ---
-# Blocks Architecture
+## Motivation
 
-“As business needs change, organizations must be able to deliver innovation quickly and adapt applications dynamically — reassembling capabilities from inside and outside the enterprise. To do this, organizations must understand and implement the “composable enterprise.” – Gartner
+“Not all Apps require re-engineering. Much of it can be built using reusable blocks of code within composable standards.”
 
-Composable enterprise is an approach to design that embraces the API economy, delivering business outcomes through the assembly and combination of packaged business capabilities.
+Large enterprises use their own composable framework enabling reusability and maintaining code quality. But these are not open to the rest of the world.
 
-We often have the need to reuse common business use cases in the same or multiple Apps. 
+Appblocks addresses this need by developing a Universal Composable Framework that can be adopted by any individual developer or organization and also enabling collaboration between them.
 
-So we derived Block and Block Architecture, a Composable Application Framework.
+## Appblocks Framework
 
-> ### “A unit of an app which solves a business use case with its code and contracts” - Block
+The ability to stitch multiple independently developed blocks of code together seamlessly is called Composability. And we call these “Blocks”.
 
+To collaborate across multiple organizations/developers, we need proper standards to achieve app composability.
 
-Apps developed through Appblocks are adhered to `Block Spec` comprised of `SDM, a collection of Standard Data Models and API layer schemas.`
+It all starts with standardizing the underlined data and is feasible with SDM (standard data models). Our vision is to create common data models which can be reused across apps so that inter-blocks/ apps communication is more seamless.
 
-## Philosophies
+The idea is to build an ecosystem of connected blocks/apps.
+
+So to accomplish this Micro Architecture, we follow “FaaS for backend” where every backend API endpoint is written as a function ( example )
+
+And
+
+Microfrontend (Webpack Module Federation) in the frontend, where we split the frontend apps into multiple micro-components/ apps and federated.
+
+## **Design Principles**
 
 - Reusability
 - Independent Blocks development
-- Each block will be inside separate Repos ( MultiRepo) 
+- Each block will be inside separate Repos (MultiRepo)
 - Independent version management of block
 - Independent and Instant Deployment of block
 - Independently testable modules - Auditability
@@ -28,8 +38,3 @@ Apps developed through Appblocks are adhered to `Block Spec` comprised of `SDM, 
 - FaaS for Backend Development
 - Blocks can be language agnostic
 - Pre Defined set of Standard Data Models.
-
-We have two type of mode of operations, SaaS and Business - link
-
-In Business Model, we create Database for an organisation and all apps installed by that organisation will be connected to it. Since they share a common Block Spec, Same DB and API schemas, and share a Common DB, the apps will be connected by design.
-
