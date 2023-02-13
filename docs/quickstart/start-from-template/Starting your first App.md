@@ -10,7 +10,7 @@ This will start all UI Blocks in HMR Mode and use ```bb ls``` to see its running
 
 [https://lh3.googleusercontent.com/eDu8eDL5oCnG9iXaOfYqZqjfLuWUYYzHE_fzOeeJy9dDzysJ-lLlNNm5Q0DPPuKq5tHV1hfFO0N_1FTTrUF7_g1Um4rPvLFJ2M-NSLzbxO08JMKmBAwo8BPgsVqCU3R71fQw2HS4TkbLtWbubv-bcHs](https://lh3.googleusercontent.com/eDu8eDL5oCnG9iXaOfYqZqjfLuWUYYzHE_fzOeeJy9dDzysJ-lLlNNm5Q0DPPuKq5tHV1hfFO0N_1FTTrUF7_g1Um4rPvLFJ2M-NSLzbxO08JMKmBAwo8BPgsVqCU3R71fQw2HS4TkbLtWbubv-bcHs)
 
-Open todo_container_block in your browser.
+Open ```todo_container_block``` in your browser.
 
 Tada! Now we have a working Todo app.
 
@@ -18,7 +18,7 @@ Tada! Now we have a working Todo app.
 
 Okay, so let’s talk in detail:
 
-- In the above example, there is 1 UI Container(Host) Block, 2 UI Element Blocks, and 3 Functions Blocks.
+- In the above example, there is 1 UI Container(Host) Block, 2 UI Element Blocks, and 3 Function Blocks.
 - Container/ Host is running in 3001 ( might be different in your machine, use bb ls ).
 - To visit the application you have to open the Container URL in the browser since the container is the frontend orchestrator which stitches all the elements together.
 - CLI creates a local gateway server to proxy all the functions to run everything in a single port. ( here on 3007 port )
