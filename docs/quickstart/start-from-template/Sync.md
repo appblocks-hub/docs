@@ -21,4 +21,4 @@ And in block.config.json the new blocks have been added as dependencies with its
 
 [https://lh5.googleusercontent.com/VpXRfqrx4Ucx69AF2fsS0PvER1UmtBwQy497oSNkmig6RZOdnBT0qSwS70KlZIajwB11FnjIZFbkmTM3kXKpbU2GAKUws9EQRWRCAhBHRzbIkh4ltiG-O8WNrtRRZj-hyv7vAzBfZgtCNSSzoH1vpro](https://lh5.googleusercontent.com/VpXRfqrx4Ucx69AF2fsS0PvER1UmtBwQy497oSNkmig6RZOdnBT0qSwS70KlZIajwB11FnjIZFbkmTM3kXKpbU2GAKUws9EQRWRCAhBHRzbIkh4ltiG-O8WNrtRRZj-hyv7vAzBfZgtCNSSzoH1vpro)
 
-Let's try to start this package block and see if this works. (Don’t worry we’ll explain the code later)
+Let's try to start this package block and see if this works. (Don’t worry, we’ll explain the code later)
