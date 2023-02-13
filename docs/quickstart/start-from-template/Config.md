@@ -5,7 +5,7 @@ sidebar_position: 3
 
 Each folder might have a block config of its own as follow,
 
-[https://lh4.googleusercontent.com/EL0qe8owU6GQxIii1jGNSzBtrR3lm-hJgwhcugF-zRodAsqq_gLqhYlppDaYJpSK0tF0I-pjHHARYOBlxTp9bNvlNwrM-JReO5oN0AqvIwoVinN_pTHhBQ_gaRKd64aJMOyx53xkc4-S9-kOlc0sktg](https://lh4.googleusercontent.com/EL0qe8owU6GQxIii1jGNSzBtrR3lm-hJgwhcugF-zRodAsqq_gLqhYlppDaYJpSK0tF0I-pjHHARYOBlxTp9bNvlNwrM-JReO5oN0AqvIwoVinN_pTHhBQ_gaRKd64aJMOyx53xkc4-S9-kOlc0sktg)
+![image](https://user-images.githubusercontent.com/33730398/218433607-4ee891f1-e583-4568-bd6d-ce38ac078057.png)
 
 Here the type field represents the Block Type.
 
