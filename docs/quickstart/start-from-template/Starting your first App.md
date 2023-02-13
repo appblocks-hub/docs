@@ -4,17 +4,17 @@ sidebar_position: 5
 ---
 Run ```bb start```
 
-[https://lh3.googleusercontent.com/TspMIqtW2E_S31Q8yJ_O7t7B0H14HoK2dcEuNCNccmG10r0SlO-g3vg_8tlO_1x1FuOukO7DomPMdbQC1vppU_bXaDBDrMa6bRHPvR3lBnSKMhZ6LflAjnuamBksQyl0yzzWuukOgtJJd_4m5ONUWhg](https://lh3.googleusercontent.com/TspMIqtW2E_S31Q8yJ_O7t7B0H14HoK2dcEuNCNccmG10r0SlO-g3vg_8tlO_1x1FuOukO7DomPMdbQC1vppU_bXaDBDrMa6bRHPvR3lBnSKMhZ6LflAjnuamBksQyl0yzzWuukOgtJJd_4m5ONUWhg)
+![image](https://user-images.githubusercontent.com/33730398/218434055-04ed3ceb-01d2-4ec4-853b-1dc10ee81ee4.png)
 
 This will start all UI Blocks in HMR Mode and use ```bb ls``` to see its running port and info. For the Backend block, everything will be in a single port (that our CLI will act as a gateway to stitch all functions together.)
 
-[https://lh3.googleusercontent.com/eDu8eDL5oCnG9iXaOfYqZqjfLuWUYYzHE_fzOeeJy9dDzysJ-lLlNNm5Q0DPPuKq5tHV1hfFO0N_1FTTrUF7_g1Um4rPvLFJ2M-NSLzbxO08JMKmBAwo8BPgsVqCU3R71fQw2HS4TkbLtWbubv-bcHs](https://lh3.googleusercontent.com/eDu8eDL5oCnG9iXaOfYqZqjfLuWUYYzHE_fzOeeJy9dDzysJ-lLlNNm5Q0DPPuKq5tHV1hfFO0N_1FTTrUF7_g1Um4rPvLFJ2M-NSLzbxO08JMKmBAwo8BPgsVqCU3R71fQw2HS4TkbLtWbubv-bcHs)
+![image](https://user-images.githubusercontent.com/33730398/218434194-bc357f4c-925c-4956-854b-23b6436e95e4.png)
 
 Open ```todo_container_block``` in your browser.
 
 Tada! Now we have a working Todo app.
 
-[https://lh5.googleusercontent.com/CdO0M6LhFdguwxYYksoLcNpKvFbmOQIqV4UbAwEW0FkWoLO3Qb8gujSP5JDJhQ9_nNE7mUy2mWNUTQDUJKeWEegkwUF0qcwuwz5Fv4O7pscXKLfuNYEmpPfKSIoZQNcMLq-nAaNnSmoFI77WI9k4znc](https://lh5.googleusercontent.com/CdO0M6LhFdguwxYYksoLcNpKvFbmOQIqV4UbAwEW0FkWoLO3Qb8gujSP5JDJhQ9_nNE7mUy2mWNUTQDUJKeWEegkwUF0qcwuwz5Fv4O7pscXKLfuNYEmpPfKSIoZQNcMLq-nAaNnSmoFI77WI9k4znc)
+![image](https://user-images.githubusercontent.com/33730398/218434327-5595fab8-8c6a-4cc1-a886-6911e77d0392.png)
 
 Okay, so let’s talk in detail:
 
