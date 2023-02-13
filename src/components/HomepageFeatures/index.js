@@ -43,7 +43,7 @@ const FeatureList = [
         Content related to Blocks Store
       </>
     ),
-    link:"/docs/blocks-store/walkthrough/",
+    link:"/docs/Platform%20Features/Spaces",
   },
 ];
 const GetStartedList = [
