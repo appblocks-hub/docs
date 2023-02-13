@@ -18,11 +18,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/thatcoder/Desktop/docs/sidebars.js",
+          "sidebarPath": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/Docs/docs/sidebars.js",
           "editUrl": "https://github.com/appblocks-hub/docs/tree/main/"
         },
         "theme": {
-          "customCss": "/Users/thatcoder/Desktop/docs/src/css/custom.css"
+          "customCss": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/Docs/docs/src/css/custom.css"
         }
       }
     ]
@@ -40,6 +40,12 @@ export default {
           "label": "Appblocks Store",
           "position": "right",
           "className": "primary-link-underline"
+        },
+        {
+          "href": "https://discord.gg/2xn3BPa7EV",
+          "label": "Discord",
+          "position": "right",
+          "className": "github-btn"
         },
         {
           "href": "https://github.com/appblocks-hub",

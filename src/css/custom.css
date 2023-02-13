@@ -251,6 +251,7 @@ nav.menu .menu__list li{
   background: #F8F8F8;
   border: 1px solid #DDDDDD;
   border-radius: 5px;
+  margin-left: 12px;
 }
 .github-btn:hover{
   text-decoration: none !important;

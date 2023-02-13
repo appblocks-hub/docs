@@ -49,6 +49,12 @@ const config = {
             className:"primary-link-underline"
           },
           {
+            href: "https://discord.gg/2xn3BPa7EV",
+            label: "Discord",
+            position: "right",
+            className:"github-btn"
+          },
+          {
             href: "https://github.com/appblocks-hub",
             label: "GitHub",
             position: "right",
