@@ -17,7 +17,7 @@ This will install our CLI globally.
 
 Hit bb To list see all the commands in CLI
 
-**Create your first Block**
+**Connect Github and Appblocks**
 
 To create a block make sure to log in to appblocks and connect with your GitHub account.
 
