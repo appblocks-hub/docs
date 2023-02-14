@@ -13,6 +13,8 @@ BB(Build with Blocks) CLI is used to create, collaborate, manage, and deploy blo
 ```
 This will install our CLI globally.
 
+```NOTE - Currently we only support in Linux/ Unix machines, including Mac.```
+
 Hit bb To list see all the commands in CLI
 
 **Create your first Block**
