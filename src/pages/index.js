@@ -13,8 +13,7 @@ function HomepageHeader() {
     <header className={clsx('max-w-7xl mx-auto w-full mt-6 !py-0 !px-4 md:!px-8', styles.heroBanner)}>
       <div className="w-full text-left py-10 md:py-20 primary-gradient-box !px-8 lg:!px-20 rounded">
         <p className="text-white font-medium text-xs">Documentation</p>
-        <h1 className="text-white text-3xl mb-0 lg:mb-4 lg:text-3xl">Hello! what can we <br/>
-help you find?</h1>
+        <h1 className="text-white text-3xl mb-0 lg:mb-4 lg:text-3xl">Getting Started with Appblocks</h1>
         {/* <p className="hero__subtitle text-xl py-2">{siteConfig.tagline}</p> */}
         {/* <div className="text-left pt-2 search-wrapper"> */}
           {/* <Link
