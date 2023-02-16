@@ -1,6 +1,6 @@
 export default [
-  require('/Users/thatcoder/Desktop/docs/node_modules/infima/dist/css/default/default.css'),
-  require('/Users/thatcoder/Desktop/docs/node_modules/@docusaurus/theme-classic/lib/prism-include-languages'),
-  require('/Users/thatcoder/Desktop/docs/node_modules/@docusaurus/theme-classic/lib/admonitions.css'),
-  require('/Users/thatcoder/Desktop/docs/src/css/custom.css'),
+  require('/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/Docs/docs/node_modules/infima/dist/css/default/default.css'),
+  require('/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/Docs/docs/node_modules/@docusaurus/theme-classic/lib/prism-include-languages'),
+  require('/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/Docs/docs/node_modules/@docusaurus/theme-classic/lib/admonitions.css'),
+  require('/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/Docs/docs/src/css/custom.css'),
 ];

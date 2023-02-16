@@ -18,11 +18,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/thatcoder/Desktop/docs/sidebars.js",
+          "sidebarPath": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/Docs/docs/sidebars.js",
           "editUrl": "https://github.com/appblocks-hub/docs/tree/main/"
         },
         "theme": {
-          "customCss": "/Users/thatcoder/Desktop/docs/src/css/custom.css"
+          "customCss": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/Docs/docs/src/css/custom.css"
         }
       }
     ]
@@ -36,7 +36,7 @@ export default {
       },
       "items": [
         {
-          "href": "#",
+          "href": "https://store.appblocks.com",
           "label": "Appblocks Store",
           "position": "right",
           "className": "primary-link-underline"
