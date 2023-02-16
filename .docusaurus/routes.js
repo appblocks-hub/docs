@@ -4,6 +4,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug','3d6'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config','914'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content','c28'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes','244'),
+    exact: true
+  },
+  {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive','f4c'),
     exact: true
@@ -15,7 +50,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','7d3'),
+    component: ComponentCreator('/docs','cf7'),
     routes: [
       {
         path: '/docs/CLI/commands',
@@ -114,14 +149,14 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/sdk/js-sdk',
-        component: ComponentCreator('/docs/sdk/js-sdk','175'),
+        path: '/docs/SDK/js-sdk',
+        component: ComponentCreator('/docs/SDK/js-sdk','f98'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/sdk/node-sdk',
-        component: ComponentCreator('/docs/sdk/node-sdk','f93'),
+        path: '/docs/SDK/node-sdk',
+        component: ComponentCreator('/docs/SDK/node-sdk','6d8'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

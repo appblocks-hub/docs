@@ -43,7 +43,7 @@ const config = {
         },
         items: [
           {
-            href: "#",
+            href: "https://store.appblocks.com",
             label: "Appblocks Store",
             position: "right",
             className:"primary-link-underline"

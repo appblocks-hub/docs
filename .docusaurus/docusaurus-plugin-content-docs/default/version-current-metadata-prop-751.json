@@ -109,14 +109,14 @@
           {
             "type": "link",
             "label": "@appblocks/js-sdk",
-            "href": "/docs/sdk/js-sdk",
-            "docId": "sdk/js-sdk"
+            "href": "/docs/SDK/js-sdk",
+            "docId": "SDK/js-sdk"
           },
           {
             "type": "link",
             "label": "@appblocks/node-sdk",
-            "href": "/docs/sdk/node-sdk",
-            "docId": "sdk/node-sdk"
+            "href": "/docs/SDK/node-sdk",
+            "docId": "SDK/node-sdk"
           }
         ]
       },
@@ -279,14 +279,14 @@
       "description": "Run `bb sync`",
       "sidebar": "tutorialSidebar"
     },
-    "sdk/js-sdk": {
-      "id": "sdk/js-sdk",
+    "SDK/js-sdk": {
+      "id": "SDK/js-sdk",
       "title": "@appblocks/js-sdk",
       "description": "@appblocks/js-sdk provides the essential packages to facilitate Appblocks features across Appblocks applications.",
       "sidebar": "tutorialSidebar"
     },
-    "sdk/node-sdk": {
-      "id": "sdk/node-sdk",
+    "SDK/node-sdk": {
+      "id": "SDK/node-sdk",
       "title": "@appblocks/node-sdk",
       "description": "This includes the server-side libraries used by applications using Appblocks services.",
       "sidebar": "tutorialSidebar"

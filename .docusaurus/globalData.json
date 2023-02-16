@@ -91,13 +91,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "sdk/js-sdk",
-              "path": "/docs/sdk/js-sdk",
+              "id": "SDK/js-sdk",
+              "path": "/docs/SDK/js-sdk",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "sdk/node-sdk",
-              "path": "/docs/sdk/node-sdk",
+              "id": "SDK/node-sdk",
+              "path": "/docs/SDK/node-sdk",
               "sidebar": "tutorialSidebar"
             }
           ],
