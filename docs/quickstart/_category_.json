@@ -1,4 +1,5 @@
 {
   "label": "QuickStart",
-  "position": 1
+  "position": 1,
+  "className": "side-menu-quick-start"
 }

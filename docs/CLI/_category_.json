@@ -1,4 +1,5 @@
 {
   "label": "BB CLI",
-  "position": 4
+  "position": 4,
+  "className":"side-menu-cli"
 }
