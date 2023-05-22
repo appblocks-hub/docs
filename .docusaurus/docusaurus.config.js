@@ -18,11 +18,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/Docs/docs/sidebars.js",
+          "sidebarPath": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/docs/sidebars.js",
           "editUrl": "https://github.com/appblocks-hub/docs/tree/main/"
         },
         "theme": {
-          "customCss": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/Docs/docs/src/css/custom.css"
+          "customCss": "/home/ntpl-318/Neoito-Projects/React-Projects/Appblox-dev/Appblocks-v3/docs/src/css/custom.css"
         }
       }
     ]
