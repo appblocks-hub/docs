@@ -1,8 +1,7 @@
 ---
-title: Setup
-sidebar_position: 1
+title: Connect to Github
+sidebar_position: 2
 ---
-
 
 **Connect Github**
 
