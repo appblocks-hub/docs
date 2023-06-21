@@ -36,6 +36,12 @@
               },
               {
                 "type": "link",
+                "label": "Connect to Github",
+                "href": "/docs/quickstart/start-from-template/connect github",
+                "docId": "quickstart/start-from-template/connect github"
+              },
+              {
+                "type": "link",
                 "label": "Create your first Block",
                 "href": "/docs/quickstart/start-from-template/create your first block",
                 "docId": "quickstart/start-from-template/create your first block"
@@ -48,15 +54,33 @@
               },
               {
                 "type": "link",
+                "label": "Appblocks Login",
+                "href": "/docs/quickstart/start-from-template/login to appblocks",
+                "docId": "quickstart/start-from-template/login to appblocks"
+              },
+              {
+                "type": "link",
+                "label": "Start your blocks",
+                "href": "/docs/quickstart/start-from-template/start your blocks",
+                "docId": "quickstart/start-from-template/start your blocks"
+              },
+              {
+                "type": "link",
+                "label": "Show me the running blocks",
+                "href": "/docs/quickstart/start-from-template/Monitor the running blocks",
+                "docId": "quickstart/start-from-template/Monitor the running blocks"
+              },
+              {
+                "type": "link",
                 "label": "Sync",
                 "href": "/docs/quickstart/start-from-template/Sync",
                 "docId": "quickstart/start-from-template/Sync"
               },
               {
                 "type": "link",
-                "label": "Start and Debug Application.",
-                "href": "/docs/quickstart/start-from-template/Starting your first App",
-                "docId": "quickstart/start-from-template/Starting your first App"
+                "label": "connect remote repository",
+                "href": "/docs/quickstart/start-from-template/connect remote repository",
+                "docId": "quickstart/start-from-template/connect remote repository"
               }
             ]
           }
@@ -261,10 +285,34 @@
       "description": "Each folder might have a block config of its own as follow,",
       "sidebar": "tutorialSidebar"
     },
+    "quickstart/start-from-template/connect github": {
+      "id": "quickstart/start-from-template/connect github",
+      "title": "Connect to Github",
+      "description": "Connect Github",
+      "sidebar": "tutorialSidebar"
+    },
+    "quickstart/start-from-template/connect remote repository": {
+      "id": "quickstart/start-from-template/connect remote repository",
+      "title": "connect remote repository",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
     "quickstart/start-from-template/create your first block": {
       "id": "quickstart/start-from-template/create your first block",
       "title": "Create your first Block",
-      "description": "A package block context is always required for the generation of any block. Run the command below to build a package block.",
+      "description": "Creating a Root Package Block",
+      "sidebar": "tutorialSidebar"
+    },
+    "quickstart/start-from-template/login to appblocks": {
+      "id": "quickstart/start-from-template/login to appblocks",
+      "title": "Appblocks Login",
+      "description": "Creating a Block and Connecting with Appblocks",
+      "sidebar": "tutorialSidebar"
+    },
+    "quickstart/start-from-template/Monitor the running blocks": {
+      "id": "quickstart/start-from-template/Monitor the running blocks",
+      "title": "Show me the running blocks",
+      "description": "Run bb ls",
       "sidebar": "tutorialSidebar"
     },
     "quickstart/start-from-template/setup": {
@@ -273,16 +321,16 @@
       "description": "To create composable apps/ blocks, we definitely need some set of tools.",
       "sidebar": "tutorialSidebar"
     },
-    "quickstart/start-from-template/Starting your first App": {
-      "id": "quickstart/start-from-template/Starting your first App",
-      "title": "Start and Debug Application.",
-      "description": "Run `bb start`",
+    "quickstart/start-from-template/start your blocks": {
+      "id": "quickstart/start-from-template/start your blocks",
+      "title": "Start your blocks",
+      "description": "Sure! Here's the text in Markdown syntax:",
       "sidebar": "tutorialSidebar"
     },
     "quickstart/start-from-template/Sync": {
       "id": "quickstart/start-from-template/Sync",
       "title": "Sync",
-      "description": "Run `bb sync`",
+      "description": "Run bb sync",
       "sidebar": "tutorialSidebar"
     },
     "SDK/js-sdk": {

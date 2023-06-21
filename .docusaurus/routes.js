@@ -50,7 +50,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','cf7'),
+    component: ComponentCreator('/docs','e88'),
     routes: [
       {
         path: '/docs/CLI/commands',
@@ -125,8 +125,32 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/quickstart/start-from-template/connect github',
+        component: ComponentCreator('/docs/quickstart/start-from-template/connect github','cde'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/quickstart/start-from-template/connect remote repository',
+        component: ComponentCreator('/docs/quickstart/start-from-template/connect remote repository','487'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/quickstart/start-from-template/create your first block',
         component: ComponentCreator('/docs/quickstart/start-from-template/create your first block','6c1'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/quickstart/start-from-template/login to appblocks',
+        component: ComponentCreator('/docs/quickstart/start-from-template/login to appblocks','87d'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/quickstart/start-from-template/Monitor the running blocks',
+        component: ComponentCreator('/docs/quickstart/start-from-template/Monitor the running blocks','db8'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -137,8 +161,8 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/quickstart/start-from-template/Starting your first App',
-        component: ComponentCreator('/docs/quickstart/start-from-template/Starting your first App','c20'),
+        path: '/docs/quickstart/start-from-template/start your blocks',
+        component: ComponentCreator('/docs/quickstart/start-from-template/start your blocks','82b'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
