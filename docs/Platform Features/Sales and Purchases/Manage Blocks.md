@@ -7,7 +7,6 @@ Inside [Spaces](https://docs.appblocks.com/docs/Spaces), on the side menu, you w
 * Update listing for block - Publish, Update, Delist
 * Visit your block listing from here.
 * Create versions
-* Downloaded free blocks
 ![image](https://github.com/appblocks-hub/docs/assets/33730398/4f9b9d0a-af2a-4cc1-9e15-98183322a214)
 
 
