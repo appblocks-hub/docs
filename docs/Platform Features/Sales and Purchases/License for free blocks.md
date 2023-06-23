@@ -1,5 +1,5 @@
 # Licenses 
-All free blocks are under MIT license as per OSI guidelines. 
+All free blocks are under MIT license as per OSI guidelines.  
 
 ![image](https://user-images.githubusercontent.com/33730398/218324588-f60a5c6a-9686-4400-bf74-cd96587258d6.png)
 
