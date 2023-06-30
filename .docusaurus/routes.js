@@ -50,7 +50,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','e88'),
+    component: ComponentCreator('/docs','acb'),
     routes: [
       {
         path: '/docs/CLI/commands',
@@ -89,26 +89,26 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Platform Features/Sales and Purchases/Buying a Block',
-        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Buying a Block','bbe'),
+        path: '/docs/Platform Features/Sales and Purchases/License for free blocks',
+        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/License for free blocks','70f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Platform Features/Sales and Purchases/Licences and Subscriptions',
-        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Licences and Subscriptions','67c'),
+        path: '/docs/Platform Features/Sales and Purchases/Manage Blocks',
+        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Manage Blocks','8b9'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Platform Features/Sales and Purchases/Selling a Block',
-        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Selling a Block','3da'),
+        path: '/docs/Platform Features/Sales and Purchases/Publishing a Block',
+        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Publishing a Block','3f7'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Platform Features/Sales and Purchases/Tracking your Sales and Orders',
-        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Tracking your Sales and Orders','e37'),
+        path: '/docs/Platform Features/Sales and Purchases/Using a Block from our Store',
+        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Using a Block from our Store','e17'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
