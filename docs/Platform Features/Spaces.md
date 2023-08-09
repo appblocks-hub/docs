@@ -1,6 +1,6 @@
 # Spaces
 
-Space is where you as an organization collaborate, manage access, subscriptions, licenses and track your sales and purchases (some of these features are applicable only to paid blocks, which is coming soon). Track and manage everything related to Appblocks in one space. Helps your organizations and teams to collaboratively work on applications and blocks and allows you to manage accesses of all these, all in one workspace. 
+Space is where you as an organization collaborate, manage access, subscriptions, licenses and track your blocks and its details. Manage everything related to Appblocks in one space. Helps your organizations and teams to collaboratively work on applications and blocks and allows you to manage accesses of all these, all in one workspace. 
 
 When you create an Appblocks account, a space is created by default. All your activities will reflect here unless you create new spaces or are invited to others.
 ![image](https://github.com/appblocks-hub/docs/assets/33730398/b501c691-11b0-4d15-afd4-12569b9ca45c)
