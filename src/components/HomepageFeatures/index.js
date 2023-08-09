@@ -6,6 +6,16 @@ import CustomerSupport from '../Help';
 
 const FeatureList = [
   {
+    title: 'Quickstart',
+    Svg: require('@site/static/img/icons/quick-start.svg').default,
+    description: (
+      <>
+        Try our Quickstart to get started
+      </>
+    ),
+    link: "/docs/quickstart/start-from-template/setup"
+  },
+  {
     title: 'Blocks Architecture',
     Svg: require('@site/static/img/icons/blocks-arc-icon.svg').default,
     description: (
@@ -95,7 +105,7 @@ export default function HomepageFeatures() {
       <div className="max-w-7xl mx-auto px-4 md:px-8 w-full">
         <h3 className="text-black font-medium text-2xl mb-2 mt-5">Guides and resources</h3>
         <p className="text-ab-black text-base font-medium">Explore and Learn more about everything from building blocks to selling your own blocks to customers across the globe.</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mt-8">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

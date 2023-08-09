@@ -50,7 +50,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','acb'),
+    component: ComponentCreator('/docs','e10'),
     routes: [
       {
         path: '/docs/CLI/commands',
@@ -84,37 +84,37 @@ export default [
       },
       {
         path: '/docs/Platform Features/blocks-store/walkthrough',
-        component: ComponentCreator('/docs/Platform Features/blocks-store/walkthrough','e90'),
+        component: ComponentCreator('/docs/Platform Features/blocks-store/walkthrough','51d'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Platform Features/Sales and Purchases/License for free blocks',
-        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/License for free blocks','70f'),
+        path: '/docs/Platform Features/Publish and Download/License for free blocks',
+        component: ComponentCreator('/docs/Platform Features/Publish and Download/License for free blocks','e4e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Platform Features/Sales and Purchases/Manage Blocks',
-        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Manage Blocks','8b9'),
+        path: '/docs/Platform Features/Publish and Download/Manage Blocks',
+        component: ComponentCreator('/docs/Platform Features/Publish and Download/Manage Blocks','609'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Platform Features/Sales and Purchases/Publishing a Block',
-        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Publishing a Block','3f7'),
+        path: '/docs/Platform Features/Publish and Download/Publishing a Block',
+        component: ComponentCreator('/docs/Platform Features/Publish and Download/Publishing a Block','a7f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Platform Features/Sales and Purchases/Using a Block from our Store',
-        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Using a Block from our Store','e17'),
+        path: '/docs/Platform Features/Publish and Download/Using a Block from our Store',
+        component: ComponentCreator('/docs/Platform Features/Publish and Download/Using a Block from our Store','65a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
         path: '/docs/Platform Features/Spaces',
-        component: ComponentCreator('/docs/Platform Features/Spaces','aa9'),
+        component: ComponentCreator('/docs/Platform Features/Spaces','819'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

@@ -172,33 +172,33 @@
           },
           {
             "type": "category",
-            "label": "Sales and Purchases",
+            "label": "Publish and Download",
             "collapsible": true,
             "collapsed": true,
             "items": [
               {
                 "type": "link",
                 "label": "Licenses",
-                "href": "/docs/Platform Features/Sales and Purchases/License for free blocks",
-                "docId": "Platform Features/Sales and Purchases/License for free blocks"
+                "href": "/docs/Platform Features/Publish and Download/License for free blocks",
+                "docId": "Platform Features/Publish and Download/License for free blocks"
               },
               {
                 "type": "link",
                 "label": "Manage Blocks",
-                "href": "/docs/Platform Features/Sales and Purchases/Manage Blocks",
-                "docId": "Platform Features/Sales and Purchases/Manage Blocks"
+                "href": "/docs/Platform Features/Publish and Download/Manage Blocks",
+                "docId": "Platform Features/Publish and Download/Manage Blocks"
               },
               {
                 "type": "link",
                 "label": "Publishing a Block",
-                "href": "/docs/Platform Features/Sales and Purchases/Publishing a Block",
-                "docId": "Platform Features/Sales and Purchases/Publishing a Block"
+                "href": "/docs/Platform Features/Publish and Download/Publishing a Block",
+                "docId": "Platform Features/Publish and Download/Publishing a Block"
               },
               {
                 "type": "link",
                 "label": "Using a Block from our Store",
-                "href": "/docs/Platform Features/Sales and Purchases/Using a Block from our Store",
-                "docId": "Platform Features/Sales and Purchases/Using a Block from our Store"
+                "href": "/docs/Platform Features/Publish and Download/Using a Block from our Store",
+                "docId": "Platform Features/Publish and Download/Using a Block from our Store"
               }
             ]
           },
@@ -249,26 +249,26 @@
       "description": "Blocks Store",
       "sidebar": "tutorialSidebar"
     },
-    "Platform Features/Sales and Purchases/License for free blocks": {
-      "id": "Platform Features/Sales and Purchases/License for free blocks",
+    "Platform Features/Publish and Download/License for free blocks": {
+      "id": "Platform Features/Publish and Download/License for free blocks",
       "title": "Licenses",
       "description": "All free blocks are under MIT license as per OSI guidelines.",
       "sidebar": "tutorialSidebar"
     },
-    "Platform Features/Sales and Purchases/Manage Blocks": {
-      "id": "Platform Features/Sales and Purchases/Manage Blocks",
+    "Platform Features/Publish and Download/Manage Blocks": {
+      "id": "Platform Features/Publish and Download/Manage Blocks",
       "title": "Manage Blocks",
       "description": "Inside Spaces, on the side menu, you will find Manage Blocks.",
       "sidebar": "tutorialSidebar"
     },
-    "Platform Features/Sales and Purchases/Publishing a Block": {
-      "id": "Platform Features/Sales and Purchases/Publishing a Block",
+    "Platform Features/Publish and Download/Publishing a Block": {
+      "id": "Platform Features/Publish and Download/Publishing a Block",
       "title": "Publishing a Block",
-      "description": "The instance you create a block using the CLI, it will appear in the store and other pages of your logged in Appblocks account as a private block.",
+      "description": "The blocks you create with the BB-CLI will appear in the store and other pages of your logged in Appblocks account right after the sync step.",
       "sidebar": "tutorialSidebar"
     },
-    "Platform Features/Sales and Purchases/Using a Block from our Store": {
-      "id": "Platform Features/Sales and Purchases/Using a Block from our Store",
+    "Platform Features/Publish and Download/Using a Block from our Store": {
+      "id": "Platform Features/Publish and Download/Using a Block from our Store",
       "title": "Using a Block from our Store",
       "description": "As of now, we have only free blocks in the Store. When you go through the store and find a block or your liking, click it for more details.",
       "sidebar": "tutorialSidebar"
@@ -276,7 +276,7 @@
     "Platform Features/Spaces": {
       "id": "Platform Features/Spaces",
       "title": "Spaces",
-      "description": "Space is where you as an organization collaborate, manage access, subscriptions, licenses and track your sales and purchases (some of these features are applicable only to paid blocks, which is coming soon). Track and manage everything related to Appblocks in one space. Helps your organizations and teams to collaboratively work on applications and blocks and allows you to manage accesses of all these, all in one workspace.",
+      "description": "Space is where you as an organization collaborate, manage access, subscriptions, licenses and track your blocks and its details. Manage everything related to Appblocks in one space. Helps your organizations and teams to collaboratively work on applications and blocks and allows you to manage accesses of all these, all in one workspace.",
       "sidebar": "tutorialSidebar"
     },
     "quickstart/start-from-template/Config": {
