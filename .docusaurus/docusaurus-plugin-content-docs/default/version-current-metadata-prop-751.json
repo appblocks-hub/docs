@@ -36,6 +36,12 @@
               },
               {
                 "type": "link",
+                "label": "Connect to Github",
+                "href": "/docs/quickstart/start-from-template/connect github",
+                "docId": "quickstart/start-from-template/connect github"
+              },
+              {
+                "type": "link",
                 "label": "Create your first Block",
                 "href": "/docs/quickstart/start-from-template/create your first block",
                 "docId": "quickstart/start-from-template/create your first block"
@@ -48,15 +54,33 @@
               },
               {
                 "type": "link",
+                "label": "Appblocks Login",
+                "href": "/docs/quickstart/start-from-template/login to appblocks",
+                "docId": "quickstart/start-from-template/login to appblocks"
+              },
+              {
+                "type": "link",
+                "label": "Start your blocks",
+                "href": "/docs/quickstart/start-from-template/start your blocks",
+                "docId": "quickstart/start-from-template/start your blocks"
+              },
+              {
+                "type": "link",
+                "label": "Show me the running blocks",
+                "href": "/docs/quickstart/start-from-template/Monitor the running blocks",
+                "docId": "quickstart/start-from-template/Monitor the running blocks"
+              },
+              {
+                "type": "link",
                 "label": "Sync",
                 "href": "/docs/quickstart/start-from-template/Sync",
                 "docId": "quickstart/start-from-template/Sync"
               },
               {
                 "type": "link",
-                "label": "Start and Debug Application.",
-                "href": "/docs/quickstart/start-from-template/Starting your first App",
-                "docId": "quickstart/start-from-template/Starting your first App"
+                "label": "connect remote repository",
+                "href": "/docs/quickstart/start-from-template/connect remote repository",
+                "docId": "quickstart/start-from-template/connect remote repository"
               }
             ]
           }
@@ -148,33 +172,33 @@
           },
           {
             "type": "category",
-            "label": "Sales and Purchases",
+            "label": "Publish and Download",
             "collapsible": true,
             "collapsed": true,
             "items": [
               {
                 "type": "link",
-                "label": "Purchasing a Block",
-                "href": "/docs/Platform Features/Sales and Purchases/Buying a Block",
-                "docId": "Platform Features/Sales and Purchases/Buying a Block"
+                "label": "Licenses",
+                "href": "/docs/Platform Features/Publish and Download/License for free blocks",
+                "docId": "Platform Features/Publish and Download/License for free blocks"
               },
               {
                 "type": "link",
-                "label": "Licenses and Subscriptions",
-                "href": "/docs/Platform Features/Sales and Purchases/Licences and Subscriptions",
-                "docId": "Platform Features/Sales and Purchases/Licences and Subscriptions"
+                "label": "Manage Blocks",
+                "href": "/docs/Platform Features/Publish and Download/Manage Blocks",
+                "docId": "Platform Features/Publish and Download/Manage Blocks"
               },
               {
                 "type": "link",
-                "label": "Selling a Block",
-                "href": "/docs/Platform Features/Sales and Purchases/Selling a Block",
-                "docId": "Platform Features/Sales and Purchases/Selling a Block"
+                "label": "Publishing a Block",
+                "href": "/docs/Platform Features/Publish and Download/Publishing a Block",
+                "docId": "Platform Features/Publish and Download/Publishing a Block"
               },
               {
                 "type": "link",
-                "label": "Tracking your Sales, Orders and Block Management",
-                "href": "/docs/Platform Features/Sales and Purchases/Tracking your Sales and Orders",
-                "docId": "Platform Features/Sales and Purchases/Tracking your Sales and Orders"
+                "label": "Using a Block from our Store",
+                "href": "/docs/Platform Features/Publish and Download/Using a Block from our Store",
+                "docId": "Platform Features/Publish and Download/Using a Block from our Store"
               }
             ]
           },
@@ -225,34 +249,34 @@
       "description": "Blocks Store",
       "sidebar": "tutorialSidebar"
     },
-    "Platform Features/Sales and Purchases/Buying a Block": {
-      "id": "Platform Features/Sales and Purchases/Buying a Block",
-      "title": "Purchasing a Block",
-      "description": "Blocks can be free or paid. When you go through the store and find a block or your liking, click it for more details.",
+    "Platform Features/Publish and Download/License for free blocks": {
+      "id": "Platform Features/Publish and Download/License for free blocks",
+      "title": "Licenses",
+      "description": "All free blocks are under MIT license as per OSI guidelines.",
       "sidebar": "tutorialSidebar"
     },
-    "Platform Features/Sales and Purchases/Licences and Subscriptions": {
-      "id": "Platform Features/Sales and Purchases/Licences and Subscriptions",
-      "title": "Licenses and Subscriptions",
-      "description": "Seller may list their blocks as free or paid.",
+    "Platform Features/Publish and Download/Manage Blocks": {
+      "id": "Platform Features/Publish and Download/Manage Blocks",
+      "title": "Manage Blocks",
+      "description": "Inside Spaces, on the side menu, you will find Manage Blocks.",
       "sidebar": "tutorialSidebar"
     },
-    "Platform Features/Sales and Purchases/Selling a Block": {
-      "id": "Platform Features/Sales and Purchases/Selling a Block",
-      "title": "Selling a Block",
-      "description": "The instance you create a block using the CLI, it will appear in the store and other pages of your logged in Appblocks account as a private block.",
+    "Platform Features/Publish and Download/Publishing a Block": {
+      "id": "Platform Features/Publish and Download/Publishing a Block",
+      "title": "Publishing a Block",
+      "description": "The blocks you create with the BB-CLI will appear in the store and other pages of your logged in Appblocks account right after the sync step.",
       "sidebar": "tutorialSidebar"
     },
-    "Platform Features/Sales and Purchases/Tracking your Sales and Orders": {
-      "id": "Platform Features/Sales and Purchases/Tracking your Sales and Orders",
-      "title": "Tracking your Sales, Orders and Block Management",
-      "description": "Sales History",
+    "Platform Features/Publish and Download/Using a Block from our Store": {
+      "id": "Platform Features/Publish and Download/Using a Block from our Store",
+      "title": "Using a Block from our Store",
+      "description": "As of now, we have only free blocks in the Store. When you go through the store and find a block or your liking, click it for more details.",
       "sidebar": "tutorialSidebar"
     },
     "Platform Features/Spaces": {
       "id": "Platform Features/Spaces",
       "title": "Spaces",
-      "description": "Space is where you as an organization collaborate, manage access, subscriptions, licenses and track your sales and purchases. Track and manage everything related to Appblocks in one space. Helps your organizations and teams to collaboratively work on applications and blocks and allows you to manage accesses of all these, all in one workspace.",
+      "description": "Space is where you as an organization collaborate, manage access, subscriptions, licenses and track your blocks and its details. Manage everything related to Appblocks in one space. Helps your organizations and teams to collaboratively work on applications and blocks and allows you to manage accesses of all these, all in one workspace.",
       "sidebar": "tutorialSidebar"
     },
     "quickstart/start-from-template/Config": {
@@ -261,10 +285,34 @@
       "description": "Each folder might have a block config of its own as follow,",
       "sidebar": "tutorialSidebar"
     },
+    "quickstart/start-from-template/connect github": {
+      "id": "quickstart/start-from-template/connect github",
+      "title": "Connect to Github",
+      "description": "Connect Github",
+      "sidebar": "tutorialSidebar"
+    },
+    "quickstart/start-from-template/connect remote repository": {
+      "id": "quickstart/start-from-template/connect remote repository",
+      "title": "connect remote repository",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
     "quickstart/start-from-template/create your first block": {
       "id": "quickstart/start-from-template/create your first block",
       "title": "Create your first Block",
-      "description": "A package block context is always required for the generation of any block. Run the command below to build a package block.",
+      "description": "Creating a Root Package Block",
+      "sidebar": "tutorialSidebar"
+    },
+    "quickstart/start-from-template/login to appblocks": {
+      "id": "quickstart/start-from-template/login to appblocks",
+      "title": "Appblocks Login",
+      "description": "Creating a Block and Connecting with Appblocks",
+      "sidebar": "tutorialSidebar"
+    },
+    "quickstart/start-from-template/Monitor the running blocks": {
+      "id": "quickstart/start-from-template/Monitor the running blocks",
+      "title": "Show me the running blocks",
+      "description": "Run bb ls",
       "sidebar": "tutorialSidebar"
     },
     "quickstart/start-from-template/setup": {
@@ -273,16 +321,16 @@
       "description": "To create composable apps/ blocks, we definitely need some set of tools.",
       "sidebar": "tutorialSidebar"
     },
-    "quickstart/start-from-template/Starting your first App": {
-      "id": "quickstart/start-from-template/Starting your first App",
-      "title": "Start and Debug Application.",
-      "description": "Run `bb start`",
+    "quickstart/start-from-template/start your blocks": {
+      "id": "quickstart/start-from-template/start your blocks",
+      "title": "Start your blocks",
+      "description": "Sure! Here's the text in Markdown syntax:",
       "sidebar": "tutorialSidebar"
     },
     "quickstart/start-from-template/Sync": {
       "id": "quickstart/start-from-template/Sync",
       "title": "Sync",
-      "description": "Run `bb sync`",
+      "description": "Run bb sync",
       "sidebar": "tutorialSidebar"
     },
     "SDK/js-sdk": {

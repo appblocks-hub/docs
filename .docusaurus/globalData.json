@@ -41,23 +41,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Platform Features/Sales and Purchases/Buying a Block",
-              "path": "/docs/Platform Features/Sales and Purchases/Buying a Block",
+              "id": "Platform Features/Publish and Download/License for free blocks",
+              "path": "/docs/Platform Features/Publish and Download/License for free blocks",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Platform Features/Sales and Purchases/Licences and Subscriptions",
-              "path": "/docs/Platform Features/Sales and Purchases/Licences and Subscriptions",
+              "id": "Platform Features/Publish and Download/Manage Blocks",
+              "path": "/docs/Platform Features/Publish and Download/Manage Blocks",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Platform Features/Sales and Purchases/Selling a Block",
-              "path": "/docs/Platform Features/Sales and Purchases/Selling a Block",
+              "id": "Platform Features/Publish and Download/Publishing a Block",
+              "path": "/docs/Platform Features/Publish and Download/Publishing a Block",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Platform Features/Sales and Purchases/Tracking your Sales and Orders",
-              "path": "/docs/Platform Features/Sales and Purchases/Tracking your Sales and Orders",
+              "id": "Platform Features/Publish and Download/Using a Block from our Store",
+              "path": "/docs/Platform Features/Publish and Download/Using a Block from our Store",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -71,8 +71,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "quickstart/start-from-template/connect github",
+              "path": "/docs/quickstart/start-from-template/connect github",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart/start-from-template/connect remote repository",
+              "path": "/docs/quickstart/start-from-template/connect remote repository",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "quickstart/start-from-template/create your first block",
               "path": "/docs/quickstart/start-from-template/create your first block",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart/start-from-template/login to appblocks",
+              "path": "/docs/quickstart/start-from-template/login to appblocks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart/start-from-template/Monitor the running blocks",
+              "path": "/docs/quickstart/start-from-template/Monitor the running blocks",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -81,8 +101,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "quickstart/start-from-template/Starting your first App",
-              "path": "/docs/quickstart/start-from-template/Starting your first App",
+              "id": "quickstart/start-from-template/start your blocks",
+              "path": "/docs/quickstart/start-from-template/start your blocks",
               "sidebar": "tutorialSidebar"
             },
             {

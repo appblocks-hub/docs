@@ -1,24 +1,17 @@
 ---
 title: Sync
-sidebar_position: 4
+sidebar_position: 7
 ---
 
-Run ```bb sync```
+Run `bb sync`
 
-![image](https://user-images.githubusercontent.com/33730398/218434651-c4f6bcc8-58d7-4856-a91e-08aaf67c116b.png)
+Above command will take care of syncing your code with appblocks registry!
 
-Hit yes. CLI found 6 folders with ```block.config.json``` and is asking you to sync that with the registry. Once the process is completed it will push the code to the individual repository as well.
+So far you have created blocks, started it, played around, connected and pushed to a remote git repository. Now since you made blocks, which can be a reusable asset for you, its better if you have them registered in the appblocks registry. Thereby you can distribute these blocks privately to different other private projects of yours or you can distribute them to other developers through appblocks store.
 
-You can start syncing all 6 blocks like below as we did.
+Sync command will
 
-![image](https://user-images.githubusercontent.com/33730398/218434768-327c98be-15d6-4a65-aed2-b1d878deeaba.png)
-
-Once the process is finished your folder structure will look like this.
-
-![image](https://user-images.githubusercontent.com/33730398/218434871-9e2604ca-c5c3-442b-b752-bef8b81738b6.png)
-
-And in block.config.json the new blocks have been added as dependencies with its GitHub URL. The same will be reflected in individual block config files.
-
-![image](https://user-images.githubusercontent.com/33730398/218435000-701e3421-72ce-43ee-98f4-a497e5371627.png)
-
-Let's try to start this package block and see if this works. (Don’t worry, we’ll explain the code later)
+- Create orphan branches for unsynced blocks in your codebase.
+- Copy and commit the changes done in any already synced block code in the remote main branch to the corresponding orphan branch and then will push to remote.
+- Sync the block configurations with appblocks registry, new blocks will be added to registry and stale blocks will be removed
+- If you have used bb get command to pull some bock from appblocks store, a variant of the same block has to be created in your repository for you to customise. Upon doing sync, this variant creation will also be taken care of

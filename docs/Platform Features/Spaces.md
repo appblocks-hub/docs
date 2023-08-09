@@ -86,6 +86,10 @@ You can enter a space by choosing it from the list in the home page or from the 
 ![image](https://github.com/appblocks-hub/docs/assets/33730398/89dc21f3-e773-433b-a8a9-277421c2853e)
 
 
+### Permissions
+Permissions are groups of existing policy groups.It helps the user to manage ACL more efficiently.
+<!-- For example, it can help us to group non entity-based and entity-based policy groups into a single permission.Entities can also be attached to permissions. -->
+
 ### Settings
 * You can view and edit the chosen space here.
 ![image](https://user-images.githubusercontent.com/33730398/218076047-88146b80-9b82-4917-ba88-fdc5f668b3bb.png)

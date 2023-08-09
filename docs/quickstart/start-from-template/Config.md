@@ -14,5 +14,3 @@ Source represents the corresponding source repository URL of the block (currentl
 Lang represents Language/ Runtime
 
 And as the commands say start and build are for the commands to run the block and do the build.
-
-Currently, there are no dependencies attached in the root block.config.json since we haven’t synced todo code with appblocks registry yet (it's just a code template now, but let's make it a block). To do that we need to use ```bb sync``` command as CLI prompted while we created the package block.

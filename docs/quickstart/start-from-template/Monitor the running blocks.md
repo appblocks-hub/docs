@@ -1,16 +1,9 @@
 ---
-title: Start and Debug Application.
-sidebar_position: 5
+title: Show me the running blocks
+sidebar_position: 6
 ---
-Run ```bb start```
 
-![image](https://user-images.githubusercontent.com/33730398/218434055-04ed3ceb-01d2-4ec4-853b-1dc10ee81ee4.png)
-
-[UI Blocks](/docs/core-concepts/type-of-blocks#ui-block) will be started in HMR Mode and for the Backend [Fn block](/docs/core-concepts/type-of-blocks#fn-block), everything will be in a single port (that our CLI will act as a gateway to stitch all functions together.) use ```bb ls``` to see its running port and info.
-
-![image](https://user-images.githubusercontent.com/33730398/218434194-bc357f4c-925c-4956-854b-23b6436e95e4.png)
-
-Open ```todo_container_block``` in your browser.
+Run `bb ls`
 
 Tada! Now we have a working Todo app.
 

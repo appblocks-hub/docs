@@ -50,7 +50,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','cf7'),
+    component: ComponentCreator('/docs','e10'),
     routes: [
       {
         path: '/docs/CLI/commands',
@@ -84,37 +84,37 @@ export default [
       },
       {
         path: '/docs/Platform Features/blocks-store/walkthrough',
-        component: ComponentCreator('/docs/Platform Features/blocks-store/walkthrough','e90'),
+        component: ComponentCreator('/docs/Platform Features/blocks-store/walkthrough','51d'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Platform Features/Sales and Purchases/Buying a Block',
-        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Buying a Block','bbe'),
+        path: '/docs/Platform Features/Publish and Download/License for free blocks',
+        component: ComponentCreator('/docs/Platform Features/Publish and Download/License for free blocks','e4e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Platform Features/Sales and Purchases/Licences and Subscriptions',
-        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Licences and Subscriptions','67c'),
+        path: '/docs/Platform Features/Publish and Download/Manage Blocks',
+        component: ComponentCreator('/docs/Platform Features/Publish and Download/Manage Blocks','609'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Platform Features/Sales and Purchases/Selling a Block',
-        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Selling a Block','3da'),
+        path: '/docs/Platform Features/Publish and Download/Publishing a Block',
+        component: ComponentCreator('/docs/Platform Features/Publish and Download/Publishing a Block','a7f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/Platform Features/Sales and Purchases/Tracking your Sales and Orders',
-        component: ComponentCreator('/docs/Platform Features/Sales and Purchases/Tracking your Sales and Orders','e37'),
+        path: '/docs/Platform Features/Publish and Download/Using a Block from our Store',
+        component: ComponentCreator('/docs/Platform Features/Publish and Download/Using a Block from our Store','65a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
         path: '/docs/Platform Features/Spaces',
-        component: ComponentCreator('/docs/Platform Features/Spaces','aa9'),
+        component: ComponentCreator('/docs/Platform Features/Spaces','819'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -125,8 +125,32 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/quickstart/start-from-template/connect github',
+        component: ComponentCreator('/docs/quickstart/start-from-template/connect github','cde'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/quickstart/start-from-template/connect remote repository',
+        component: ComponentCreator('/docs/quickstart/start-from-template/connect remote repository','487'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/quickstart/start-from-template/create your first block',
         component: ComponentCreator('/docs/quickstart/start-from-template/create your first block','6c1'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/quickstart/start-from-template/login to appblocks',
+        component: ComponentCreator('/docs/quickstart/start-from-template/login to appblocks','87d'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/quickstart/start-from-template/Monitor the running blocks',
+        component: ComponentCreator('/docs/quickstart/start-from-template/Monitor the running blocks','db8'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -137,8 +161,8 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/quickstart/start-from-template/Starting your first App',
-        component: ComponentCreator('/docs/quickstart/start-from-template/Starting your first App','c20'),
+        path: '/docs/quickstart/start-from-template/start your blocks',
+        component: ComponentCreator('/docs/quickstart/start-from-template/start your blocks','82b'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

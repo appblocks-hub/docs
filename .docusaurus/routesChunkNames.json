@@ -29,7 +29,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-cf7": {
+  "/docs-e10": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -53,45 +53,61 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-introf-84-2b4"
   },
-  "/docs/Platform Features/blocks-store/walkthrough-e90": {
+  "/docs/Platform Features/blocks-store/walkthrough-51d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-platform-features-blocks-store-walkthrough-3-ae-9c0"
+    "content": "content---docs-platform-features-blocks-store-walkthrough-94-c-3a8"
   },
-  "/docs/Platform Features/Sales and Purchases/Buying a Block-bbe": {
+  "/docs/Platform Features/Publish and Download/License for free blocks-e4e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-platform-features-sales-and-purchases-buying-a-block-907-38c"
+    "content": "content---docs-platform-features-publish-and-download-license-for-free-blocks-52-b-309"
   },
-  "/docs/Platform Features/Sales and Purchases/Licences and Subscriptions-67c": {
+  "/docs/Platform Features/Publish and Download/Manage Blocks-609": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-platform-features-sales-and-purchases-licences-and-subscriptions-088-906"
+    "content": "content---docs-platform-features-publish-and-download-manage-blocks-33-e-a31"
   },
-  "/docs/Platform Features/Sales and Purchases/Selling a Block-3da": {
+  "/docs/Platform Features/Publish and Download/Publishing a Block-a7f": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-platform-features-sales-and-purchases-selling-a-blockce-6-125"
+    "content": "content---docs-platform-features-publish-and-download-publishing-a-block-077-38a"
   },
-  "/docs/Platform Features/Sales and Purchases/Tracking your Sales and Orders-e37": {
+  "/docs/Platform Features/Publish and Download/Using a Block from our Store-65a": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-platform-features-sales-and-purchases-tracking-your-sales-and-orders-3-d-9-0b5"
+    "content": "content---docs-platform-features-publish-and-download-using-a-block-from-our-store-8-a-2-71c"
   },
-  "/docs/Platform Features/Spaces-aa9": {
+  "/docs/Platform Features/Spaces-819": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-platform-features-spaces-567-5df"
+    "content": "content---docs-platform-features-spaces-72-d-c54"
   },
   "/docs/quickstart/start-from-template/Config-b0b": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-quickstart-start-from-template-config-398-04e"
   },
+  "/docs/quickstart/start-from-template/connect github-cde": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-start-from-template-connect-github-172-043"
+  },
+  "/docs/quickstart/start-from-template/connect remote repository-487": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-start-from-template-connect-remote-repository-219-eb9"
+  },
   "/docs/quickstart/start-from-template/create your first block-6c1": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-quickstart-start-from-template-create-your-first-blockef-0-ff9"
+  },
+  "/docs/quickstart/start-from-template/login to appblocks-87d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-start-from-template-login-to-appblocksc-16-7cc"
+  },
+  "/docs/quickstart/start-from-template/Monitor the running blocks-db8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-start-from-template-monitor-the-running-blocks-741-f59"
   },
   "/docs/quickstart/start-from-template/setup-207": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-quickstart-start-from-template-setup-0-f-5-71f"
   },
-  "/docs/quickstart/start-from-template/Starting your first App-c20": {
+  "/docs/quickstart/start-from-template/start your blocks-82b": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-quickstart-start-from-template-starting-your-first-app-4-a-6-45d"
+    "content": "content---docs-quickstart-start-from-template-start-your-blocks-369-5ec"
   },
   "/docs/quickstart/start-from-template/Sync-b05": {
     "component": "component---theme-doc-item-178-a40",
