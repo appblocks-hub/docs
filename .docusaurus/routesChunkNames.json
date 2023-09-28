@@ -29,7 +29,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-e10": {
+  "/docs-25c": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -76,6 +76,10 @@
   "/docs/Platform Features/Spaces-819": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-platform-features-spaces-72-d-c54"
+  },
+  "/docs/quickstart/hello world-dd1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-hello-world-9-ac-62a"
   },
   "/docs/quickstart/start-from-template/Config-b0b": {
     "component": "component---theme-doc-item-178-a40",

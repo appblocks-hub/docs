@@ -1,3 +1,7 @@
 node_modules/
 build/
 .docusaurus
+.vscode/settings.json
+yarn.lock
+package-lock.json
+.gitignore
