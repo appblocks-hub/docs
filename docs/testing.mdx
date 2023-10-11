@@ -1,0 +1,57 @@
+---
+title: Testing
+sidebar_class_name: 'side-menu-why-appblocks'
+---
+
+## Introduction
+
+Obtaining solid test coverage is imperative for building confidence in an application. While using appblocks, we always recommend creating and reusing blocks which are battle-tested components. For running tests, we have the ` bb run-test` command in **bb-cli**. It searches for all the files with _.test.js_ or _.spec.js_ extension or in the \_\_\_tests\_\_\_ folder inside each qualifying block inside the root package block and runs the tests. Use the ` bb run-test --help` flag for more documentation on the command.
+
+## Testing Setup
+
+The blocks come bundled with **Jest** and the test script. [Jest](https://jestjs.io/) is a JavaScript test runner that provides resources for writing and running tests. The UI blocks come with **React Testing Library** included. [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) offers a set of testing helpers that structure your tests based on user interactions rather than components’ implementation details. Jest is used as the test runner, and React Testing Library provides test helpers for structuring tests around user interactions.
+
+The test setup can be configured to desired preference by use of config files. It is advised to install all the packages before running the tests.
+
+## Adding the tests
+
+### Unit Tests
+
+Unit testing is a way to test small pieces of code. The unit under test (UUT) is usually an individual function or method in your application
+
+- If Jest is not configured in a block. Install Jest using the command.
+
+        npm i -D jest
+
+- Add the following section to your package.json:
+
+        {
+            "scripts": {
+            "test": "jest"
+            }
+        }
+
+- Create files containg testing logic with _.test.js_ or _.spec.js_ extension along with the files you need to test or include them in the \_\_\_tests\_\_\_ folder. For e.g. **_/App.test.js_**
+
+  ```js file=example.js
+  import React from 'react'
+  import { render, screen, waitFor } from '@testing-library/react'
+  import { BrowserRouter } from 'react-router-dom'
+  import App from './src/App'
+
+  describe('App', () => {
+    it('renders without crashing', async () => {
+      render(
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      )
+      const appElement = screen.getByTestId('app')
+      await waitFor(() => expect(appElement).toBeInTheDocument())
+    })
+  })
+  ```
+
+- Run the following command in _bb-bli_
+
+        bb run-test
