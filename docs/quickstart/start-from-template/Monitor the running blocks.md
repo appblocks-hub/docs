@@ -11,11 +11,11 @@ Tada! Now we have a working Todo app.
 
 Okay, so let’s talk in detail:
 
-- In the above example, there is 1 UI [Container(Host)](/docs/core-concepts/type-of-blocks#container-block) Block, 2 [UI Element](/docs/core-concepts/type-of-blocks#ui-elements) Blocks, and 3 Function Blocks.
-- Container/ Host is running in 3001 ( might be different in your machine, use bb ls ).
-- To visit the application you have to open the Container URL in the browser since the container is the frontend orchestrator which stitches all the elements together.
-- CLI creates a local gateway server to proxy all the functions to run everything in a single port. ( here on 3007 port )
-- You can use .env.function to manage backend env variables, which will already have a gateway URL by default ( “BLOCK_FUNCTION_URL” ).
-- use .env.views to manage frontend env variables, contains remote entry URL of all elements.
+- In the above example, there is one UI [Container(Host)](/docs/core-concepts/type-of-blocks#container-block) Block, two [UI Element](/docs/core-concepts/type-of-blocks#ui-elements) Blocks, and three Function Blocks.
+- Container/Host is running in 3001 (might be different in your machine, use "bb ls").
+- To visit the application, you have to open the container URL in the browser since the container is the frontend orchestrator which stitches all the elements together.
+- The CLI creates a local gateway server to proxy all the functions to run everything in a single port (here on 3007 port).
+- You can use .env.function to manage backend env variables, which will already have a gateway URL by default (“BLOCK_FUNCTION_URL”).
+- Use .env.views to manage frontend env variables. It contains remote entry URL of all the elements.
 
-Go to the commands section to try out more features that CLI provides.
+Go to the commands section to try out more features the CLI provides.
