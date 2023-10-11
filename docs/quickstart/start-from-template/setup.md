@@ -9,7 +9,12 @@ BB(Build with Blocks) CLI is used to create, collaborate, manage, and deploy blo
 
 **Pre requisites**
 
-* you will need pre installed node run time - version > 12
+* you will need pre installed node run time 
+  - required: { npm: '>=8.1.0', node: '16.13.0 - 16.20.1 || 18.12.0 - 18.17.0' }
+  If you are using [NVM](https://github.com/nvm-sh/nvm) run the following command
+  ```
+  nvm install 18.17.0
+  ```
 * Currently we only support linux and mac operating systems
 
 **Install BB CLI**
