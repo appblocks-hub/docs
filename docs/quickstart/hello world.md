@@ -20,7 +20,7 @@ The BB CLI streamlines block creation, collaboration, management, and deployment
 ```
 This will create a package from scratch 
 
-You can select whether your package is public/private and also you can select deafult project or predefined Todo Package App. [See more](/docs/quickstart/start-from-template/create%20your%20first%20block)
+You can select whether your package is public/private and also you can select default project or predefined Todo Package App. [See more](/docs/quickstart/start-from-template/create%20your%20first%20block)
 
 **Creating A Block**
 ```
