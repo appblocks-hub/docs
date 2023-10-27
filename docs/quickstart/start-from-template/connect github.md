@@ -17,4 +17,4 @@ By using the BB CLI, you can create orphan branches in GitHub for each block aut
 
 However, for the BB CLI to effectively handle the Git operations for each block, it requires authorization from the GitHub app of Appblocks. This authorization allows the CLI to connect with GitHub APIs.
 
-Additionally, you will be prompted to drop a PAT or enable SSH connection with GitHub, so that the CLI can take care of the repository operations like creating new orphan branches, commiting and pushing to the orphan branches etc., on your behalf.
+Additionally, you will be prompted to drop a PAT or enable SSH connection with GitHub, so that the CLI can take care of the repository operations like creating new orphan branches, committing and pushing to the orphan branches etc., on your behalf.
