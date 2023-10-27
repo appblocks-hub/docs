@@ -38,7 +38,7 @@ Usage
 ## tokenStore
 
 #### Description
-Its an object which stores the token, refresh Token, expiry time as private variables along with related functions. It contains the timer id for the token
+Its an object which stores the token, refresh Token, and expiry time as private variables along with related functions. It contains the timer id for the token
 
 #### Usage
     shield.tokenStore.getToken()
@@ -46,7 +46,7 @@ Its an object which stores the token, refresh Token, expiry time as private vari
 ## init
 
 #### Description
-Its used to initialise the tokenstore with values from the shield backend. It takes a parameter clientID which is unique for each application.
+Its used to initialize the tokenstore with values from the shield backend. It takes a parameter clientID which is unique for each application.
 
 #### Usage
 
@@ -55,7 +55,7 @@ Its used to initialise the tokenstore with values from the shield backend. It ta
 ## verifyLogin
 
 #### Description
-It retrieves for the token from the localStorage and validates the token. If the token is not present in the localStorage it redirects to the shield login.
+It retrieves the token from the local storage and validates the token. If the token is not present in the localStorage it redirects to the shield login.
 
 #### Usage
 
@@ -64,7 +64,7 @@ It retrieves for the token from the localStorage and validates the token. If the
 ## getAuthUrl
 
 #### Description
-It generates authorization URL with query parameters
+It generates an authorization URL with query parameters
 
 #### Usage
 
