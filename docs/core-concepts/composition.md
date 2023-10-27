@@ -19,6 +19,6 @@ These are the list of Packages (for eg - npm package dependencies) in a block. I
 
 ## Appblocks Version
 
-The above attributes of composition together makes one appblocks version.
+The above attributes of the composition together make one Appblocks version.
 
 Based on the Appblocks version we will choose its supporting SDM models and package dependencies.
