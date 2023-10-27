@@ -36,17 +36,17 @@ Each of these blocks is supposed to be mutually exclusive.
 
 Every Fn Block will have a specific URL to invoke it and in practical scenarios, all the Fn Blocks in an app will be stitched together and run in a single instance on the server.
 
-In case a particular Fn is having more traffic, ie, if it needs to be scaled, that specific Fn Block will be isolated and run in a separate instance.
+In case a particular Fn has more traffic, ie, if it needs to be scaled, that specific Fn Block will be isolated and run in a separate instance.
 
 Fn Blocks are language agnostic by design. Despite that, it is always better for developers to stick with the same language in app development for maintainability.
 
-All functions which have a database call should adhere to SDM.
+All functions that have a database call should adhere to SDM.
 
 Currently, we only support Nodejs.
 
 ### **Shared Block**
 
-In both frontend and backend, there can be some pieces of code that may be shared which are most probably for utility methods or for data models. Eg, function to find the age of a person from dob/ date filter and so on. These blocks are called Shared Blocks. 
+In both frontend and backend, there can be some pieces of code that may be shared which are most probably for utility methods or for data models. Eg, function to find the age of a person from the dob/ date filter and so on. These blocks are called Shared Blocks. 
 
 ### **Package Block**
 
@@ -66,7 +66,7 @@ This is a configuration file found in the root folder of all types of Blocks inc
 
 It will hold the meta information of the Block, which can be read by the CLI / registry to identify the Type of Block, its repository, version, etc.
 
-In case of PB, its blocks.config.json will have meta-information about all the Blocks used in it and other necessary metadata about its runtime.
+In the case of PB, its blocks.config.json will have meta-information about all the Blocks used in it and other necessary metadata about its runtime.
 
 This configuration resides in the Blocks registry and can be pulled by anyone who has the right access privileges.
 
