@@ -1,6 +1,6 @@
 # Spaces
 
-Space is where you as an organization collaborate, manage access, subscriptions, licenses and track your blocks and its details. Manage everything related to Appblocks in one space. Helps your organizations and teams to collaboratively work on applications and blocks and allows you to manage accesses of all these, all in one workspace. 
+Space is where you as an organization collaborate, manage access, subscriptions, licenses and track your blocks and their details. Manage everything related to Appblocks in one space. Helps your organizations and teams to collaboratively work on applications and blocks and allows you to manage accesses of all these, all in one workspace. 
 
 When you create an Appblocks account, a space is created by default. All your activities will reflect here unless you create new spaces or are invited to others.
 ![image](https://github.com/appblocks-hub/docs/assets/33730398/b501c691-11b0-4d15-afd4-12569b9ca45c)
@@ -15,7 +15,7 @@ When you create an Appblocks account, a space is created by default. All your ac
 ### Create
 * To create a new space, you can do either of the following:
     * Click on Create New inside the Home page list
-    * Click on Create New Space on the Spaces list in side menu
+    * Click on Create New Space on the Spaces list in the side menu
 * After getting to the page for creating a new space, enter the space name, choose whether it is personal or business
 * Fill in the appropriate details, read and accept the terms and conditions and create a new space.
 
@@ -33,7 +33,7 @@ When you create an Appblocks account, a space is created by default. All your ac
 
 
 ### Edit
-* To edit a space, go to a space and go to the settings tab in the page
+* To edit a space, go to a space and go to the settings tab on the page
 * After getting to this tab, you can edit all details except the space type (personal or business).
 ![image](https://github.com/appblocks-hub/docs/assets/33730398/17f71ed5-70fb-4035-81b5-3228b3af34a7)
 
@@ -42,12 +42,12 @@ When you create an Appblocks account, a space is created by default. All your ac
 * For now, Spaces deletion is not supported -->
 
 ## Within a Space
-You can enter a space by choosing it from the list in the home page or from the list of spaces in the side menu on the left.
+You can enter a space by choosing it from the list on the home page or from the list of spaces in the side menu on the left.
 
 ### Apps
 * You can see the list of apps in this particular space. Create and edit apps from here.
-* Each block you purchase will be associated with an app as it is meant to be used in a project, but your own blocks may or may not have an association with any app. To make use of an block, it has to be a part of an App.
-* Each space members' access to an app can be customised/restricted by the space owner.
+* Each block you purchase will be associated with an app as it is meant to be used in a project, but your own blocks may or may not have an association with any app. To make use of a block, it has to be a part of an App.
+* Each space member's access to an app can be customized/restricted by the space owner.
 * Multiple applications can be run within a space.
 ![image](https://github.com/appblocks-hub/docs/assets/33730398/bf1622d2-bb00-4990-9a01-ca13d936d5ee)
 
@@ -74,7 +74,7 @@ You can enter a space by choosing it from the list in the home page or from the 
 
 
 ### Permissions and ACL 
-* Permissions is a group of policies that can be granted to members of a space by the admins of the same. 
+* Permissions are a group of policies that can be granted to members of a space by the admins of the same. 
 ![image](https://github.com/appblocks-hub/docs/assets/33730398/a060f4a2-09dc-4e5e-aed1-6e0bdc070469)  
 
 * ACL (access control list) are policies that can be handpicked and granted to the members of a space by the admins of the same. 

@@ -16,7 +16,7 @@ For source code, see the [Appblocks Node SDK Github repo](https://github.com/app
 
 ## Modules
 
-This @appblocks/node-sdk included following modules,
+This @appblocks/node-sdk included the following modules,
 
 1. [Functions SDK](#functions-sdk)
 2. [Internals SDK](#internals-sdk)
@@ -27,7 +27,7 @@ This @appblocks/node-sdk included following modules,
 
 Functions SDK module is used to run the Block functions.
 
-Run Handler / Function using run method by importing functions sdk from @appblocks/node-sdk.
+Run Handler / Function using the run method by importing functions sdk from @appblocks/node-sdk.
 
 #### Functions
 
@@ -45,7 +45,7 @@ To work with functions in local, There are 2 options.
 
 1. Using emulator
 
-Make use of BB CLI emulator. Emulator will act as a proxy, instead of we pointing and managing multiple port emulator will takecare of that hard jobs
+Make use of BB CLI emulator. The emulator will act as a proxy, instead of we pointing and managing multiple ports emulator will take care of all these hard jobs
 then run functions.
 
 ```
@@ -53,18 +53,18 @@ cd ./examples/functions-example
 node index.js
 ```
 
-the above command will run function in port provided by emulator.
+the above command will run the function in the port provided by the emulator.
 
 2. Assigning a port manually using flags.
 
-Use the flag --port to run the function in specific port
+Use the flag --port to run the function in a specific port
 
 ```
 cd ./examples/functions-example/
 npm index.js --port=3000
 ```
 
-the above command will run function in port 3000
+the above command will run the function in port 3000
 
 go to [functions-example repo](https://github.com/appblocks-hub/node-sdk/tree/main/examples/functions-example) to see example.
 
@@ -96,7 +96,7 @@ internals.initialize({
 Shield SDK module is used to implement and interact with the Appblocks SHIELD.
 
 :::note
-Before using shield, Initialze the application using internals SDK.
+Before using shield, initialize the application using internals SDK.
 :::
 
 #### Functions

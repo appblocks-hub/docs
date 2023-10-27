@@ -16,6 +16,6 @@ Okay, so let’s talk in detail:
 - To visit the application you have to open the Container URL in the browser since the container is the frontend orchestrator which stitches all the elements together.
 - CLI creates a local gateway server to proxy all the functions to run everything in a single port. ( here on 3007 port )
 - You can use .env.function to manage backend env variables, which will already have a gateway URL by default ( “BLOCK_FUNCTION_URL” ).
-- use .env.views to manage frontend env variables, contains remote entry URL of all elements.
+- use .env.views to manage frontend env variables, containing remote entry URL of all elements.
 
 Go to the commands section to try out more features that CLI provides.
