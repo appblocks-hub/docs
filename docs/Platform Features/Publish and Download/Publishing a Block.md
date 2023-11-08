@@ -1,6 +1,6 @@
 # Publishing a Block
 
-The blocks you create with the BB-CLI will appear in the store and other pages of your logged in Appblocks account right after the sync step. 
+The blocks you create with the BB-CLI will appear in the registry and other pages of your logged in Appblocks account right after the sync step. 
 Ensure that you have [created a version and published the block from the CLI](https://docs.appblocks.com/docs/CLI/commands). 
 
 * Visit the [Manage Blocks](https://docs.appblocks.com/docs/Platform%20Features/Sales%20and%20Purchases/Manage%20Blocks) page.
@@ -12,7 +12,7 @@ Ensure that you have [created a version and published the block from the CLI](ht
 ![image](https://github.com/appblocks-hub/docs/assets/33730398/de18f146-d716-4235-90ab-8cecbd19c1c4)
 ![image](https://github.com/appblocks-hub/docs/assets/33730398/20a1ad8c-1389-45cf-b94e-7ad02cebb764)
 
-* Submit the form and wait for Appblocks admins to review your block. The review status will be shown on the last tab. If approved, your block will get published to the Block Store.
+* Submit the form and wait for Appblocks admins to review your block. The review status will be shown on the last tab. If approved, your block will get published to the registry.
     ![image](https://github.com/appblocks-hub/docs/assets/33730398/9c07a131-ca3e-40fa-a5bb-4b6984e4896e) 
 
 <!-- If rejected, the admins will give the reason why. Make necessary changes and try again.-->
