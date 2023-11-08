@@ -1,6 +1,6 @@
 # Using a Block from our Store
 
-As of now, we have only free blocks in the Store. When you go through the store and find a block or your liking, click it for more details. 
+As of now, we have only free blocks in the registry. When you go through the registry and find a block or your liking, click it for more details. 
 ![image](https://user-images.githubusercontent.com/33730398/217485953-8268dcca-3a33-4d7f-bbf5-0ebe78523b62.png) 
 <!-- (ss has to be changed because of 0$ and blocks without paid/free mentioning) -->
 
