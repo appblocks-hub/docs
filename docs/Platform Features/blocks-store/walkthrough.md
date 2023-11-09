@@ -5,7 +5,8 @@
 The registry is where developers can create and publish blocks or use blocks published by other developers. 
 <!-- (Insert a general paragraph) -->
 
-![image](https://user-images.githubusercontent.com/33730398/217148905-a4ceda71-114c-4049-b31a-b2b53d5c22fe.png)
+![image](https://github.com/appblocks-hub/docs/assets/33730398/d17b94df-ba9b-4245-b29d-279179500d3e)
+
 
 You can find blocks that are published by Appblocks users here. Blocks are listed with all the necessary details. To make finding blocks easier,
 * Search - You can search for different blocks that cater to your needs by entering keywords in the search bar, as shown in the above picture.
