@@ -80,11 +80,11 @@ To attach a version to a block release.
 
 `bb publish <block_name>`
 
-To release a version to Appblocks Store.
+To release a version to Appblocks Registry.
 
 `bb publish <block_name>`
 
-To release a version to Appblocks Store.
+To release a version to Appblocks Registry.
 
 `bb pull <block_name>`
 
@@ -100,11 +100,11 @@ To push the changes to the repo for a block. With -f flag, it will push all the 
 
 `bb add-tag`
 
-To add a tag to a particular block. Tags are needed for discoverability in the block store.
+To add a tag to a particular block. Tags are needed for discoverability in the registry.
 
 `bb add-categories`
 
-To add categories to a particular block. Categories are needed for proper searchability in the block store.
+To add categories to a particular block. Categories are needed for proper searchability in the block registry.
 
 `bb create-app`
 
