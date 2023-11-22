@@ -43,8 +43,8 @@ const config = {
         },
         items: [
           {
-            href: "https://store.appblocks.com",
-            label: "Appblocks Store",
+            href: "https://registry.appblocks.com/",
+            label: "Registry",
             position: "right",
             className:"primary-link-underline"
           },

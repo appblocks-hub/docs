@@ -66,6 +66,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "quickstart/hello world",
+              "path": "/docs/quickstart/hello world",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "quickstart/start-from-template/Config",
               "path": "/docs/quickstart/start-from-template/Config",
               "sidebar": "tutorialSidebar"
@@ -118,6 +123,11 @@
             {
               "id": "SDK/node-sdk",
               "path": "/docs/SDK/node-sdk",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "testing",
+              "path": "/docs/testing",
               "sidebar": "tutorialSidebar"
             }
           ],
