@@ -50,7 +50,7 @@ const FeatureList = [
     Svg: require('@site/static/img/icons/blocks-store-icon.svg').default,
     description: (
       <>
-        Content related to Blocks Store
+        Content related to the Registry and Spaces
       </>
     ),
     link:"/docs/Platform%20Features/Spaces",
@@ -104,7 +104,7 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="max-w-7xl mx-auto px-4 md:px-8 w-full">
         <h3 className="text-black font-medium text-2xl mb-2 mt-5">Guides and resources</h3>
-        <p className="text-ab-black text-base font-medium">Explore and Learn more about everything from building blocks to selling your own blocks to customers across the globe.</p>
+        <p className="text-ab-black text-base font-medium">Explore the world of appblocks, block by block.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mt-8">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

@@ -37,22 +37,6 @@ ab-federation-helpers contains hooks and methods to facilitate federated Compone
 4. [getAuthUrl](#getAuthUrl)
 5. [logout](#logout)
 
-<!-- [![Alt text](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID) -->
-
-<!-- <div class="custom-grid-col-3">
-   <div>
-    <div class="grid-video-container"></div>
-    <p>Lorem ipsum dolor sit amet following elements</p>
-   </div>
-   <div>
-    <div class="grid-video-container"></div>
-    <p>Lorem ipsum dolor sit amet following elements</p>
-   </div>
-   <div>
-    <div class="grid-video-container"></div>
-    <p>Lorem ipsum dolor sit amet following elements</p>
-   </div>
-</div> -->
 
 ## tokenStore
 
