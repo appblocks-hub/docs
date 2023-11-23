@@ -1,6 +1,6 @@
 # Spaces
 
-Space is where you as an organization collaborate, manage access, subscriptions, licenses and track your blocks and its details. Manage everything related to Appblocks in one space. Helps your organizations and teams to collaboratively work on applications and blocks and allows you to manage accesses of all these, all in one workspace. 
+Space is where you as an organization collaborate, manage access, subscriptions, licenses and track your blocks and its details. Manage everything related to Appblocks with spaces. Helps your organizations and teams to collaboratively work on applications and blocks and allows you to manage accesses of all these, all in one workspace. 
 
 When you create an Appblocks account, a space is created by default. All your activities will reflect here unless you create new spaces or are invited to others.
 ![image](https://github.com/appblocks-hub/docs/assets/33730398/b501c691-11b0-4d15-afd4-12569b9ca45c)
@@ -44,12 +44,12 @@ When you create an Appblocks account, a space is created by default. All your ac
 ## Within a Space
 You can enter a space by choosing it from the list in the home page or from the list of spaces in the side menu on the left.
 
-### Apps
+<!--### Apps
 * You can see the list of apps in this particular space. Create and edit apps from here.
 * Each block you purchase will be associated with an app as it is meant to be used in a project, but your own blocks may or may not have an association with any app. To make use of an block, it has to be a part of an App.
 * Each space members' access to an app can be customised/restricted by the space owner.
 * Multiple applications can be run within a space.
-![image](https://github.com/appblocks-hub/docs/assets/33730398/bf1622d2-bb00-4990-9a01-ca13d936d5ee)
+![image](https://github.com/appblocks-hub/docs/assets/33730398/bf1622d2-bb00-4990-9a01-ca13d936d5ee)-->
 
 
 ### Members
