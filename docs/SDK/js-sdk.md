@@ -2,12 +2,12 @@
 sidebar_position: 5
 ---
 
-@appblocks/js-sdk
-===========
+# @appblocks/js-sdk
 
 @appblocks/js-sdk provides the essential packages to facilitate Appblocks features across Appblocks applications.
 
 As of now, @appblocks/js-sdk contains the following packages
+
 - shield
 - ab-federation-helpers
 
@@ -15,19 +15,22 @@ shield helps to setup authentication for your application. It contains many meth
 
 ab-federation-helpers contains hooks and methods to facilitate federated Components and Modules
 
-Installation
----------------
+## Installation
+
         npm i @appblocks/js-sdk -s
 
-Usage
------
+## Usage
+
         import { shield } from '@appblocks/js-sdk/shield'
 
         import { useFederatedComponent } from '@appblocks/js-sdk/ab-federation-helpers'
 
 ---
+
 # shield
+
 @appblocks/js-sdk/shield includes the following elements
+
 1. [tokenStore](#tokenStore)
 2. [init](#init)
 3. [verifyLogin](#verifyLogin)
@@ -38,14 +41,17 @@ Usage
 ## tokenStore
 
 #### Description
+
 Its an object which stores the token, refresh Token, expiry time as private variables along with related functions. It contains the timer id for the token
 
 #### Usage
+
     shield.tokenStore.getToken()
 
 ## init
 
 #### Description
+
 Its used to initialise the tokenstore with values from the shield backend. It takes a parameter clientID which is unique for each application.
 
 #### Usage
@@ -55,6 +61,7 @@ Its used to initialise the tokenstore with values from the shield backend. It ta
 ## verifyLogin
 
 #### Description
+
 It retrieves for the token from the localStorage and validates the token. If the token is not present in the localStorage it redirects to the shield login.
 
 #### Usage
@@ -64,6 +71,7 @@ It retrieves for the token from the localStorage and validates the token. If the
 ## getAuthUrl
 
 #### Description
+
 It generates authorization URL with query parameters
 
 #### Usage
@@ -73,6 +81,7 @@ It generates authorization URL with query parameters
 ## logout
 
 #### Description
+
 It logs out the user by removing the token from localStorage and redirects to shield login.
 
 #### Usage
@@ -81,18 +90,19 @@ It logs out the user by removing the token from localStorage and redirects to sh
 
 ---
 
-
 # ab-federation-helpers
+
 ab-federation-helpers includes the following elements
+
 1. [useFederatedComponent](#useFederatedComponent)
 2. [useFederatedModule](#useFederatedModule)
 3. [useDynamicScript](#useDynamicScript)
 
-
 ## useFederatedComponent
 
 #### Description
-used to obtain federated Component . 
+
+used to obtain federated Component .
 
 #### Usage
 
@@ -118,6 +128,7 @@ used to obtain federated Component .
 ## useFederatedModule
 
 #### Description
+
 used to obtain federated Module .
 
 #### Usage
@@ -137,8 +148,21 @@ used to obtain federated Module .
 ## useDynamicScript
 
 #### Description
+
 loads script from remote URL.
 
 #### Usage
 
       const { ready, errorLoading } = useDynamicScript(remoteUrl, React);
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```

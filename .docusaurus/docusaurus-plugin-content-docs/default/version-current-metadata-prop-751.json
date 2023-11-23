@@ -83,6 +83,12 @@
                 "docId": "quickstart/start-from-template/connect remote repository"
               }
             ]
+          },
+          {
+            "type": "link",
+            "label": "Hello World",
+            "href": "/docs/quickstart/hello world",
+            "docId": "quickstart/hello world"
           }
         ]
       },
@@ -164,7 +170,7 @@
             "items": [
               {
                 "type": "link",
-                "label": "Blocks Store Overview",
+                "label": "Registry Overview",
                 "href": "/docs/Platform Features/blocks-store/walkthrough",
                 "docId": "Platform Features/blocks-store/walkthrough"
               }
@@ -209,6 +215,13 @@
             "docId": "Platform Features/Spaces"
           }
         ]
+      },
+      {
+        "type": "link",
+        "label": "Testing",
+        "href": "/docs/testing",
+        "className": "side-menu-testing",
+        "docId": "testing"
       }
     ]
   },
@@ -245,8 +258,8 @@
     },
     "Platform Features/blocks-store/walkthrough": {
       "id": "Platform Features/blocks-store/walkthrough",
-      "title": "Blocks Store Overview",
-      "description": "Blocks Store",
+      "title": "Registry Overview",
+      "description": "Registry",
       "sidebar": "tutorialSidebar"
     },
     "Platform Features/Publish and Download/License for free blocks": {
@@ -264,19 +277,25 @@
     "Platform Features/Publish and Download/Publishing a Block": {
       "id": "Platform Features/Publish and Download/Publishing a Block",
       "title": "Publishing a Block",
-      "description": "The blocks you create with the BB-CLI will appear in the store and other pages of your logged in Appblocks account right after the sync step.",
+      "description": "The blocks you create with the BB-CLI will appear in the registry and other pages of your logged in Appblocks account right after the sync step.",
       "sidebar": "tutorialSidebar"
     },
     "Platform Features/Publish and Download/Using a Block from our Store": {
       "id": "Platform Features/Publish and Download/Using a Block from our Store",
       "title": "Using a Block from our Store",
-      "description": "As of now, we have only free blocks in the Store. When you go through the store and find a block or your liking, click it for more details.",
+      "description": "As of now, we have only free blocks in the registry. When you go through the registry and find a block or your liking, click it for more details.",
       "sidebar": "tutorialSidebar"
     },
     "Platform Features/Spaces": {
       "id": "Platform Features/Spaces",
       "title": "Spaces",
       "description": "Space is where you as an organization collaborate, manage access, subscriptions, licenses and track your blocks and its details. Manage everything related to Appblocks in one space. Helps your organizations and teams to collaboratively work on applications and blocks and allows you to manage accesses of all these, all in one workspace.",
+      "sidebar": "tutorialSidebar"
+    },
+    "quickstart/hello world": {
+      "id": "quickstart/hello world",
+      "title": "Hello World",
+      "description": "Appblock refers to a component or module of code that can be independently developed and seamlessly integrated into larger applications, promoting collaboration and reusability through standardized data models and a Micro Architecture approach where backend API endpoints are implemented as functions.",
       "sidebar": "tutorialSidebar"
     },
     "quickstart/start-from-template/Config": {
@@ -343,6 +362,12 @@
       "id": "SDK/node-sdk",
       "title": "@appblocks/node-sdk",
       "description": "This includes the server-side libraries used by applications using Appblocks services.",
+      "sidebar": "tutorialSidebar"
+    },
+    "testing": {
+      "id": "testing",
+      "title": "Testing",
+      "description": "Introduction",
       "sidebar": "tutorialSidebar"
     }
   }

@@ -50,7 +50,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','e10'),
+    component: ComponentCreator('/docs','1e1'),
     routes: [
       {
         path: '/docs/CLI/commands',
@@ -119,6 +119,12 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/quickstart/hello world',
+        component: ComponentCreator('/docs/quickstart/hello world','dd1'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/quickstart/start-from-template/Config',
         component: ComponentCreator('/docs/quickstart/start-from-template/Config','b0b'),
         exact: true,
@@ -181,6 +187,12 @@ export default [
       {
         path: '/docs/SDK/node-sdk',
         component: ComponentCreator('/docs/SDK/node-sdk','6d8'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/testing',
+        component: ComponentCreator('/docs/testing','fb8'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

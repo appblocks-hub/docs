@@ -482,3 +482,24 @@ li[class*='side-menu'] > div > .menu__link:before {
     color: rgba(72, 72, 72, 0.5);
   }
 }
+
+/* .custom-grid-col-3{
+  max-width: 632px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding-top: 12px;
+}
+.custom-grid-col-3 p{
+  font-size: 14px;
+  font-weight: 500;
+  color: #484848;
+  margin-top: 14px;
+}
+.grid-video-container{
+  width: 100%;
+  min-height: 120px;
+  border-radius: 5px;
+  background: url(../../static/img/icons/play-button.svg) no-repeat center center #2B2B2B;
+} */
