@@ -98,6 +98,10 @@ To run custom commands inside all block directories
 
 To push the changes to the repo for a block. With -f flag, it will push all the blocks in a package context.
 
+`bb rename <block_name> <new_block_name>`
+
+To rename a block.
+
 `bb add-tag`
 
 To add a tag to a particular block. Tags are needed for discoverability in the registry.
