@@ -14,4 +14,4 @@ Sync command will
 - Create orphan branches for unsynced blocks in your codebase.
 - Copy and commit the changes done in any already synced block code in the remote main branch to the corresponding orphan branch and then push to remote.
 - Sync the block configurations with appblocks registry, new blocks will be added to the registry and stale blocks will be removed
-- If you have used bb get command to pull some back from appblocks store, a variant of the same block has to be created in your repository for you to customize. Upon doing sync, this variant creation will also be taken care of
+- If you have used bb get command to pull some blocks from appblocks store, a variant of the same block has to be created in your repository for you to customize. Upon doing sync, this variant creation will also be taken care of
