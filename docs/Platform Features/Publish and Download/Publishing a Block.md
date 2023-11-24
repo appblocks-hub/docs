@@ -4,7 +4,7 @@ The blocks you create with the BB-CLI will appear in the store and other pages o
 Ensure that you have [created a version and published the block from the CLI](https://docs.appblocks.com/docs/CLI/commands). 
 
 * Visit the [Manage Blocks](https://docs.appblocks.com/docs/Platform%20Features/Sales%20and%20Purchases/Manage%20Blocks) page.
-* Choose your own blocks tab from the table and find your block.
+* Choose own blocks tab from the table and find your block.
 * There will be a call to action to publish the block.  
 ![image](https://github.com/appblocks-hub/docs/assets/33730398/a5015142-b854-49eb-8cf5-42f50dc6769d)
 * On clicking the Publish, you will be redirected to fill out a form.  
