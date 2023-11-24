@@ -55,7 +55,7 @@ Its used to initialize the tokenstore with values from the shield backend. It ta
 ## verifyLogin
 
 #### Description
-It retrieves the token from the local storage and validates the token. If the token is not present in the localStorage it redirects to the shield login.
+It retrieves the token from the localStorage and validates the token. If the token is not present in the localStorage it redirects to the shield login.
 
 #### Usage
 
