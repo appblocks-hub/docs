@@ -1,4 +1,4 @@
-# Using a Block from our Store
+# Using a Block from Registry
 
 As of now, we have only free blocks in the registry. When you go through the registry and find a block or your liking, click it for more details. 
 ![image](https://user-images.githubusercontent.com/33730398/217485953-8268dcca-3a33-4d7f-bbf5-0ebe78523b62.png) 
