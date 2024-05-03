@@ -3,12 +3,6 @@ title: Start your blocks
 sidebar_position: 5
 ---
 
-Sure! Here's the text in Markdown syntax:
-
----
-
-## Starting Your Blocks
-
 To initiate your blocks, use the following command:
 
 ```
